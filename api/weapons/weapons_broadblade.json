@@ -1,0 +1,49 @@
+[
+    {
+        "id": 200,
+        "name": "Lustrous Razor",
+        "rarity": 5,
+        "type": "broadblade",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "ATK", "base": 0.081, "max": 0.3645, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Stormy Resolution",
+            "skill_description":
+            "Increases Energy Regen by {energy_regen}%. When Resonance Skill is cast, Resonance Liberation DMG Bonus is increased by {resonance_liberation_dmg}%, stacking up to 3 times. This effect lasts for 12s.",
+            "ranks": [
+            { "rank": 1, "energy_regen": 0.128, "resonance_liberation_dmg": 0.07},
+            { "rank": 2, "energy_regen": 0.160, "resonance_liberation_dmg": 0.0875},
+            { "rank": 3, "energy_regen": 0.192, "resonance_liberation_dmg": 0.105},
+            { "rank": 4, "energy_regen": 0.224, "resonance_liberation_dmg": 0.1225},
+            { "rank": 5, "energy_regen": 0.256, "resonance_liberation_dmg": 0.14 }
+            ]
+        },
+        "weapon_description" : "Gaze upon this Broadblade, its sharp edges gleaming in the frigid air. Wield it to feel power coursing through you like a raging river."
+    },
+        {
+        "id": 201,
+        "name": "Verdant Summit",
+        "rarity": 5,
+        "type": "broadblade",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. DMG", "base": 0.108, "max": 0.486, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Swordsworn",
+            "skill_description":
+            "Increases Attribute DMG Bonus by {attribute_dmg}%. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {heavy_attack_dmg}%, stacking up to 2 time(s). This effect lasts for 14s.",
+            "ranks": [
+            { "rank": 1, "attribute_dmg": 0.12, "heavy_attack_dmg": 0.24},
+            { "rank": 2, "attribute_dmg": 0.15, "heavy_attack_dmg": 0.30},
+            { "rank": 3, "attribute_dmg": 0.18, "heavy_attack_dmg": 0.36},
+            { "rank": 4, "attribute_dmg": 0.21, "heavy_attack_dmg": 0.42},
+            { "rank": 5, "attribute_dmg": 0.24, "heavy_attack_dmg": 0.48}
+            ]
+        },
+        "weapon_description" : "The ancient mountain stands tall, its peak reaching towards the sky. A river flows for thousands of years, forming the blade of a powerful weapon. As it is unsheathed, a powerful dragon's roar echoes through the heavens and earth, causing the sea to churn. This awe-inspiring weapon strikes fear in all who witness its might."
+    }
+
+]

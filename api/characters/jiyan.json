@@ -1,0 +1,35 @@
+{
+    "character_id":1,
+    "name": "Jiyan",
+    "element": "Aero",
+    "stats": {
+        "HP":{
+            "base": 839,
+            "max": 10487,
+            "curve": "linear"
+        },
+        "ATK":{
+            "base": 35,
+            "max": 437,
+            "curve": "linear"
+        },
+        "DEF":{
+            "base": 97,
+            "max": 1185,
+            "curve": "linear"
+        },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "resonance_liberation_energy": 140
+    },
+    "skills":{
+
+    },
+    "resonance_chain":{
+
+    },
+    "echo_set":{
+
+    },
+    "weapon": null
+}
