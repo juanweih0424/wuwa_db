@@ -1,6 +1,6 @@
 [
     {
-        "id": 200,
+        "id": 100,
         "name": "Lustrous Razor",
         "rarity": 5,
         "type": "broadblade",
@@ -22,8 +22,8 @@
         },
         "weapon_description" : "Gaze upon this Broadblade, its sharp edges gleaming in the frigid air. Wield it to feel power coursing through you like a raging river."
     },
-        {
-        "id": 201,
+    {
+        "id": 101,
         "name": "Verdant Summit",
         "rarity": 5,
         "type": "broadblade",
@@ -44,6 +44,52 @@
             ]
         },
         "weapon_description" : "The ancient mountain stands tall, its peak reaching towards the sky. A river flows for thousands of years, forming the blade of a powerful weapon. As it is unsheathed, a powerful dragon's roar echoes through the heavens and earth, causing the sea to churn. This awe-inspiring weapon strikes fear in all who witness its might."
+    },
+    {
+        "id": 102,
+        "name": "Ages of Harvest",
+        "rarity": 5,
+        "type": "broadblade",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.054, "max": 0.243, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Divine Blessing",
+            "skill_description":
+            "Grants {attribute_dmg}% Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {resonance_skill_dmg}% Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {resonance_skill_dmg}% Resonance Skill DMG Bonus for 12s.",
+            "ranks": [
+            { "rank": 1, "attribute_dmg": 0.12, "resonance_skill_dmg": 0.24},
+            { "rank": 2, "attribute_dmg": 0.15, "resonance_skill_dmg": 0.30},
+            { "rank": 3, "attribute_dmg": 0.18, "resonance_skill_dmg": 0.36},
+            { "rank": 4, "attribute_dmg": 0.21, "resonance_skill_dmg": 0.42},
+            { "rank": 5, "attribute_dmg": 0.24, "resonance_skill_dmg": 0.48}
+            ]
+        },
+        "weapon_description" : "Each swing of the blade reveals the flow of time and the change of the stars. The sword embodies all things, uniting them into one. Its gentle aura seems capable of dissolving the indestructible, whether it's millennia-old ice or the stagnation of time."
+    },
+    {
+        "id": 103,
+        "name": "Wildfire Mark",
+        "rarity": 5,
+        "type": "broadblade",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. DMG", "base": 0.108, "max": 0.486, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Blazing Starfire",
+            "skill_description":
+            "Increases ATK by {atk}%. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {resonance_liberation_dmg}% for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {fusion_dmg}% Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "resonance_liberation_dmg": 0.24,"fusion_dmg": 0.24},
+            { "rank": 2, "atk": 0.15, "resonance_liberation_dmg": 0.30,"fusion_dmg": 0.30},
+            { "rank": 3, "atk": 0.18, "resonance_liberation_dmg": 0.36,"fusion_dmg": 0.36},
+            { "rank": 4, "atk": 0.21, "resonance_liberation_dmg": 0.42,"fusion_dmg": 0.42},
+            { "rank": 5, "atk": 0.24, "resonance_liberation_dmg": 0.48,"fusion_dmg": 0.48}
+            ]
+        },
+        "weapon_description" : "The young wolf races through the wilds, shedding every shadow that once held her back. The lone wolf strides into the arena, cutting down each obstacle in her path. She seizes victory. She claims glory. She raises everything she has high above. She belongs to the arena, but even more, she belongs to herself."
     }
 
 ]
