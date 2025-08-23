@@ -1,0 +1,200 @@
+[
+    {
+        "id": 600,
+        "name": "Thundering Mephis",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Thundering Mephis, engaging in a rapid assault of up to 6 strikes. The first 5 strikes deal 132.61% Electro DMG each, while the final strike inflicts 189.44% Electro DMG, with an additional 31.57% Electro DMG from the thunder. After the final hit, increase the current character's Electro DMG by 12.00% and Resonance Liberation DMG by 12.00% for 15s.",
+            "cd": 20
+        },
+        "echo_sets": [1002]  
+    },
+    {
+        "id": 601,
+        "name": "Inferno Rider",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into the Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing 242.40%, 282.80%, and 282.80% Fusion DMG respectively. After the final hit, increase the current Resonator's Fusion DMG by 12.00% and Basic Attack DMG by 12.00% for 15s. Long press the Echo Skill to transform into the Inferno Rider and enter Riding Mode. When exiting Riding Mode, deal 282.80% Fusion DMG to enemies in front.",
+            "cd": 20
+        },
+        "echo_set": [1004]
+    },
+    {
+        "id": 602,
+        "name": "Bell-Borne Geocholone",
+        "cost": 4,
+        "class": "Calamity",
+        "skill": {
+            "description": "Activate the protection of Bell-Borne Geocholone. Deal Glacio DMG based on 145.92% of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for 15s. The Bell-Borne Shield provides 50.00% DMG Reduction and 10.00% DMG Boost for the current team members, and disappears after the current character is hit for 3 times. CD: 20s",
+            "cd": 20
+        },
+        "echo_set": [1000, 1001] 
+    },
+    {
+        "id": 603,
+        "name": "Tempest Mephis",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals 102.48% Electro DMG each time, while the claw attack deals 175.68% Electro DMG. After the claw hit, increase the current character's Electro DMG by 12.00% and Heavy Attack DMG by 12.00% for 15s.",
+            "cd": 20
+        },
+        "echo_set": [1002]
+    },
+    {
+        "id": 604,
+        "name": "Crownless",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal 134.08% Havoc DMG each, the 3rd attack deals 100.56% Havoc DMG 2 times, and the 4th attack deals 67.04% Havoc DMG 3 times. After the transformation, increase current character's Havoc DMG by 12.00% and Resonance Skill DMG by 12.00% for 15s. CD: 20s",
+            "cd": 20
+        },
+        "echo_set": [1007]
+    },
+    {
+        "id": 605,
+        "name": "Feilian Beringal",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals 231.84% Aero DMG, and the follow-up strike deals 283.36% Aero DMG. After the follow-up strike hits, the current character's Aero DMG increases by 12.00%, and the Heavy Attack DMG increases by 12.00% for 15s. CD: 20s"
+        },
+        "echo_set": [1005]
+    },
+    {
+        "id": 606,
+        "name": "Lampylumen Myriad",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Lampylumen Myriad. Perform up to 3 consecutive attacks. Unleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting 200.16% and 200.16% Glacio DMG respectively, and the final strike dealing 266.88% Glacio DMG. Enemies will be frozen on hit. Each shock increases the current character's Glacio DMG by 4.00% and Resonance Skill DMG dealt by 4.00% for 15s, stacking up to 3 times.",
+            "cd": 20
+        },
+        "echo_set": [1008]
+    },
+    {
+        "id": 607,
+        "name": "Mourning Aix",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing 157.44% and 236.16% Spectro DMG respectively. After the transformation, increase current character's Spectro DMG by 12.00% and Resonance Liberation DMG by 12.00% for 15s. CD: 20s",
+            "cd": 20
+        },
+        "echo_set": [1006]
+    },
+    {
+        "id": 608,
+        "name": "Mech Abomination",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Strike enemies in front, dealing 48.64% Electro DMG, and summon Mech Waste to attack. Mech Waste deals 320.00% Electro DMG on hit and explodes after a while, dealing 160.00% Electro DMG. After casting this Echo Skill, increase the current character's ATK by 12.00% for 15s. Damage dealt by Mech Waste equals to the Resonator's Outro Skill DMG.",
+            "cd": 20
+        },
+        "echo_set": [1003]
+    },
+    {
+        "id": 609,
+        "name": "Impermanence Heron",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Impermanence Heron to fly up and smack down, dealing 310.56% Havoc DMG. Long press to stay as Impermanence Heron and continuously spit flames, each attack dealing 55.73% Havoc DMG. Once the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s, the next character's damage dealt will be boosted by 12% for 15s.",
+            "cd": 20
+        },
+        "echo_set": [1001]
+    },
+    {
+        "id": 610,
+        "name": "Dreamless",
+        "cost": 4,
+        "class": "Calamity",
+        "skill": {
+            "description": "Transform into Dreamless and perform 6 consecutive strikes. The first 5 strikes deal 54.08% Havoc DMG each, and the last strike deals 270.40% Havoc DMG. The DMG of this Echo Skill is increased by 50.00% during the first 5s after Rover: Havoc casts Resonance Liberation: Deadening Abyss. CD: 20s",
+            "cd": 20
+        },
+        "echo_set": [1007]
+    },
+    {
+        "id": 611,
+        "name": "Juē",
+        "cost": 4,
+        "class": "Calamity",
+        "skill": {
+            "description": "Summon Juē to the aid. Juē soars through the air, dealing 48.64% Spectro DMG, and summons thunderbolts that strike nearby enemies up to 5 times, each hit dealing 19.46% Spectro DMG. Juē then spirals downward, attacking surrounding enemies twice, each hit dealing 48.64% Spectro DMG. Casting this Echo Skill grants the Resonator a Blessing of Time effect that lasts 15s, during when: The Resonator gains 16.00% Resonance Skill DMG Bonus. When the Resonator's Resonance Skill hits the target, inflict 16.00% Spectro DMG 1 time per second for 15s, considered as the Resonator's Resonance Skill DMG.",
+            "cd": 20
+        },
+        "echo_set": [1006]
+    },
+    {
+        "id": 612,
+        "name": "Fallacy of No Return",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+        "description": "Activate the Echo Skill to summon a fraction of the Fallacy of No Return's power and deal a blast to the surrounding area, inflicting Spectro DMG equal to 15.86% of max HP, after which the Resonator gains 10% bonus Energy Regen and all team members 10% bonus ATK for 20s. Hold Echo Skill to unleash a series of flurry assaults at the cost of STA, each dealing Spectro DMG equal to 1.58% of max HP; Release to end the assail in a powerful blow, dealing Spectro DMG equal to 19.82% of max HP.",
+        "cd": 20
+        },
+        "echo_set": [1000]
+    },
+    {
+        "id": 613,
+        "name": "Lorelei",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+        "description": "Transform into Lorelei and attack surrounding enemies, dealing 405.00% Havoc DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Basic Attack DMG Bonus.",
+        "cd": 25
+        },
+        "echo_set": [1011]
+    },
+    {
+        "id": 614,
+        "name": "Sentry Construct",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+        "description": "Transform into Sentry Construct and attack enemies in front, dealing 405.00% Glacio DMG. Each time the Resonator with this Echo casts Resonance Liberation, it charges the Strike Capacitor. Once Strike Capacitor is at max level, the Echo Skill cooldown will be reset. Use Echo Skill to transform into Sentry Construct and dive into enemies from the air, dealing 405.00% Glacio DMG and freezing the target. The Resonator with this Echo equipped in their main slot gains 12.00% Glacio DMG Bonus and 12.00% Resonance Skill DMG Bonus.",
+        "cd": 25
+        },
+        "echo_set": [1009]
+    },
+    {
+        "id": 615,
+        "name": "Dragon of Dirge",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+        "description": "Transform into Dragon of Dirge and summon a Grief Rift lasting for 5s. Periodically deal 36.81% Fusion DMG to enemies within the area of effect. The Resonator with this Echo equipped in the main slot gains 12.00% Fusion DMG Bonus and 12.00% Basic Attack DMG Bonus.",
+        "cd": 25
+        },
+        "echo_set": [1013]
+    },
+    {
+        "id": 616,
+        "name": "Hecate",
+        "cost": 4,
+        "class": "Calamity",
+        "skill": {
+        "description": "Summon 3 twirling Crescent Servants around you. Crescent Servants attack enemies with their spinning blades, dealing 45.59% Havoc DMG. Triggering a Counterattack with the Echo attacks resets the Crescent Servants' duration. The Resonator with this Echo equipped in the main slot has their Coordinated Attack DMG increased by 40.00%.",
+        "cd": 20
+        },
+        "echo_set": [1010]
+    },
+    {
+        "id": 617,
+        "name": "Nightmare: Feilian Beringal",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Summon a Nightmare: Feilian Beringal to attack enemies, dealing 164.16% Aero DMG. The remaining Whirlwind Beam will continuously attack surrounding enemies up to 5 times, each dealing 21.89% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus. CD: 20s"
+        },
+        "echo_set": [1005]
+    }
+
+
+]

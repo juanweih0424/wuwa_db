@@ -1,0 +1,145 @@
+[
+    {
+        "id": 1000,
+        "name": "Rejuvenating Glow",
+        "effect": {
+            "2pc": "Healing Bonus + 10%.",
+            "5pc": "Increases the ATK of all party members by 15% for 30s upon healing allies."
+        }
+    },
+    {
+        "id": 1001,
+        "name": "Moonlit Clouds",
+        "effect": {
+            "2pc": "Energy Regen + 10%.",
+            "5pc": "Upon using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s."
+        }
+    },
+    {
+        "id": 1002,
+        "name": "Void Thunder",
+        "effect": {
+            "2pc": "Electro DMG + 10%.",
+            "5pc": "Electro DMG + 15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s."
+        }
+    },
+    {
+        "id": 1003,
+        "name": "Lingering Tunes",
+        "effect": {
+            "2pc": "ATK + 10%.",
+            "5pc": "While on the field, ATK increases by 5% every 1.5s. This effect stacks up to 4 times. Outro Skill DMG + 60%."
+        }
+    },
+    {
+        "id": 1004,
+        "name": "Molten Rift",
+        "effect": {
+            "2pc": "Fusion DMG + 10%.",
+            "5pc": "Fusion DMG + 30% for 15s after releasing Resonance Skill."
+        }
+    },
+    {
+        "id": 1005,
+        "name": "Sierra Gale",
+        "effect": {
+            "2pc": "Aero DMG + 10%.",
+            "5pc": "Aero DMG + 30% for 15s after releasing Intro Skill."
+        }
+    },
+    {
+        "id": 1006,
+        "name": "Celestial Light",
+        "effect": {
+            "2pc": "Spectro DMG + 10%.",
+            "5pc": "Spectro DMG + 30% for 15s after releasing Intro Skill."
+        }
+    },
+    {
+        "id": 1007,
+        "name": "Havoc Eclipse",
+        "effect": {
+            "2pc": "Havoc DMG + 10%.",
+            "5pc": "Havoc DMG + 7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s."
+        }
+    },
+    {
+        "id": 1008,
+        "name": "Freezing Frost",
+        "effect": {
+            "2pc": "Glacio DMG + 10%.",
+            "5pc": "Glacio DMG + 10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s."
+        }
+    },
+    {
+        "id": 1009,
+        "name": "Frosty Resolve",
+        "effect": {
+            "2pc": "Resonance Skill DMG + 12%.",
+            "5pc": "Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times."
+        }
+    },
+    {
+        "id": 1010,
+        "name": "Empyrean Anthem",
+        "effect": {
+            "2pc": "Energy Regen + 10%.",
+            "5pc": "Increase the Resonator's Coordinated Attack DMG by 80%. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by 20% for 4s."
+        }
+    },
+    {
+        "id": 1011,
+        "name": "Midnight Veil",
+        "effect": {
+            "2pc": "Havoc DMG + 10%.",
+            "5pc": "When Outro Skill is triggered, deal additional 480% Havoc DMG to surrounding enemies (considered Outro Skill DMG), and grant the incoming Resonator 15% Havoc DMG Bonus for 15s."
+        }
+    },
+    {
+        "id": 1012,
+        "name": "Eternal Radiance",
+        "effect": {
+            "2pc": "Spectro DMG + 10%.",
+            "5pc": "Inflicting Spectro Frazzle on enemies increases Crit. Rate by 20% for 15s. Attacking enemies inflicted with 10 stacks of Spectro Frazzle grants 15% Spectro DMG Bonus for 15s."
+        }
+    },
+    {
+        "id": 1013,
+        "name": "Tidebreaking Courage",
+        "effect": {
+            "2pc": "Energy Regen + 10%.",
+            "5pc": "Increase the Resonator's ATK by 15%. Reaching 250% Energy Regen increases all Attribute DMG by 30% for the Resonator."
+        }
+    },
+    {
+        "id": 1014,
+        "name": "Dream of the Lost",
+        "effect": {
+            "3pc": "Holding 0 Resonance Energy increases Crit. Rate by 20% and grants 35% Echo Skill DMG Bonus."
+        }
+    },
+    {
+        "id": 1015,
+        "name": "Gusts of Welkin",
+        "effect": {
+            "2pc": "Aero DMG + 10%.",
+            "5pc": "Inflicting Aero Erosion upon enemies increases Aero DMG for all Resonators in the team by 15%, and for the Resonator triggering this effect by an additional 15%, lasting for 20s."
+        }
+    },
+    {
+        "id": 1016,
+        "name": "Flaming Clawprint",
+        "effect": {
+            "2pc": "Fusion DMG + 10%.",
+            "5pc": "Casting Resonance Liberation grants all Resonators in the team 15% Fusion DMG Bonus and the caster 20% Resonance Liberation DMG Bonus, lasting for 35s."
+        }
+    },
+    {
+        "id": 1017,
+        "name": "Windward Pilgrimage",
+        "effect": {
+            "2pc": "Aero DMG + 10%.",
+            "5pc": "Hitting a target with Aero Erosion increases Crit. Rate by 10% and grants 30% Aero DMG Bonus, lasting for 10s."
+        }
+    }
+]
