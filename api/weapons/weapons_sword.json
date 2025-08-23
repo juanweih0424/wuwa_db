@@ -1,0 +1,152 @@
+[
+    {
+        "id": 200,
+        "name": "Emerald of Genesis",
+        "rarity": 5,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.054, "max": 0.243, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Stormy Resolution",
+            "skill_description":
+            "Increases Energy Regen by {energy_regen}%. When Resonance Skill is cast, increases ATK by {atk}%, stacking up to 2 time(s). This effect lasts for 10s.",
+            "ranks": [
+            { "rank": 1, "energy_regen": 0.128, "atk": 0.06},
+            { "rank": 2, "energy_regen": 0.16, "atk": 0.075},
+            { "rank": 3, "energy_regen": 0.192, "atk": 0.09},
+            { "rank": 4, "energy_regen": 0.224, "atk": 0.105},
+            { "rank": 5, "energy_regen": 0.256, "atk": 0.12}
+            ]
+        },
+        "weapon_description" : "Pay heed: the frigid blade reveals an icy current, amalgamating into a whirlpool of thoughts. Use this powerful sequence to effortlessly crush your enemies with the Sword."
+    },
+    {
+        "id": 201,
+        "name": "Blazing Brilliance",
+        "rarity": 5,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. DMG", "base": 0.108, "max": 0.486, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Crimson Phoenix",
+            "skill_description":
+            "ATK increased by {atk}%. The wielder gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {resonance_skill_dmg}% additional Resonance Skill DMG Bonus for up to 14 stacks. After reaching the max stacks, all stacks will be removed in 12s.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "resonance_skill_dmg": 0.04},
+            { "rank": 2, "atk": 0.15, "resonance_skill_dmg": 0.05},
+            { "rank": 3, "atk": 0.18, "resonance_skill_dmg": 0.06},
+            { "rank": 4, "atk": 0.21, "resonance_skill_dmg": 0.7},
+            { "rank": 5, "atk": 0.24, "resonance_skill_dmg": 0.8}
+            ]
+        },
+        "weapon_description" : "Forged from the very essence and feathers of a legendary bird, this weapon blazes with an intensity that bathes the world in its luminous glow. With each fiery surge, it consumes all in its path, leaving nothing but ashes in its wake."
+    },
+    {
+        "id": 202,
+        "name": "Red Spring",
+        "rarity": 5,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.054, "max": 0.243, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Beyond the Cycle",
+            "skill_description":
+            "Increase ATK by {atk}%. When dealing Basic Attack DMG, the wielder gains {basic_dmg}% Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {basic}% Basic DMG Bonus for 10. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "basic_dmg": 0.10, "basic":0.4},
+            { "rank": 2, "atk": 0.15, "basic_dmg": 0.125,"basic":0.5},
+            { "rank": 3, "atk": 0.18, "basic_dmg": 0.15, "basic":0.6},
+            { "rank": 4, "atk": 0.21, "basic_dmg": 0.175,"basic":0.7},
+            { "rank": 5, "atk": 0.24, "basic_dmg": 0.20, "basic":0.8}
+            ]
+        },
+        "weapon_description" : "A camellia bud silently unfurls. As promised, she holds this infinite world in bloom in her palms, where fine crimson vines twine around her fingertips. The dull ache, like sand scratching against the heart, is proof of your fateful encounter."
+    },
+    {
+        "id": 203,
+        "name": "Unflickering Valor",
+        "rarity": 5,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 33, "max": 412.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Energy Regen", "base": 0.1712, "max": 0.7704, "max_level": 90, "interval": 5, "growth": "step"}
+        },
+        "skill": {
+            "name": "Laughter Prevails",
+            "skill_description":
+            "Increase Crit. Rate by {crit_rate}%. Casting Resonance Liberation gives {basic_dmg}% Basic Attack DMG Bonus for 10s. Dealing Basic Attack DMG gives {basic_dmg}% Basic Attack DMG Bonus for 4s.",
+            "ranks": [
+            { "rank": 1, "crit_rate": 0.08, "basic_dmg": 0.24},
+            { "rank": 2, "crit_rate": 0.10, "basic_dmg": 0.30},
+            { "rank": 3, "crit_rate": 0.12, "basic_dmg": 0.36},
+            { "rank": 4, "crit_rate": 0.24, "basic_dmg": 0.42},
+            { "rank": 5, "crit_rate": 0.16, "basic_dmg": 0.48}
+            ]
+        },
+        "weapon_description" : "Blistering winds and crashing waves, the sea devours all. Only a lonely boat lamp stands alight! Onwards! Towards the edge of the world you shall sail!"
+    },
+    {
+        "id": 204,
+        "name": "Bloodpact's Pledge",
+        "rarity": 5,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": {
+            "kind": "Energy Regen",
+            "base": 0.0864,
+            "max": 0.3888,
+            "max_level": 90,
+            "interval": 5,
+            "growth": "step"
+            }
+        },
+        "skill": {
+            "name": "Harmonious Vibrancy",
+            "skill_description": "Providing Healing increases Resonance Skill DMG by {resonance_skill_dmg}% for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {amplified}% for 30s.",
+            "ranks": [
+            { "rank": 1, "resonance_skill_dmg": 0.10, "amplified": 0.10 },
+            { "rank": 2, "resonance_skill_dmg": 0.14, "amplified": 0.14 },
+            { "rank": 3, "resonance_skill_dmg": 0.18, "amplified": 0.18 },
+            { "rank": 4, "resonance_skill_dmg": 0.22, "amplified": 0.22 },
+            { "rank": 5, "resonance_skill_dmg": 0.26, "amplified": 0.26 }
+            ]
+        },
+        "weapon_description": "This weapon is a testament to the unbreakable blood pact: One shall never betray, never surrender, and fight until the last drop of blood is shed."
+    },
+    {
+        "id": 204,
+        "name": "Defier's Thorn",
+        "rarity": 5,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 33, "max": 412.5, "max_level": 90, "growth": "linear" },
+            "substats": {
+            "kind": "HP",
+            "base": 0.1605,
+            "max": 0.7223,
+            "max_level": 90,
+            "interval": 5,
+            "growth": "step"
+            }
+        },
+        "skill": {
+            "name": "A Free Knight's Tarantella",
+            "skill_description": "Max HP is increased by {hp}%. 15s after casting Intro Skill or Basic Attacks, ignore {def_ignore}% of the target's DEF when dealing damage. If the target has at least 1 stack of Aero Erosion, the DMG taken by the target is Amplified by {amplify}%.",
+            "ranks": [
+            { "rank": 1, "hp": 0.12, "def_ignore": 0.08, "amplify": 0.20 },
+            { "rank": 2, "hp": 0.15, "def_ignore": 0.10, "amplify": 0.25 },
+            { "rank": 3, "hp": 0.18, "def_ignore": 0.12, "amplify": 0.30 },
+            { "rank": 4, "hp": 0.21, "def_ignore": 0.14, "amplify": 0.35 },
+            { "rank": 5, "hp": 0.24, "def_ignore": 0.16, "amplify": 0.40 }
+            ]
+        },
+        "weapon_description": "The surging tides force the crown of thorns upon the knight, out of which the knight forges this sword. Unburdened by the crown, the knight waded through the roaring waves unwaveringly."
+    }
+]
