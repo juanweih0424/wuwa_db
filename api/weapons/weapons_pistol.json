@@ -83,6 +83,7 @@
             { "rank": 4, "atk": 0.21, "aero_dmg": 0.42, "aero_res": 0.145 },
             { "rank": 5, "atk": 0.24, "aero_dmg": 0.48, "aero_res": 0.16 }
             ]
-        }
+        },
+        "weapon_description": "All things exist within the lines of poetry. Every sound has its meters and rhymes. The forest's melodies ascend in spirals toward the moon's silvered grace, harmonized by the nightingales' chorus. When the final note falls and vanishes into the silent earth, a flawless chord echoes endlessly in the depths of this boundless realm."
     }
 ]

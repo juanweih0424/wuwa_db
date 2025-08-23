@@ -1,0 +1,205 @@
+[
+    {
+        "id": 500,
+        "name": "Cosmic Ripples",
+        "rarity": 5,
+        "type": "rectifier",
+        "stats": {
+            "atk": { 
+                "base": 40, 
+                "max": 500, 
+                "max_level": 90, 
+                "growth": "linear" 
+            },
+            "substats": { 
+                "kind": "ATK%", 
+                "base": 0.12, 
+                "max": 0.54, 
+                "max_level": 90, 
+                "interval": 5, 
+                "growth": "step" 
+            }
+        },
+        "skill": {
+            "name": "Stormy Resolution",
+            "skill_description": "Increases Energy Regen by {energy_regen}%. When dealing Basic Attack DMG, increases Basic Attack DMG Bonus by {basic_dmg}%, stacking up to 5 times. This effect lasts for 8s and can be triggered 1 time(s) every 0.5s.",
+            "ranks": [
+                { "rank": 1, "energy_regen": 0.128, "basic_dmg": 0.032 },
+                { "rank": 2, "energy_regen": 0.16, "basic_dmg": 0.041 },
+                { "rank": 3, "energy_regen": 0.192, "basic_dmg": 0.050 },
+                { "rank": 4, "energy_regen": 0.224, "basic_dmg": 0.059 },
+                { "rank": 5, "energy_regen": 0.256, "basic_dmg": 0.064 }
+            ]
+        },
+        "weapon_description": "Take hold of the frozen Rectifier, a powerful tool imbued with the energy of the celestial lake. Let it lead you to ultimate knowledge and vanquish all obstacles in your path."
+    },
+    {
+        "id": 501,
+        "name": "Stringmaster",
+        "rarity": 5,
+        "type": "rectifier",
+        "stats": {
+            "atk": { "base": 40, "max": 500, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.08, "max": 0.36, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Electric Amplification",
+            "skill_description": "Grants {attribute_dmg}% Attribute DMG Bonus. When dealing Resonance Skill DMG, increases ATK by {atk}%, stacking up to 2 times. This effect lasts for 5s. When the wielder is not on the field, increases their ATK by an additional {off_field_atk}%.",
+            "ranks": [
+                { "rank": 1, "attribute_dmg": 0.12, "atk": 0.12, "off_field_atk": 0.12 },
+                { "rank": 2, "attribute_dmg": 0.15, "atk": 0.15, "off_field_atk": 0.15 },
+                { "rank": 3, "attribute_dmg": 0.18, "atk": 0.18, "off_field_atk": 0.18 },
+                { "rank": 4, "attribute_dmg": 0.21, "atk": 0.21, "off_field_atk": 0.21 },
+                { "rank": 5, "attribute_dmg": 0.24, "atk": 0.24, "off_field_atk": 0.24 }
+            ]
+        },
+        "weapon_description": "The puppet's palm unfurls, releasing deadly strings with a menacing hum. The air crackles, immobilizing foes and leaving unhealable scars from rapid electric bolts."
+    },
+    {
+        "id": 502,
+        "name": "Rime-Draped Sprouts",
+        "rarity": 5,
+        "type": "rectifier",
+        "stats": {
+            "atk": { "base": 40, "max": 500, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. DMG", "base": 0.16, "max": 0.72, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Panorama",
+            "skill_description": "Increase ATK by {atk}%. While the wielder is on the field, using Resonance Skill grants {basic_atk}% Basic Attack DMG Bonus, stacking up to 3 times for 6s. At 3 stacks or above, casting Outro Skill consumes all stacks of this effect and grants the wielder {basic_bonus}% Basic Attack DMG Bonus for 27s, effective when the wielder is off the field.",
+            "ranks": [
+                { "rank": 1, "atk": 0.12, "basic_atk": 0.12, "basic_bonus": 0.52 },
+                { "rank": 2, "atk": 0.15, "basic_atk": 0.15, "basic_bonus": 0.65 },
+                { "rank": 3, "atk": 0.18, "basic_atk": 0.18, "basic_bonus": 0.78 },
+                { "rank": 4, "atk": 0.21, "basic_atk": 0.21, "basic_bonus": 0.91 },
+                { "rank": 5, "atk": 0.24, "basic_atk": 0.24, "basic_bonus": 1.04 }
+            ]
+        },
+        "weapon_description": "An artist's seal adorned with rimed sprouts. It is stamped on numerous paintings that capture mountains and ravines in expressive, mesmerizing strokes. The tender sprouts symbolize the perpetual blossoming of artistic marvels."
+    },
+    {
+        "id": 503,
+        "name": "Stellar Symphony",
+        "rarity": 5,
+        "type": "rectifier",
+        "stats": {
+            "atk": { 
+            "base": 33, 
+            "max": 412.5, 
+            "max_level": 90, 
+            "growth": "linear" 
+            },
+            "substats": { 
+            "kind": "Energy Regen", 
+            "base": 0.1712, 
+            "max": 0.7704, 
+            "max_level": 90, 
+            "interval": 5, 
+            "growth": "step" 
+            }
+        },
+        "skill": {
+            "name": "Astral Evolvement",
+            "skill_description": "Increase HP by {hp}%. Restore {concerto} Concerto Energy when casting Resonance Liberation. This effect can be triggered 1 time(s) every 20s. When casting Resonance Skill that heals, increase nearby party members' ATK by {atk_buff}% for 30s. Effects of the same name cannot be stacked.",
+            "ranks": [
+            { "rank": 1, "hp": 0.12, "concerto": 8, "atk_buff": 0.14 },
+            { "rank": 2, "hp": 0.15, "concerto": 10, "atk_buff": 0.175 },
+            { "rank": 3, "hp": 0.18, "concerto": 12, "atk_buff": 0.21 },
+            { "rank": 4, "hp": 0.21, "concerto": 14, "atk_buff": 0.245 },
+            { "rank": 5, "hp": 0.24, "concerto": 16, "atk_buff": 0.28 }
+            ]
+        },
+        "weapon_description": "A rectifier bearing an energy core that simulates the lifecycle of stars—an infinite loop that originates from a singularity and ends in explosive demise. The celestial debris collides in thunderous rumbles, heralding the birth of a new star."
+    },
+    {
+        "id": 504,
+        "name": "Luminous Hymn",
+        "rarity": 5,
+        "type": "rectifier",
+        "stats": {
+            "atk": { 
+                "base": 40, 
+                "max": 500, 
+                "max_level": 90, 
+                "growth": "linear" 
+            },
+            "substats": { 
+                "kind": "Crit. Rate", 
+                "base": 0.08, 
+                "max": 0.36, 
+                "max_level": 90, 
+                "interval": 5, 
+                "growth": "step" 
+            }
+        },
+        "skill": {
+            "name": "Homebuilder's Anthem",
+            "skill_description": "Increase ATK by {atk}%. Dealing DMG to targets with Spectro Frazzle grants the wielder {basic_dmg}% Basic Attack DMG Bonus and {heavy_dmg}% Heavy Attack DMG Bonus, stacking up to 3 for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {frazzle_amp}% for 30s. Effects of the same name cannot be stacked.",
+            "ranks": [
+                { "rank": 1, "atk": 0.12, "basic_dmg": 0.14, "heavy_dmg": 0.14, "frazzle_amp": 0.30 },
+                { "rank": 2, "atk": 0.15, "basic_dmg": 0.175, "heavy_dmg": 0.175, "frazzle_amp": 0.375 },
+                { "rank": 3, "atk": 0.18, "basic_dmg": 0.21, "heavy_dmg": 0.21, "frazzle_amp": 0.45 },
+                { "rank": 4, "atk": 0.21, "basic_dmg": 0.245, "heavy_dmg": 0.245, "frazzle_amp": 0.525 },
+                { "rank": 5, "atk": 0.24, "basic_dmg": 0.28, "heavy_dmg": 0.28, "frazzle_amp": 0.60 }
+            ]
+        },
+        "weapon_description": "\"The Sentinel's grace, how sweet thou art. Our home was lost, but found at last. With twigs between my beaks, I brave the waves. Bound by love, we're crowned with holy light.\""
+    },
+    {
+        "id": 505,
+        "name": "Whispers of Sirens",
+        "rarity": 5,
+        "type": "rectifier",
+        "stats": {
+            "atk": { "base": 40, "max": 500, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. DMG", "base": 0.16, "max": 0.72, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "From the Deep",
+            "skill_description": "Increases ATK by {atk}%. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early. With 1: Grants {basic_dmg}% Basic Attack DMG Bonus. With 2: Ignores {havoc_res}% of the target's Havoc RES.",
+            "ranks": [
+                { "rank": 1, "atk": 0.12, "basic_dmg": 0.40, "havoc_res": 0.12 },
+                { "rank": 2, "atk": 0.15, "basic_dmg": 0.50, "havoc_res": 0.15 },
+                { "rank": 3, "atk": 0.18, "basic_dmg": 0.60, "havoc_res": 0.18 },
+                { "rank": 4, "atk": 0.21, "basic_dmg": 0.70, "havoc_res": 0.21 },
+                { "rank": 5, "atk": 0.24, "basic_dmg": 0.80, "havoc_res": 0.24 }
+            ]
+        },
+        "weapon_description": "From the sea, some see stars, some catch the moon, and some hear countless whispers and murmurs. Those murmurs seep into her venom, flowing through every winding river. In the end, the murmurs envelope, like the bell of a jellyfish, like the sea."
+    },
+    {
+    "id": 506,
+    "name": "Lethean Elegy",
+    "rarity": 5,
+    "type": "sniper",
+    "stats": {
+        "atk": { 
+        "base": 47, 
+        "max": 587.5, 
+        "max_level": 90, 
+        "growth": "linear" 
+        },
+        "substats": { 
+        "kind": "Crit. Rate", 
+        "base": 0.054, 
+        "max": 0.243, 
+        "max_level": 90, 
+        "interval": 5, 
+        "growth": "step" 
+        }
+    },
+    "skill": {
+        "name": "Underworld Requiem",
+        "skill_description": "ATK is increased by {atk}%. Within 12s after dealing Echo Skill DMG, gain {resonance_skill_dmg}% Resonance Skill DMG Bonus and {echo_skill_dmg}% Echo Skill DMG Amplification, and ignore {def_ignore}% of the target's DEF when dealing damage.",
+        "ranks": [
+        { "rank": 1, "atk": 0.12, "resonance_skill_dmg": 0.32, "echo_skill_dmg": 0.32, "def_ignore": 0.08 },
+        { "rank": 2, "atk": 0.15, "resonance_skill_dmg": 0.40, "echo_skill_dmg": 0.40, "def_ignore": 0.10 },
+        { "rank": 3, "atk": 0.18, "resonance_skill_dmg": 0.48, "echo_skill_dmg": 0.48, "def_ignore": 0.12 },
+        { "rank": 4, "atk": 0.21, "resonance_skill_dmg": 0.56, "echo_skill_dmg": 0.56, "def_ignore": 0.14 },
+        { "rank": 5, "atk": 0.24, "resonance_skill_dmg": 0.64, "echo_skill_dmg": 0.64, "def_ignore": 0.16 }
+        ]
+    },
+    "weapon_description": "I am not there. I do not die. I shall be death's companion—with euphoric delights I drown my fear, with the coming days I trade for the past."
+    }
+  
+]
