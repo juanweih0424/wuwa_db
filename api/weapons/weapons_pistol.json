@@ -1,0 +1,88 @@
+[
+    {
+        "id": 300,
+        "name": "Static Mist",
+        "rarity": 5,
+        "type": "pistol",
+        "stats": {
+            "atk": { 
+                "base": 47, 
+                "max": 587.5, 
+                "max_level": 90, 
+                "growth": "linear" 
+            },
+            "substats": { 
+                "kind": "Crit. Rate", 
+                "base": 0.054, 
+                "max": 0.243, 
+                "max_level": 90, 
+                "interval": 5, 
+                "growth": "step" 
+            }
+        },
+        "skill": {
+            "name": "Stormy Resolution",
+            "skill_description": "Increases Energy Regen by {energy_regen}%. Incoming Resonator's ATK is increased by {atk}% for 14s, stackable up to 1 times after the wielder casts Outro Skill.",
+            "ranks": [
+                { "rank": 1, "energy_regen": 0.128, "atk": 0.10 },
+                { "rank": 2, "energy_regen": 0.160, "atk": 0.125 },
+                { "rank": 3, "energy_regen": 0.192, "atk": 0.15 },
+                { "rank": 4, "energy_regen": 0.224, "atk": 0.175 },
+                { "rank": 5, "energy_regen": 0.256, "atk": 0.20 }
+            ]
+        },
+        "weapon_description": "Grip the sleek frame and feel its cool surface as you aim down the sight. With a pull of the trigger, unleash a thick smoke barrage onto the battlefield with these powerful Pistols in your hands."
+    },
+    {
+        "id": 301,
+        "name": "The Last Dance",
+        "rarity": 5,
+        "type": "pistol",
+        "stats": {
+            "atk": { "base": 40, 
+            "max": 500, 
+            "max_level": 90, 
+            "growth": "linear" },
+            "substats": 
+            { "kind": "Crit. DMG", 
+            "base": 0.16, 
+            "max": 0.72, 
+            "max_level": 90, 
+            "interval": 5, 
+            "growth": "step" }
+        },
+        "skill": {
+            "name": "Silent Eulogy",
+            "skill_description": "Increases ATK by {atk}%. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {resonance_skill_dmg}% for 5s.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "resonance_skill_dmg": 0.48 },
+            { "rank": 2, "atk": 0.15, "resonance_skill_dmg": 0.60 },
+            { "rank": 3, "atk": 0.18, "resonance_skill_dmg": 0.72 },
+            { "rank": 4, "atk": 0.21, "resonance_skill_dmg": 0.84 },
+            { "rank": 5, "atk": 0.24, "resonance_skill_dmg": 0.96 }
+            ]
+        },
+        "weapon_description": "The radiant crystals, ever shattering and reshaping, beckon you into a treacherous dance, a gamble where life is the wager. Cortado, cortado… relentlessly draw each other in until all we can hear are our quivers. When the crimson finale arrives, remember, death comes for all."
+    },
+    {
+        "id": 302,
+        "name": "Woodland Aria",
+        "rarity": 5,
+        "type": "pistol",
+        "stats": {
+            "atk": { "base": 40, "max": 500.0, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.08, "max": 0.36, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Lingering Summer Tune",
+            "skill_description": "ATK is increased by {atk}%. Inflicting Aero Erosion on the target gives {aero_dmg}% Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {aero_res}% for 20s. Effects of the same name cannot be stacked.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "aero_dmg": 0.24, "aero_res": 0.10 },
+            { "rank": 2, "atk": 0.15, "aero_dmg": 0.30, "aero_res": 0.115 },
+            { "rank": 3, "atk": 0.18, "aero_dmg": 0.36, "aero_res": 0.13 },
+            { "rank": 4, "atk": 0.21, "aero_dmg": 0.42, "aero_res": 0.145 },
+            { "rank": 5, "atk": 0.24, "aero_dmg": 0.48, "aero_res": 0.16 }
+            ]
+        }
+    }
+]
