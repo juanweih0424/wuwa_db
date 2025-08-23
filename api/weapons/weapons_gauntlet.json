@@ -1,0 +1,91 @@
+[
+    {
+        "id": 400,
+        "name": "Abyss Surges",
+        "rarity": 5,
+        "type": "gauntlet",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "ATK", "base": 0.081, "max": 0.3645, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Stormy Resolution",
+            "skill_description": "Increases Energy Regen by {energy_regen}%. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {basic_dmg}%, lasting for 8s. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {resonance_skill_dmg}%, lasting for 8s.",
+            "ranks": [
+            { "rank": 1, "energy_regen": 0.128, "basic_dmg": 0.10, "resonance_skill_dmg": 0.10 },
+            { "rank": 2, "energy_regen": 0.160, "basic_dmg": 0.125, "resonance_skill_dmg": 0.125 },
+            { "rank": 3, "energy_regen": 0.192, "basic_dmg": 0.15, "resonance_skill_dmg": 0.15 },
+            { "rank": 4, "energy_regen": 0.224, "basic_dmg": 0.175, "resonance_skill_dmg": 0.175 },
+            { "rank": 5, "energy_regen": 0.256, "basic_dmg": 0.20, "resonance_skill_dmg": 0.20 }
+            ]
+        },
+        "weapon_description": "The Gauntlets pulsate with an uncontrollable force, emanating unspeakable anger from the depths of the unknown lake. As you don them, unleash your fury on helpless enemies. Feel its power surge through you."
+    },
+    {
+        "id": 401,
+        "name": "Verity's Handle",
+        "rarity": 5,
+        "type": "gauntlet",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.054, "max": 0.243, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Ad Veritatem",
+            "skill_description":
+            "Gain {attribute_dmg}% Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {resonance_liberation_dmg}% Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5s each time Resonance Skills are cast, up to 3 times.",
+            "ranks": [
+            { "rank": 1, "attribute_dmg": 0.12, "resonance_liberation_dmg": 0.48 },
+            { "rank": 2, "attribute_dmg": 0.15, "resonance_liberation_dmg": 0.60 },
+            { "rank": 3, "attribute_dmg": 0.18, "resonance_liberation_dmg": 0.72 },
+            { "rank": 4, "attribute_dmg": 0.21, "resonance_liberation_dmg": 0.84 },
+            { "rank": 5, "attribute_dmg": 0.24, "resonance_liberation_dmg": 0.96 }
+            ]
+        },
+        "weapon_description": "Crafted with the lost art from the Court of Savantae, these gauntlets are solid and unbreakable, despite their lightweight materials. They are no tools of violence or aggression, but instruments for unraveling puzzles and pursuing the truth."
+    },
+    {
+        "id": 402,
+        "name": "Tragicomedy",
+        "rarity": 5,
+        "type": "gauntlet",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.054, "max": 0.243, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Fool's Warble",
+            "skill_description": "Increases ATK by {atk}%. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by {heavy_attack_dmg}% for 3s.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "heavy_attack_dmg": 0.48 },
+            { "rank": 2, "atk": 0.15, "heavy_attack_dmg": 0.60 },
+            { "rank": 3, "atk": 0.18, "heavy_attack_dmg": 0.72 },
+            { "rank": 4, "atk": 0.21, "heavy_attack_dmg": 0.84 },
+            { "rank": 5, "atk": 0.24, "heavy_attack_dmg": 0.96 }
+            ]
+        },
+        "weapon_description": "The joys and sorrows of life dance in an endless circle; Pain and tears shift in an instant into a carnival."
+    },
+    {
+        "id": 403,
+        "name": "Blazing Justice",
+        "rarity": 5,
+        "type": "gauntlet",
+        "stats": {
+            "atk": { "base": 47, "max": 587.5, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. DMG", "base": 0.108, "max": 0.486, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Darkness Breaker",
+            "skill_description": "Increases ATK by {atk}%. Casting Basic Attack grants the following effects: Dealing damage ignores {def_ignore}% of the target's DEF and Amplifies Spectro Frazzle DMG dealt by {frazzle_dmg}% for 6s. Retriggering the effect resets its duration.",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "def_ignore": 0.08, "frazzle_dmg": 0.50 },
+            { "rank": 2, "atk": 0.15, "def_ignore": 0.10, "frazzle_dmg": 0.625 },
+            { "rank": 3, "atk": 0.18, "def_ignore": 0.12, "frazzle_dmg": 0.75 },
+            { "rank": 4, "atk": 0.21, "def_ignore": 0.14, "frazzle_dmg": 0.875 },
+            { "rank": 5, "atk": 0.24, "def_ignore": 0.16, "frazzle_dmg": 1.00 }
+            ]
+        },
+        "weapon_description": "It heralds justice, precise and inexorable as a clock's toll. All sins are cleansed in flame, dissipating like night beneath the dawn's gaze."
+    }
+]
