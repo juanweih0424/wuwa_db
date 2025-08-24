@@ -19,7 +19,7 @@
             "description": "Transform into the Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing 242.40%, 282.80%, and 282.80% Fusion DMG respectively. After the final hit, increase the current Resonator's Fusion DMG by 12.00% and Basic Attack DMG by 12.00% for 15s. Long press the Echo Skill to transform into the Inferno Rider and enter Riding Mode. When exiting Riding Mode, deal 282.80% Fusion DMG to enemies in front.",
             "cd": 20
         },
-        "echo_set": [1004]
+        "echo_sets": [1004]
     },
     {
         "id": 602,
@@ -27,10 +27,10 @@
         "cost": 4,
         "class": "Calamity",
         "skill": {
-            "description": "Activate the protection of Bell-Borne Geocholone. Deal Glacio DMG based on 145.92% of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for 15s. The Bell-Borne Shield provides 50.00% DMG Reduction and 10.00% DMG Boost for the current team members, and disappears after the current character is hit for 3 times. CD: 20s",
+            "description": "Activate the protection of Bell-Borne Geocholone. Deal Glacio DMG based on 145.92% of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for 15s. The Bell-Borne Shield provides 50.00% DMG Reduction and 10.00% DMG Boost for the current team members, and disappears after the current character is hit for 3 times.",
             "cd": 20
         },
-        "echo_set": [1000, 1001] 
+        "echo_sets": [1000, 1001] 
     },
     {
         "id": 603,
@@ -41,7 +41,7 @@
             "description": "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals 102.48% Electro DMG each time, while the claw attack deals 175.68% Electro DMG. After the claw hit, increase the current character's Electro DMG by 12.00% and Heavy Attack DMG by 12.00% for 15s.",
             "cd": 20
         },
-        "echo_set": [1002]
+        "echo_sets": [1002]
     },
     {
         "id": 604,
@@ -49,10 +49,10 @@
         "cost": 4,
         "class": "Overlord",
         "skill": {
-            "description": "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal 134.08% Havoc DMG each, the 3rd attack deals 100.56% Havoc DMG 2 times, and the 4th attack deals 67.04% Havoc DMG 3 times. After the transformation, increase current character's Havoc DMG by 12.00% and Resonance Skill DMG by 12.00% for 15s. CD: 20s",
+            "description": "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal 134.08% Havoc DMG each, the 3rd attack deals 100.56% Havoc DMG 2 times, and the 4th attack deals 67.04% Havoc DMG 3 times. After the transformation, increase current character's Havoc DMG by 12.00% and Resonance Skill DMG by 12.00% for 15s.",
             "cd": 20
         },
-        "echo_set": [1007]
+        "echo_sets": [1007]
     },
     {
         "id": 605,
@@ -60,9 +60,9 @@
         "cost": 4,
         "class": "Overlord",
         "skill": {
-            "description": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals 231.84% Aero DMG, and the follow-up strike deals 283.36% Aero DMG. After the follow-up strike hits, the current character's Aero DMG increases by 12.00%, and the Heavy Attack DMG increases by 12.00% for 15s. CD: 20s"
+            "description": "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals 231.84% Aero DMG, and the follow-up strike deals 283.36% Aero DMG. After the follow-up strike hits, the current character's Aero DMG increases by 12.00%, and the Heavy Attack DMG increases by 12.00% for 15s."
         },
-        "echo_set": [1005]
+        "echo_sets": [1005]
     },
     {
         "id": 606,
@@ -73,7 +73,7 @@
             "description": "Transform into Lampylumen Myriad. Perform up to 3 consecutive attacks. Unleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting 200.16% and 200.16% Glacio DMG respectively, and the final strike dealing 266.88% Glacio DMG. Enemies will be frozen on hit. Each shock increases the current character's Glacio DMG by 4.00% and Resonance Skill DMG dealt by 4.00% for 15s, stacking up to 3 times.",
             "cd": 20
         },
-        "echo_set": [1008]
+        "echo_sets": [1008]
     },
     {
         "id": 607,
@@ -81,10 +81,10 @@
         "cost": 4,
         "class": "Overlord",
         "skill": {
-            "description": "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing 157.44% and 236.16% Spectro DMG respectively. After the transformation, increase current character's Spectro DMG by 12.00% and Resonance Liberation DMG by 12.00% for 15s. CD: 20s",
+            "description": "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing 157.44% and 236.16% Spectro DMG respectively. After the transformation, increase current character's Spectro DMG by 12.00% and Resonance Liberation DMG by 12.00% for 15s.",
             "cd": 20
         },
-        "echo_set": [1006]
+        "echo_sets": [1006]
     },
     {
         "id": 608,
@@ -95,7 +95,7 @@
             "description": "Strike enemies in front, dealing 48.64% Electro DMG, and summon Mech Waste to attack. Mech Waste deals 320.00% Electro DMG on hit and explodes after a while, dealing 160.00% Electro DMG. After casting this Echo Skill, increase the current character's ATK by 12.00% for 15s. Damage dealt by Mech Waste equals to the Resonator's Outro Skill DMG.",
             "cd": 20
         },
-        "echo_set": [1003]
+        "echo_sets": [1003]
     },
     {
         "id": 609,
@@ -106,7 +106,7 @@
             "description": "Transform into Impermanence Heron to fly up and smack down, dealing 310.56% Havoc DMG. Long press to stay as Impermanence Heron and continuously spit flames, each attack dealing 55.73% Havoc DMG. Once the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s, the next character's damage dealt will be boosted by 12% for 15s.",
             "cd": 20
         },
-        "echo_set": [1001]
+        "echo_sets": [1001]
     },
     {
         "id": 610,
@@ -114,10 +114,10 @@
         "cost": 4,
         "class": "Calamity",
         "skill": {
-            "description": "Transform into Dreamless and perform 6 consecutive strikes. The first 5 strikes deal 54.08% Havoc DMG each, and the last strike deals 270.40% Havoc DMG. The DMG of this Echo Skill is increased by 50.00% during the first 5s after Rover: Havoc casts Resonance Liberation: Deadening Abyss. CD: 20s",
+            "description": "Transform into Dreamless and perform 6 consecutive strikes. The first 5 strikes deal 54.08% Havoc DMG each, and the last strike deals 270.40% Havoc DMG. The DMG of this Echo Skill is increased by 50.00% during the first 5s after Rover: Havoc casts Resonance Liberation: Deadening Abyss.",
             "cd": 20
         },
-        "echo_set": [1007]
+        "echo_sets": [1007]
     },
     {
         "id": 611,
@@ -128,7 +128,7 @@
             "description": "Summon Juē to the aid. Juē soars through the air, dealing 48.64% Spectro DMG, and summons thunderbolts that strike nearby enemies up to 5 times, each hit dealing 19.46% Spectro DMG. Juē then spirals downward, attacking surrounding enemies twice, each hit dealing 48.64% Spectro DMG. Casting this Echo Skill grants the Resonator a Blessing of Time effect that lasts 15s, during when: The Resonator gains 16.00% Resonance Skill DMG Bonus. When the Resonator's Resonance Skill hits the target, inflict 16.00% Spectro DMG 1 time per second for 15s, considered as the Resonator's Resonance Skill DMG.",
             "cd": 20
         },
-        "echo_set": [1006]
+        "echo_sets": [1006]
     },
     {
         "id": 612,
@@ -139,7 +139,7 @@
         "description": "Activate the Echo Skill to summon a fraction of the Fallacy of No Return's power and deal a blast to the surrounding area, inflicting Spectro DMG equal to 15.86% of max HP, after which the Resonator gains 10% bonus Energy Regen and all team members 10% bonus ATK for 20s. Hold Echo Skill to unleash a series of flurry assaults at the cost of STA, each dealing Spectro DMG equal to 1.58% of max HP; Release to end the assail in a powerful blow, dealing Spectro DMG equal to 19.82% of max HP.",
         "cd": 20
         },
-        "echo_set": [1000]
+        "echo_sets": [1000]
     },
     {
         "id": 613,
@@ -191,10 +191,1120 @@
         "cost": 4,
         "class": "Overlord",
         "skill": {
-            "description": "Summon a Nightmare: Feilian Beringal to attack enemies, dealing 164.16% Aero DMG. The remaining Whirlwind Beam will continuously attack surrounding enemies up to 5 times, each dealing 21.89% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus. CD: 20s"
+            "description": "Summon a Nightmare: Feilian Beringal to attack enemies, dealing 164.16% Aero DMG. The remaining Whirlwind Beam will continuously attack surrounding enemies up to 5 times, each dealing 21.89% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus."
         },
         "echo_set": [1005]
+    },
+    {
+        "id": 618,
+        "name": "Nightmare: Impermanence Heron",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Impermanence Heron and deliver up to 10 consecutive strikes to surrounding enemies, each dealing 40.50% Havoc DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Heavy Attack DMG Bonus.",
+            "cd": 25
+        },
+        "echo_set": [1011]
+    },
+    {
+        "id": 619,
+        "name": "Nightmare: Thundering Mephis",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Thundering Mephis and attack enemies in front, dealing 405.00% Electro DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus and 12.00% Resonance Liberation DMG Bonus.",
+            "cd": 25
+        },
+        "echo_sets": [1002]
+    },
+    {
+        "id": 620,
+        "name": "Nightmare: Tempest Mephis",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Tempest Mephis and attack surrounding enemies, dealing 405.00% Electro DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus and 12.00% Resonance Skill DMG Bonus.",
+            "cd": 25
+        },
+        "echo_set": [1002, 1010]
+    },
+    {
+        "id": 621,
+        "name": "Nightmare: Crownless",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Crownless and attack enemies in front, dealing 264.60% Havoc DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Basic Attack DMG Bonus. This skill has 3 initial charges, replenished once every 12s, max 3 charges. When Nightmare: Crownless hits a target, DMG dealt by this skill is increased by 20.00%. This effect lasts for 2s and does not stack.",
+            "cd": 12
+        },
+        "echo_sets": [1007]
+    },
+    {
+        "id": 622,
+        "name": "Nightmare: Inferno Rider",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Inferno Rider and jump to attack enemies in front, dealing 405.00% Fusion DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Fusion DMG Bonus and 12.00% Resonance Skill DMG Bonus. Hold Echo Skill to transform into Nightmare: Inferno Rider and enter Riding Mode. When exiting Riding Mode, deal 283.50% Fusion DMG to enemies in front.",
+            "cd": 25
+        },
+        "echo_sets": [1004]
+    },
+    {
+        "id": 623,
+        "name": "Nightmare: Mourning Aix",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Summon a Nightmare: Mourning Aix to attack surrounding enemies, dealing 273.60% Spectro DMG. DMG dealt to enemies inflicted by Spectro Frazzle is increased by 100.00%. The Resonator with this Echo equipped in their main slot gains 12.00% Spectro DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1012]
+    },
+    {
+        "id": 624,
+        "name": "Nightmare: Lampylumen Myriad",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Lampylumen Myriad and attack surrounding enemies, dealing 273.60% Glacio DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Glacio DMG Bonus and deals 30.00% more Coordinated Attack DMG.",
+            "cd": 20
+        },
+        "echo_sets": [1009, 1010]
+    },
+    {
+        "id": 625,
+        "name": "Reminiscence: Fleurdelis",
+        "cost": 4,
+        "class": "Calamity",
+        "skill": {
+            "description": "Summon Windcleaver and attack the target, dealing 27.36% Aero DMG 8 times and 136.80% Aero DMG once. The Resonator with this Echo equipped in their main slot gains 10.00% Aero DMG Bonus. When Resonator: Aero or Cartethyia equips this Echo, they gain 10.00% more Aero DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1015, 1017]
+    },
+    {
+        "id": 626,
+        "name": "Nightmare: Kelpie",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into Nightmare: Kelpie to attack nearby targets, dealing 405.00% Glacio DMG. The Resonator with this Echo equipped in the main slot gains 12.00% Glacio DMG Bonus and 12.00% Aero DMG Bonus. Switching out the Resonator with Outro Skill summons Nightmare: Kelpie to deal 405.00% Aero DMG.",
+            "cd": 25
+        },
+        "echo_sets": [1015, 1017]
+    },
+    {
+        "id": 627,
+        "name": "Lioness of Glory",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Summon the Halberd of Glory to crush an area, dealing 82.08% Fusion DMG to nearby targets, and then blast off after a short delay, dealing 191.52% Fusion DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Fusion DMG Bonus and 12.00% Resonance Liberation DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1016]
+    },
+    {
+        "id": 628,
+        "name": "Nightmare: Hecate",
+        "cost": 4,
+        "class": "Calamity",
+        "skill": {
+            "description": "Transform into Nightmare: Hecate. Leap up and smash down, dealing 3 stages of damage, each dealing Havoc DMG equal to 152.39% of her ATK. The Resonator with the Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 20.00% Echo Skill DMG Bonus.",
+            "cd": 25
+        },
+        "echo_sets": [1014]
+    },
+    {
+        "id": 629,
+        "name": "Reminiscence: Fenrico",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Summon the Talons of Decree to attack nearby enemies, dealing 273.60% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1014]
+    },
+    {
+        "id": 630,
+        "name": "Violet-Feathered Heron",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing 288.00% Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover 5 Concerto Energy.",
+            "cd": 15
+        },
+        "echo_sets": [1004, 1002]
+    },
+    {
+        "id": 631,
+        "name": "Cyan-Feathered Heron",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Cyan-Feathered Heron and charge at the enemies, dealing 236.80% Aero DMG; This Echo Skill interrupts enemy Special Skills upon dealing damage.",
+            "cd": 15
+        },
+        "echo_sets": [1005, 1006]
+    },
+    {
+        "id": 632,
+        "name": "Stonewall Bracer",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Stonewall Bracer and charge forward, dealing 112.64% Physical DMG on-hit, then smash to deal 168.96% Physical DMG, and gain a shield of 10.00% of current character's Max HP that lasts 7s. Use the Echo skill again to exit the transformation state.",
+            "cd": 15
+        },
+        "echo_sets": [1000, 1001]
+    },
+    {
+        "id": 633,
+        "name": "Flautist",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Flautist, continuously emitting Electro lasers, dealing 53.28% Electro DMG for a total of 10 times. Gain 1 Concerto Energy every time a hit lands.",
+            "cd": 15
+        },
+        "echo_sets": [1003, 1002]
+    },
+    {
+        "id": 634,
+        "name": "Tambourinist",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Tambourinist that plays out Melodies of Annihilation. Any Resonator on the team gains the following effect for 10s upon obtaining a Melody of Annihilation: When the Resonator hits a target, the Tambourinist deals 14.40% Havoc DMG to the target, up to 10 times.",
+            "cd": 15
+        },
+        "echo_sets": [1008, 1007]
+    },
+    {
+        "id": 635,
+        "name": "Chasm Guardian",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Chasm Guardian to perform a Leap Strike that deals 273.60% Havoc DMG on hit. Current character loses 10.00% HP after the hit lands. Periodically restore current character's HP after 5s for up to 10.00% of their Max HP.",
+            "cd": 15
+        },
+        "echo_sets": [1003, 1000]
+    },
+    {
+        "id": 636,
+        "name": "Rocksteady Guardian",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Rocksteady Guardian and enter a Parry State. Upon being attacked, deal Spectro DMG equal to 8.29% of the Resonator's Max HP, and perform a follow-up attack that deals Spectro DMG equal to 8.29% of the Resonator's Max HP. Use the Echo Skill again to exit the transformation. If the attack received is a Special Skill attack, interrupt the enemy's Special Skill, gain a Shield equal to 30% Max HP, and perform a two-stage follow-up attack, each dealing Spectro DMG equal to 5.52% of the Resonator's Max HP. These follow-up attacks simultaneously launch three ground-breaking waves, each dealing Spectro DMG equal to 4.59% of the Resonator's Max HP.",
+            "cd": 15
+        },
+        "echo_sets": [1000, 1006]
+    },
+    {
+        "id": 637,
+        "name": "Viridblaze Saurian",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Viridblaze Saurian to continuously spit fire, dealing 17.12% Fusion DMG 10 times.",
+            "cd": 15
+        },
+        "echo_sets": [1001, 1004]
+    },
+        {
+        "id": 638,
+        "name": "Roseshroom",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Roseshroom that fires a laser, dealing 57.07% Havoc DMG up to 3 times.",
+            "cd": 15
+        },
+        "echo_sets": [1008, 1007]
+    },
+    {
+        "id": 639,
+        "name": "Spearback",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal 29.96% Physical DMG, and the last deals 51.36% Physical DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1003, 1001]
+    },
+    {
+        "id": 640,
+        "name": "Havoc Dreadmane",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into a Havoc Dreadmane to perform up to 2 tail strikes. Each strike deals 116.64% Havoc DMG and inflicts an additional instance of 77.76% Havoc DMG upon hitting the target.",
+            "cd": 15
+        },
+        "echo_sets": [1004, 1007]
+    },
+    {
+        "id": 641,
+        "name": "Hoochief",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Hoochief and smack the enemies, dealing 268.20% Aero DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1000, 1005]
+    },
+    {
+        "id": 642,
+        "name": "Carapace",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Carapace to perform a spinning attack that deals 112.00% Aero DMG, followed by a slash that deals 168.00% Aero DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1001, 1005]
+    },
+    {
+        "id": 643,
+        "name": "Autopuppet Scout",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Autopuppet Scout, dealing 272.00% Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.",
+            "cd": 15
+        },
+        "echo_sets": [1006, 1008]
+    },
+    {
+        "id": 644,
+        "name": "Glacio Dreadmane",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Lacerate enemies as a Glacio Dreadmane, dealing 214.40% Glacio DMG on each hit. Equipped with 2 charges and can be cast mid-air. Glacio Dreadmane deals 20.00% more DMG while in mid-air and generates 6 Icicles upon landing, each dealing 32.00% Glacio DMG.",
+            "cd": 20
+        },
+        "echo_sets": [1001, 1008]
+    },
+    {
+        "id": 645,
+        "name": "Lumiscale Construct",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into a Lumiscale Construct and enter a Parry Stance. If you are not attacked during the Parry Stance, slash to deal 553.60% Glacio DMG when the stance finishes. If attacked, counterattack instantly, dealing 553.60%+276.80% Glacio DMG. When hit with a Special Skill attack while in the Parry Stance, break the Special Skill and counterattack, dealing 553.60%+276.80% Glacio DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1002, 1008]
+    },
+    {
+        "id": 646,
+        "name": "Lightcrusher",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Lunge forward as a Lightcrusher, dealing 135.36% Spectro DMG. Generate 6 Ablucence on hit. Each Ablucence explosion deals 15.04% Spectro DMG. Hold the Echo Skill to stay in the Lightcrusher form, which allows you to leap up and pounce forward in the air for a short distance.",
+            "cd": 15
+        },
+        "echo_sets": [1006]
+    },
+    {
+        "id": 647,
+        "name": "Questless Knight",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Questless Knight and smash the surrounding enemies, dealing 313.20% Electro DMG.",
+            "cd": 20
+        },
+        "echo_sets": [1009, 1011]
+    },
+    {
+        "id": 648,
+        "name": "Diurnus Knight",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Diurnus Knight and charge forward to attack enemies with the sword, dealing 268.20% Spectro DMG. DMG dealt to enemies inflicted by Spectro Frazzle is increased by 100.00%.",
+            "cd": 15
+        },
+        "echo_sets": [1012, 1013]
+    },
+    {
+        "id": 649,
+        "name": "Nocturnus Knight",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Nocturnus Knight and strike enemies in front of you from the air, dealing 268.20% Havoc DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1011, 1010]
+    },
+    {
+        "id": 650,
+        "name": "Abyssal Patricius",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Abyssal Patricius and charge forward to attack enemies, dealing 268.20% Glacio DMG. The Resonator with this Echo equipped in the main slot gains 12.00% Glacio DMG Bonus.",
+            "cd": 15
+        },
+        "echo_sets": [1010, 1009]
+    },
+    {
+        "id": 651,
+        "name": "Abyssal Gladius",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Abyssal Gladius and attack enemies in front of you with the sword, dealing 268.20% Glacio DMG. Hold the Echo Skill to maintain the Echo form for a while to slash enemies and cast a ranged attack forward, dealing 268.20% and 670.50% Glacio DMG respectively.",
+            "cd": 15
+        },
+        "echo_sets": [1013, 1011]
+    },
+    {
+        "id": 652,
+        "name": "Abyssal Mercator",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Abyssal Mercator and summon 3 Ice Spikes to attack enemies, each dealing 89.39% Glacio DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1009, 1012]
+    },
+    {
+        "id": 653,
+        "name": "Chop Chop",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Chop Chop to perform a series of consecutive attacks. The first 6 strikes each deal 19.26% Fusion DMG and finishing strike deals 77.04% Fusion DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1013, 1010, 1014]
+    },
+    {
+        "id": 654,
+        "name": "Vitrum Dancer",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Vitreum Dancer and attack surrounding enemies, dealing 313.20% Electro DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1010, 1012]
+    },
+    {
+        "id": 655,
+        "name": "Cuddle Wuddle",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Cuddle Wuddle and attack enemies with 4 strikes dealing 46.98% Physical DMG and 1 strike dealing 125.28% Physical DMG.",
+            "cd": 20
+        },
+        "echo_sets": [1011, 1009]
+    },
+    {
+        "id": 656,
+        "name": "Rage Against the Statue",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Rage Against the Statue to attack enemies, dealing 313.20% Spectro DMG. Hold the Echo Skill to maintain the Echo form and charge towards enemies, dealing 469.80% Spectro DMG.",
+            "cd": 20
+        },
+        "echo_sets": [1012, 1015]
+    },
+    {
+        "id": 657,
+        "name": "Hurriclaw",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Hurriclaw and charge forward, dealing 156.60% Aero DMG upon hit plus 156.60% Aero DMG with a sweep attack. Hold the Echo Skill to continue charging forward. Use Echo Skill again while charging to perform a sweep attack.",
+            "cd": 20
+        },
+        "echo_sets": [1013, 1015]
+    },
+    {
+        "id": 658,
+        "name": "Capitaneus",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Capitaneus to jump up and smash enemies, dealing 118.80% Spectro DMG. This attack generates 4 extra Merciless Judgements, each dealing 59.40% Spectro DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Spectro DMG Bonus and 12.00% Heavy Attack DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1015, 1012, 1017]
+    },
+    {
+        "id": 659,
+        "name": "Pilgrim's Shell",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into a Pilgrim's Shell to attack nearby enemies, dealing 268.20% Aero DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1017, 1016]
+    },
+    {
+        "id": 660,
+        "name": "Kerasaur",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Kerasaur to leap into the air and slam down, dealing 268.20% Aero DMG. Shortly after hitting the target, cast Echo Skill again to charge at the target, dealing 268.20% Aero DMG. The Resonator with this Echo equipped in the main slot gains 12.00% Aero DMG Bonus and 12.00% Resonance Liberation DMG Bonus.",
+            "cd": 15
+        },
+        "echo_sets": [1017, 1016]
+    },
+    {
+        "id": 661,
+        "name": "Nightmare: Tambourinist",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Summon a Tambourinist that plays out Melodies of Annihilation. Any Resonator on the team gains the following effect for 10s upon obtaining a Melody of Annihilation: When the Resonator hits a target, the Tambourinist deals 14.40% Havoc DMG to the target, up to 10 times.",
+            "cd": 15
+        },
+        "echo_sets": [1014]
+    },
+    {
+        "id": 662,
+        "name": "Vanguard Junrock",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Vanguard Junrock that charges forward, dealing 32.00% + 64 Physical DMG to enemies in its path.",
+            "cd": 8
+        },
+        "echo_sets": [1000, 1002, 1003]
+    },
+    {
+        "id": 663,
+        "name": "Fission Junrock",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Fission Junrock. Generate a Resonance Effect that restores 2% HP for friendly units each time. If not in combat, you can pick up minerals or plants nearby.",
+            "cd": 15
+        },
+        "echo_sets": [1001, 1002, 1000]
+    },
+    {
+        "id": 664,
+        "name": "Electro Predator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deal 17.28% Electro DMG, and the last deals 46.08% Electro DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1004, 1002]
+    },
+    {
+        "id": 665,
+        "name": "Fusion Warrior",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Fusion Warrior to perform a Counterattack. If the Counterattack is successful, the cooldown time of this skill will be reduced by 70.00%, and 288.00% Fusion DMG will be dealt.",
+            "cd": 15
+        },
+        "echo_sets": [1005, 1002, 1004]
+    },
+    {
+        "id": 666,
+        "name": "Havoc Warrior",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Havoc Warrior to attack up to 3 times, dealing 171.73% Havoc DMG each time.",
+            "cd": 15
+        },
+        "echo_sets": [1006, 1007]
+    },
+    {
+        "id": 667,
+        "name": "Snip Snap",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Snip Snap that throws fireballs at the enemy, dealing 32.00%+64 Fusion DMG on-hit.",
+            "cd": 8
+        },
+        "echo_sets": [1003, 1000, 1004]
+    },
+    {
+        "id": 668,
+        "name": "Zig Zag",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Zig Zag that detonates Spectro energy, dealing 48.00%+96 Spectro DMG and creating a Stagnation Zone that lasts 1.8s.",
+            "cd": 15
+        },
+        "echo_sets": [1001, 1003, 1006]
+    },
+    {
+        "id": 669,
+        "name": "Whiff Whaff",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Whiff Whaff that triggers an air explosion, dealing 51.36% Aero DMG and producing a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for 2s, dealing 19.97% Aero DMG up to 6 times.",
+            "cd": 15
+        },
+        "echo_sets": [1000, 1001, 1005]
+    },
+    {
+        "id": 670,
+        "name": "Tick Tack",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Tick Tack that charges and bites the enemy. The charge deals 68.48% Havoc DMG, and the bite deals 102.72% Havoc DMG. Reduces enemy Vibration Strength by up to 5.00% during 5s.",
+            "cd": 15
+        },
+        "echo_sets": [1003, 1000, 1007]
+    },
+    {
+        "id": 671,
+        "name": "Glacio Predator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Glacio Predator that throws an ice spear, dealing 46.08% Glacio DMG on hit. Deals 4.61% Glacio DMG up to 10 times during charging, and 23.04% Glacio DMG when the spear explodes.",
+            "cd": 8
+        },
+        "echo_sets": [1006, 1008]
+    },
+    {
+        "id": 672,
+        "name": "Gulpuff",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Gulpuff that blows bubbles 5 times, each time dealing 23.04% Glacio DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1006, 1008]
+    },
+    {
+        "id": 673,
+        "name": "Glacio Prism",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Glacio Prism that continuously fires three crystal shards, each dealing 38.40% Glacio DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1007, 1001, 1008]
+    },
+    {
+        "id": 674,
+        "name": "Fusion Prism",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Fusion Prism to fire a crystal shard, dealing 32.00%+64 Fusion DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1008, 1003, 1004]
+    },
+    {
+        "id": 675,
+        "name": "Spectro Prism",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Spectro Prism to emit a laser that hits the enemy up to 8 times, dealing 14.40% Spectro DMG each time.",
+            "cd": 8
+        },
+        "echo_sets": [1004, 1002, 1006]
+    },
+    {
+        "id": 676,
+        "name": "Havoc Prism",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Havoc Prism to fire five crystal shards, each dealing 23.04% Havoc DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1002, 1006, 1007]
+    },
+    {
+        "id": 677,
+        "name": "Aero Predator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing 28.80% Aero DMG each time it hits.",
+            "cd": 8
+        },
+        "echo_sets": [1002, 1005]
+    },
+    {
+        "id": 678,
+        "name": "Cruisewing",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Cruisewing that restores HP for all current team characters by 1.80% of their Max HPs plus an additional 80 points of HP, up to 4 times.",
+        "cd": 8
+        },
+        "echo_sets": [1000, 1001, 1006]
+    },
+    {
+        "id": 679,
+        "name": "Sabyr Boar",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Sabyr Boar to headbutt the enemy into the air, dealing 32.00%+64 Physical DMG.",
+        "cd": 8
+        },
+        "echo_sets": [1001, 1005, 1008]
+    },
+    {
+        "id": 680,
+        "name": "Excarat",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Transform into an Excarat and tunnel underground to advance. In this state, you have the ability to change your direction and are immune to damage.",
+        "cd": 8
+        },
+        "echo_sets": [1008, 1007]
+    },
+    {
+        "id": 681,
+        "name": "Baby Viridblaze Saurian",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Transform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.",
+        "cd": 8
+        },
+        "echo_sets": [1003, 1002, 1004]
+    },
+    {
+        "id": 682,
+        "name": "Young Roseshroom",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Baby Roseshroom that fires a laser, dealing 32.00%+64 Havoc DMG.",
+        "cd": 8
+        },
+        "echo_sets": [1005, 1007]
+    },
+    {
+        "id": 683,
+        "name": "Hoartoise",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Transform into Hoartoise and slowly restore HP. Use the Echo skill again to exit the transformation state.",
+        "cd": 8
+        },
+        "echo_sets": [1006, 1008]
+    },
+    {
+        "id": 684,
+        "name": "Fusion Dreadmane",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing 32.00%+64 Fusion DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1000, 1004]
+    },
+    {
+        "id": 685,
+        "name": "Hooscamp",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Hooscamp Flinger and pounce at the enemies, dealing 48.00%+96 Aero DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1003, 1005]
+    },
+    {
+        "id": 686,
+        "name": "Diamondclaw",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Crystal Scorpion and enter a Parry State. Counterattack when the Parry State is over, dealing 48.00%+96 Physical DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1001, 1003]
+    },
+    {
+        "id": 687,
+        "name": "Chirpuff",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward 3 times. Each blast inflicts 38.40% Aero DMG and pushes enemies backwards.",
+            "cd": 8
+        },
+        "echo_sets": [1007, 1005]
+    },
+    {
+        "id": 688,
+        "name": "Traffic Illuminator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Traffic Illuminator, immobilizing enemies for up to 1s. The immobilization will be lifted once the enemy is hit.",
+            "cd": 15
+        },
+        "echo_sets": [1002, 1005, 1004]
+    },
+    {
+        "id": 689,
+        "name": "Clang Bang",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Clang Bang that follows the enemy and eventually self-combusts, dealing 32.00%+64 Glacio DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1006, 1008]
+    },
+    {
+        "id": 690,
+        "name": "Lava Larva",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Lava Larva that continuously attacks enemies, dealing 38.40% Fusion DMG with each hit. The Lava Larva disappears when the summoner is switched out or moves too far away.",
+        "cd": 8
+        },
+        "echo_sets": [1003, 1004]
+    },
+    {
+        "id": 691,
+        "name": "Dwarf Cassowary",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Dwarf Cassowary that tracks and attacks the enemy, dealing 38.40% Physical DMG 3 times.",
+        "cd": 8
+        },
+        "echo_sets": [1005, 1000]
+    },
+    {
+        "id": 692,
+        "name": "Galescourge Stalker",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Galescourge Stalker that restores nearby party members' HP by 2.70% of their Max HP, up to 3 times.",
+        "cd": 8
+        },
+        "echo_sets": [1009, 1010]
+    },
+    {
+        "id": 693,
+        "name": "Voltscourge Stalker",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Voltscourge Stalker to perform 3 stages of attacks on enemies, each dealing 43.20% Electro DMG.",
+        "cd": 8
+        },
+        "echo_sets": [1010, 1011]
+    },
+    {
+        "id": 694,
+        "name": "Frostscourge Stalker",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Frostscourge Stalker to attack enemies, dealing 129.60% Glacio DMG.",
+        "cd": 8
+        },
+        "echo_sets": [1011, 1012]
+    },
+    {
+        "id": 695,
+        "name": "Chop Chop: Headless",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+        "description": "Summon a Chop Chop: Headless to attack enemies, dealing 129.60% Fusion DMG.",
+        "cd": 8
+        },
+        "echo_sets": [1012, 1013]
+    },
+    {
+        "id": 696,
+        "name": "Chop Chop: Leftless",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Chop Chop: Leftless to attack enemies, dealing 129.60% Spectro DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1009, 1013]
+    },
+    {
+        "id": 697,
+        "name": "Chop Chop: Rightless",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Chop Chop: Rightless to attack enemies, dealing 129.60% Havoc DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1013, 1009]
+    },
+    {
+        "id": 698,
+        "name": "Fae Ignis",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Fae Ignis to attack enemies, dealing 129.60% Havoc DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1011, 1012, 1014]
+    },
+    {
+        "id": 699,
+        "name": "Nimbus Wraith",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Nimbus Wraith that restores the active Resonator's HP by 2.70% of their Max HP, up to 4 times.",
+            "cd": 15
+        },
+        "echo_sets": [1010, 1011]
+    },
+    {
+        "id": 700,
+        "name": "Hocus Pocus",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Hocus Pocus to attack enemies with 3 consecutive strikes, each dealing 43.20% Havoc DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1009, 1010]
+    },
+    {
+        "id": 701,
+        "name": "Lottie Lost",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Lottie Lost to attack enemies, dealing 129.60% Spectro DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1013, 1009]
+    },
+    {
+        "id": 702,
+        "name": "Diggy Duggy",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Diggy Duggy and jump up into the air to smash onto enemies, dealing 268.20% Physical DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1012, 1013]
+    },
+    {
+        "id": 703,
+        "name": "Chest Mimic",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Chest Mimic to attack enemies with 3 consecutive strikes, each dealing 64.19% Spectro DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1011, 1010, 1009]
+    },
+    {
+        "id": 704,
+        "name": "Golden Junrock",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Golden Junrock that charges forward, dealing 129.60% Spectro DMG to enemies in its path.",
+            "cd": 8
+        },
+        "echo_sets": [1012, 1009]
+    },
+    {
+        "id": 705,
+        "name": "Calcified Junrock",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Calcified Junrock that restores HP for nearby Resonators in the team by 2.52% of their Max HP, up to 5 times.",
+            "cd": 15
+        },
+        "echo_sets": [1013, 1010]
+    },
+    {
+        "id": 706,
+        "name": "Aero Prism",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Aero Prism to attack enemies, dealing 19.26% Aero DMG.",
+            "cd": 15
+        },
+        "echo_sets": [1012, 1013]
+    },
+    {
+        "id": 707,
+        "name": "La Guardia",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into La Guardia and attack nearby targets, dealing 268.20% Physical DMG. Hold the Echo Skill to maintain the Echo form for a while to slash enemies and cast a ranged attack forward. The slash deals 268.20% Physical DMG, and the ranged attack deals 17.87% Physical DMG up to 15 times.",
+            "cd": 15
+        },
+        "echo_sets": [1015, 1011, 1016]
+    },
+    {
+        "id": 708,
+        "name": "Sagittario",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Sagittario to move a certain distance and perform a ranged attack, dealing 268.20% Spectro DMG. Getting attacked while moving in the Sagittario form triggers a damage-avoiding enhanced Dodge Counter, dealing 268.20% Spectro DMG once and 53.64% Spectro DMG 5 times.",
+            "cd": 15
+        },
+        "echo_sets": [1015, 1012, 1016]
+    },
+    {
+        "id": 709,
+        "name": "Sacerdos",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Sacerdos to attack enemies, dealing 64.80% Aero DMG 2 times.",
+            "cd": 8
+        },
+        "echo_sets": [1015, 1017]
+    },
+    {
+        "id": 710,
+        "name": "Aero Drake",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Aero Drake to attack enemies, dealing 43.20% Aero DMG 3 times.",
+            "cd": 8
+        },
+        "echo_sets": [1015, 1011, 1016]
+    },
+    {
+        "id": 711,
+        "name": "Electro Drake",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Electro Drake to attack enemies, dealing 43.20% Electro DMG 3 times.",
+            "cd": 8
+        },
+        "echo_sets": [1015, 1011, 1016]
+    },
+    {
+        "id": 712,
+        "name": "Glacio Drake",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Glacio Drake to attack enemies, dealing 25.92% Glacio DMG 5 times.",
+            "cd": 8
+        },
+        "echo_sets": [1015, 1017]
+    },
+    {
+        "id": 713,
+        "name": "Fusion Drake",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Fusion Drake to attack enemies, dealing 25.92% Fusion DMG 3 times.",
+            "cd": 8
+        },
+        "echo_sets": [1016, 1017]
+    },
+    {
+        "id": 714,
+        "name": "Spectro Drake",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Spectro Drake to attack enemies, dealing 43.20% Spectro DMG 3 times.",
+            "cd": 8
+        },
+        "echo_sets": [1016, 1017]
+    },
+    {
+        "id": 715,
+        "name": "Havoc Drake",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Havoc Drake to attack enemies, dealing 129.60% Havoc DMG 3 times.",
+            "cd": 8
+        },
+        "echo_sets": [1016, 1017]
+    },
+    {
+        "id": 716,
+        "name": "Devotee's Flesh",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Devotee's Flesh to attack enemies, dealing 43.20% Aero DMG 3 times.",
+            "cd": 8
+        },
+        "echo_sets": [1015, 1017, 1016]
+    },
+    {
+        "id": 717,
+        "name": "Nightmare: Havoc Warrior",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Transform into Havoc Warrior to attack up to 3 times, dealing 171.73% Havoc DMG each time.",
+            "cd": 15
+        },
+        "echo_sets": [1014]
+    },
+    {
+        "id": 718,
+        "name": "Nightmare: Glacio Predator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Glacio Predator that throws an ice spear, dealing 46.08% Glacio DMG on hit. Deal 4.61% Glacio DMG up to 10 times during the charging time, and 23.04% Glacio DMG when the spear explodes.",
+            "cd": 8
+        },
+        "echo_sets": [1014]
     }
-
 
 ]
