@@ -1,1 +1,1 @@
-web: gunicorn api.app:app --preload --bind 0.0.0.0:$PORT
+web: gunicorn api.app:app -w 2 -k gthread -b 0.0.0.0:$PORT

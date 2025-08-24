@@ -1,7 +1,8 @@
 {
-    "character_id":1,
+    "id":1,
     "name": "Jiyan",
     "element": "Aero",
+    "rarity":5,
     "stats": {
         "HP":{
             "base": 839,
@@ -31,5 +32,5 @@
     "echo_set":{
 
     },
-    "weapon": null
+    "recommand_weapon": null
 }

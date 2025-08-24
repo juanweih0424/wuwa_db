@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{project_name}}  Docs</title>
+  <meta name="description" content="Human-readable docs for the WOWA API." />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1 class="title">{{ project_name }}</h1>
+      <p class="subtitle">
+        Documents for version <span class="pill">{{ version }}</span>.
+        Machines should start at <code>/v1</code>. This page links to common endpoints and shows request examples.
+        <br>
+        This is only a personal practice project for developing full-stack skills. And some of the data is incomplete.
+      </p>
+    </section>
+
+    <section class="grid" style="margin-top:20px">
+      <div class="card">
+        <h2>Base URLs</h2>
+        <p class="small">Public:</p>
+        <pre><code>{{ base_url }}/v1</code></pre>
+        <p class="small muted">Note: path is normalized, <code>/v1/</code>&<code>/V1</code>&<code>/V1/</code> is normalized to <code>/v1</code>
+      </div>
+
+      <div class="card">
+        <h2>Quickstart</h2>
+        <pre><code>curl -s {{ base_url }}/v1/characters | jq .[0]</code></pre>
+        <p class="small muted">Use your favorite HTTP client; responses are JSON UTF-8.</p>
+      </div>
+
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Endpoints</h2>
+      <table>
+        <thead>
+          <tr><th>Path</th><th>Method</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          {% set endpoints = api_index %}
+          {% for name, path in endpoints.items() %}
+          <tr>
+            <td><a href="{{ path }}">{{ path }}</a></td>
+            <td><span class="pill">GET</span></td>
+            <td>{{ name|title }} list (supports filtering)</td>
+          </tr>
+          {% endfor %}
+          <tr>
+            <td><span class="muted">/v1/<i>resource</i>/<i>id</i></span></td>
+            <td><span class="pill">GET</span></td>
+            <td>Incomplete; Coming ASAP</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section style="margin-top:22px">
+      <h2>Filtering &amp; Query Params</h2>
+      <div class="card">
+        <p>All list endpoints accept case-insensitive filtering. Examples:</p>
+        <ul>
+          <li><code>/v1/characters?element=aero</code> → matches <code>"Aero"</code> or <code>"aero"</code></li>
+          <li><code>/v1/weapons?rarity=5</code></li>
+          <li><code>/v1/echoes?set=1012</code></li>
+        </ul>
+        <p class="small muted">Multiple filters combine with AND (e.g., <code>?element=aero&amp;rarity=5</code>).</p>
+
+    
+        <div class="inline-input">
+          <input id="tryUrl" type="text" placeholder="Try a GET, e.g. /v1/characters?element=aero" />
+          <button id="tryBtn">Fetch</button>
+        </div>
+        <pre id="tryOut" style="margin-top:10px"><code class="small muted">// result will appear here</code></pre>
+      </div>
+    </section>
+
+    <section style="margin-top:22px">
+      <h2>Responses</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Character (example)</h3>
+          <pre><code>{
+  "id": 1,
+  "name": "Encore",
+  "element": "Fusion",
+  "rarity": 5
+  "skills":...
+  ...
+}</code></pre>
+        </div>
+        <div class="card">
+          <h3>Errors</h3>
+          <table>
+            <thead><tr><th>Status</th><th>Meaning</th></tr></thead>
+            <tbody>
+              <tr><td>400</td><td>Bad query (invalid param/type)</td></tr>
+              <tr><td>404</td><td>Not found</td></tr>
+              <tr><td>429</td><td>Rate limit (if enabled)</td></tr>
+              <tr><td>500</td><td>Server error</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:22px">
+      <h2>Version</h2>
+      <p>Current stable: <code>/v1</code>. Future updates and changes will appear under <code>/v2</code>.</p>
+    </section>
+
+    <footer class="muted" style="margin-top:28px">
+      <p>© {{ current_year }} {{ owner }} · Issues/feedback: <a href="{{ repo_url }}">GitHub</a></p>
+    </footer>
+  </div>
+
+  <script>
+    const btn = document.getElementById('tryBtn');
+    const out = document.getElementById('tryOut');
+    btn?.addEventListener('click', async () => {
+      const path = document.getElementById('tryUrl').value.trim() || '/v1';
+      try {
+        const res = await fetch(path);
+        const txt = await res.text();
+        if (!res.ok) {
+            out.textContent = `❌ Invalid endpoints; Status: ${res.status}`;
+            return;
+        }
+        else if (out.text = '[]'){
+            out.textContent = '❌ Check your Spelling, invalid filter; See specifics on Github README.MD';
+            return;
+        }
+        out.textContent = txt.slice(0, 5000);
+      } catch (e) {
+        out.textContent = 'Request failed: ' + e;
+      }
+    });
+  </script>
+</body>
+</html>

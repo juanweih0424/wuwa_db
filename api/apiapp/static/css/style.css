@@ -1,0 +1,147 @@
+/* global custom property */
+:root {
+  --bg: #0b0c10;
+  --card: #11131a;
+  --muted: #9aa4b2;
+  --fg: #e6e9ef;
+  --brand: #6aa3ff;
+  --accent: #74c69d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: auto;
+  padding: 32px 20px;
+}
+
+.hero {
+  padding: 18px 20px 8px;
+  border-bottom: 1px solid #1d2230;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #22283a;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+pre {
+  background: #0d1017;
+  padding: 14px;
+  border-radius: 10px;
+  overflow: auto;
+  border: 1px solid #1e2435;
+}
+
+h2 {
+  margin: 22px 0 10px;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid #22283a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #22283a;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  color: var(--muted);
+  font-weight: 600;
+  background: #111422;
+}
+
+.pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #1b2336;
+  border: 1px solid #27314a;
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.inline-input {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #27314a;
+  background: #0b0f18;
+  color: #e6e9ef;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #27314a;
+  background: #18223a;
+  color: #e6e9ef;
+  cursor: pointer;
+}
+
+.small {
+  font-size: 13px;
+}
