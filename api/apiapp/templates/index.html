@@ -131,10 +131,6 @@
             out.textContent = `❌ Invalid endpoints; Status: ${res.status}`;
             return;
         }
-        else if (out.text = '[]'){
-            out.textContent = '❌ Check your Spelling, invalid filter; See specifics on Github README.MD';
-            return;
-        }
         out.textContent = txt.slice(0, 5000);
       } catch (e) {
         out.textContent = 'Request failed: ' + e;
