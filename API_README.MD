@@ -80,11 +80,8 @@ Read-only access from browsers is enabled via CORS for GET routes.
 
 # Deployment (Railway)
 
-## Gunicorn entry (via Procfile or Start Command):
+## Gunicorn entry (via Procfile Start Command):
 
 ```bash
 web: gunicorn api.app:app -w 2 -k gthread -b 0.0.0.0:$PORT
 ```
-
-Custom domain: point api.your-domain.com to Railway (CNAME to *.up.railway.app or Railway’s Metal Edge A/AAAA records), then verify in Railway.
-ProxyFix is enabled so request.host_url and HTTPS detection are correct behind the proxy.
