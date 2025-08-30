@@ -1,0 +1,81 @@
+.page-title {
+    margin-top: 3.5rem;
+    justify-self: center;
+}
+
+.weapons-grid {
+  display: flex;                        
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+
+/* --- FILTER BAR --- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;                 
+  align-items: center;
+  justify-content: center;
+  margin: 16px auto 8px;          /* space around the bar */
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03); /* subtle panel */
+  border: 1px solid #3c445d;
+  box-shadow: 0 6px 16px rgba(0,0,0,.18);
+}
+
+/* Inputs look consistent */
+.filters input[type="search"],
+.filters select,
+.filters button {
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 2px solid #48506a;
+  background: #2a2e40;
+  color: #e9ecf1;
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease, background .15s ease;
+  font: inherit;
+}
+
+/* Search width */
+.filters .filter-search {
+  min-width: 240px;
+  flex: 1 1 260px; /* grows on wide screens, wraps on small */
+}
+
+/* Selects share the same look; you can target individually if you prefer */
+.filters .filter-rarity,
+.filters .filter-type {
+  min-width: 140px;
+}
+
+.filters input[type="search"]:focus,
+.filters select:focus {
+  border-color: #e3cf7a;              
+  box-shadow: 0 0 0 3px rgba(227,207,122,.2);
+}
+
+.filters input[type="search"]::placeholder {
+  color: #bdc4d4;
+  opacity: 0.8;
+}
+
+.filter-rarity:hover,
+.filter-type:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .filters {
+    gap: 8px;
+    padding: 8px 10px;
+  }
+  .filters .filter-search { min-width: 200px; }
+  .filters .filter-rarity,
+  .filters .filter-type { min-width: 120px; }
+}
