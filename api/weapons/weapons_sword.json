@@ -39,8 +39,8 @@
             { "rank": 1, "atk": 0.12, "resonance_skill_dmg": 0.04},
             { "rank": 2, "atk": 0.15, "resonance_skill_dmg": 0.05},
             { "rank": 3, "atk": 0.18, "resonance_skill_dmg": 0.06},
-            { "rank": 4, "atk": 0.21, "resonance_skill_dmg": 0.7},
-            { "rank": 5, "atk": 0.24, "resonance_skill_dmg": 0.8}
+            { "rank": 4, "atk": 0.21, "resonance_skill_dmg": 0.07},
+            { "rank": 5, "atk": 0.24, "resonance_skill_dmg": 0.08}
             ]
         },
         "weapon_description" : "Forged from the very essence and feathers of a legendary bird, this weapon blazes with an intensity that bathes the world in its luminous glow. With each fiery surge, it consumes all in its path, leaving nothing but ashes in its wake."
