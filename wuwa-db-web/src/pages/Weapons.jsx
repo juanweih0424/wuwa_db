@@ -99,7 +99,7 @@ function Weapons() {
     return (
         <>
             <h1 className="page-title">Wuthering Waves Weapons</h1>
-
+            <div className="content"> 
             <div className="filters">
                 <input 
                     type="search"
@@ -149,6 +149,7 @@ function Weapons() {
                     ))}
             </section>
             </main>
+             </div>
         </>
   );
 }

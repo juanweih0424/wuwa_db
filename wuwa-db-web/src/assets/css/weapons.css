@@ -1,36 +1,54 @@
-.page-title {
-    margin-top: 3.5rem;
-    justify-self: center;
+.page-title{
+  text-align: center;
+  margin-top: 2rem;
 }
 
-.weapons-grid {
-  display: flex;                        
-  gap: 18px;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px 50px;
+.content{
+  --side-pad: 50px;
+  --gap: 18px;
+
+  --track-max: 1200px
+
+  max-width: calc(var(--track-max) + 2 * var(--side-pad));
+  margin-inline: auto;
+  padding-inline: var(--side-pad);
+  box-sizing: border-box;
 }
 
+@media (max-width: 960px){ .content{ --side-pad: 36px; } }
+@media (max-width: 720px){ .content{ --side-pad: 20px; } }
 
-/* --- FILTER BAR --- */
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 12px;                 
+.weapons{
+  min-height: calc(100vh - 220px); 
+  display: grid;
+  align-content: start;
+}
+
+.filters{
+  width: 100%;
+  max-width: var(--track-max);
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 160px 160px; 
+  gap: 12px;
   align-items: center;
-  justify-content: center;
-  margin: 16px auto 8px;          /* space around the bar */
+
+  margin-top: 16px;
+  margin-bottom: 8px;
   padding: 10px 12px;
   border-radius: 12px;
-  background: rgba(255,255,255,0.03); /* subtle panel */
+  background: rgba(255,255,255,0.03);
   border: 1px solid #3c445d;
   box-shadow: 0 6px 16px rgba(0,0,0,.18);
+
+  position: static;
+  top: 12px;
+  z-index: 5;
 }
 
-/* Inputs look consistent */
 .filters input[type="search"],
-.filters select,
-.filters button {
+.filters select{
   height: 36px;
   padding: 0 12px;
   border-radius: 10px;
@@ -38,44 +56,99 @@
   background: #2a2e40;
   color: #e9ecf1;
   outline: none;
-  transition: border-color .15s ease, box-shadow .15s ease, background .15s ease;
   font: inherit;
+  transition: border-color .15s ease, box-shadow .15s ease, background .15s ease, transform .15s ease;
 }
-
-/* Search width */
-.filters .filter-search {
-  min-width: 240px;
-  flex: 1 1 260px; /* grows on wide screens, wraps on small */
+.filters input[type="search"]:hover,
+.filters select:hover{
+  border-color: #596386;
+  box-shadow: 0 0 0 3px rgba(227,207,122,.12);
 }
-
-/* Selects share the same look; you can target individually if you prefer */
-.filters .filter-rarity,
-.filters .filter-type {
-  min-width: 140px;
-}
-
 .filters input[type="search"]:focus,
-.filters select:focus {
-  border-color: #e3cf7a;              
-  box-shadow: 0 0 0 3px rgba(227,207,122,.2);
+.filters select:focus{
+  border-color: #e3cf7a;
+  box-shadow: 0 0 0 3px rgba(227,207,122,.22);
 }
-
-.filters input[type="search"]::placeholder {
+.filters input[type="search"]::placeholder{
   color: #bdc4d4;
-  opacity: 0.8;
+  opacity: .8;
 }
 
-.filter-rarity:hover,
-.filter-type:hover{
-  cursor: pointer;
+
+@media (min-width: 800px) and (max-width: 1199.98px){
+  .filters{ grid-template-columns: minmax(320px, 1fr) 160px 160px; }
 }
 
-@media (max-width: 640px) {
-  .filters {
-    gap: 8px;
-    padding: 8px 10px;
+@media (max-width: 799.98px){
+  .filters{
+    grid-template-columns: 1fr;
+    row-gap: 10px;
   }
-  .filters .filter-search { min-width: 200px; }
+  .filters .filter-search,
   .filters .filter-rarity,
-  .filters .filter-type { min-width: 120px; }
+  .filters .filter-type{
+    width: 100%;
+    min-width: 0;
+  }
 }
+
+.weapons-grid{
+  width: 100%;
+  max-width: var(--track-max);
+  margin-inline: auto;
+
+  display: grid;
+  gap: var(--gap);
+  padding-block: 20px;
+  box-sizing: border-box;
+
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  align-content: start;
+}
+
+@media (min-width: 800px){
+  .weapons-grid{ grid-template-columns: repeat(2, 1fr); }
+  .content{ --track-max: 1000px; }
+}
+@media (min-width: 1200px){
+  .weapons-grid{ grid-template-columns: repeat(3, 1fr); }
+  .content{ --track-max: 1200px; }
+}
+@media (min-width: 1450px){
+  .weapons-grid{ grid-template-columns: repeat(4, 1fr); }
+  .content{ --track-max: 1450px; }
+}
+@media (min-width: 1700px){
+  .weapons-grid{ grid-template-columns: repeat(5, 1fr); }
+  .content{ --track-max: 1700px; }
+}
+
+@media (min-width: 1500px){
+  .filters,
+  .weapons-grid{
+    width: var(--track-max);
+    max-width: none;
+  }
+}
+
+@media (min-width: 1600px){
+  .content{ --track-max: 1600px; }
+  .filters, .weapons-grid{
+    width: var(--track-max);
+    max-width: none;
+  }
+}
+@media (min-width: 1750px){
+  .content{ --track-max: 1750px; }
+  .filters, .weapons-grid{
+    width: var(--track-max);
+    max-width: none;
+  }
+}
+
+@media (max-width: 640px){
+  .content{ --side-pad: 12px; }
+  .weapons-grid{ grid-template-columns: minmax(0, 1fr); }
+}
+
+html, body { overflow-x: hidden; }

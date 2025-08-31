@@ -1,4 +1,4 @@
-.weapon-card {
+.weapon-card{
     display: flex;
     flex-direction: column;
     border-radius: 12px;
@@ -8,42 +8,37 @@
     color: #e9ecf1;
     box-shadow: 0 8px 24px rgba(0,0,0,.18);
     transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
-    flex: 0 0 200px;  
-    height: 200px;    
-    margin: 2px; 
+    width: 100%;
+    height: 200px;
 }
 
-.weapon-card:hover {
+.weapon-card:hover{
     transform: translateY(-2px) scale(1.05);
     box-shadow: 0 12px 28px rgba(0,0,0,.24);
     background-color: #383c50;
 }
 
-.weapon-img-wrap {
+.weapon-img-wrap{
     flex: 1 1 auto;
     display: flex;
-    align-items: flex-end;     
+    align-items: flex-end;
     justify-content: center;
     padding: 12px;
     overflow: hidden;
 }
-
-.weapon-img-wrap img {
+.weapon-img-wrap img{
     max-width: 140px;
-    max-height: 140px;        
+    max-height: 140px;
     object-fit: contain;
     filter: drop-shadow(0 6px 8px rgba(0,0,0,.35));
 }
 
-.rarity-bar {
-  height: 4px;        
-}
+.rarity-bar{ height: 4px; }
+.rarity-bar[data-rarity="3"]{ background:#6fa7ff; }
+.rarity-bar[data-rarity="4"]{ background:#b68cff; }
+.rarity-bar[data-rarity="5"]{ background:#f0d36a; }
 
-.rarity-bar[data-rarity="3"] { background: #6fa7ff; }   
-.rarity-bar[data-rarity="4"] { background: #b68cff; }   
-.rarity-bar[data-rarity="5"] { background: #f0d36a; }   
-
-.weapon-title {
+.weapon-title{
     margin: 0;
     padding: 10px 12px 12px;
     text-align: center;

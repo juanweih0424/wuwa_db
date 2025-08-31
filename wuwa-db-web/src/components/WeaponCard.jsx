@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "../assets/css/weaponcard.css"
 
+
 function WeaponCard({ href, name, img, rarity, type }) {
+
   return (
     <Link to={href} className="weapon-card">
       <div className="weapon-img-wrap">

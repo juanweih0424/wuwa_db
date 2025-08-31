@@ -1,5 +1,4 @@
 
-// Lookup for local message
 const _images = import.meta.glob("../assets/images/weapons/*.{webp,png}", {
     query: "?url",
     import: "default",
@@ -43,4 +42,49 @@ export function prettySubstat(sub) {
 
   const label = String(sub.kind || "").replace("%", "");
   return `${label} ${num}`;
+}
+
+
+function stripZeros(numStr) {
+  return String(numStr)
+    .replace(/\.0+$/, '')                 
+    .replace(/(\.\d*?[1-9])0+$/, '$1');  
+}
+
+function toPercentNumber(v) {
+  const n = Number(v);
+  if (!isFinite(n)) return '';
+  if (n > 0 && n <= 1) return stripZeros((n * 100).toFixed(2));
+  return stripZeros(n.toFixed(2));
+}
+
+export function buildSkillHTML(skill) {
+  const template = skill?.skill_description || '';
+  const ranks = skill?.ranks || [];
+
+  return template.replace(/\{(\w+)\}/g, (match, key, offset, full) => {
+    const nextChar = full[offset + match.length];
+    const templateHasPercent = nextChar === '%';
+
+    const raw = ranks
+      .map(r => r?.[key])
+      .filter(v => v != null)
+      .map(Number)
+      .filter(n => isFinite(n));
+
+    if (!raw.length) return match;
+
+    const joined = raw.map((n, i) => {
+      const numStr = toPercentNumber(n);
+
+      const withMaybePercent = templateHasPercent
+        ? (i < raw.length - 1 ? `${numStr}%` : numStr)
+        : (n > 0 && n < 1 ? `${numStr}%` : numStr);
+
+
+      return `<span class="skill-val skill-val--${key}">${withMaybePercent}</span>`;
+    }).join('/');
+
+    return joined;
+  });
 }

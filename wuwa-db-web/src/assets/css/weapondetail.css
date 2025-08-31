@@ -1,0 +1,216 @@
+[data-rarity="5"] { --accent: rgb(250, 230, 116); } 
+[data-rarity="4"] { --accent: rgb(176, 57, 245); } 
+[data-rarity="3"] { --accent: rgb(54, 57, 252); } 
+[data-rarity="2"] { --accent: rgb(71, 233, 125); } 
+[data-rarity="1"] { --accent: rgb(206, 241, 233); } 
+
+
+.weapon-detail{
+    max-width: 1100px;
+    margin-inline: auto;
+    padding: 16px 0 28px;
+}
+
+.wd-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1100px;
+}
+
+.wd-hero{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 35px;
+    margin-top: 30px;
+    width:100%;
+    max-width: 440px;      
+    margin-inline: auto; 
+}
+
+
+.wd-icon{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: rgba(255,255,255,.02);
+    border: 3px solid rgba(255,255,255,.08);  
+    box-shadow: 0 8px 24px rgba(0,0,0,.22);
+    padding: 6px;
+    border-color: var(--accent);
+}
+
+
+.wd-title .wd-name{
+    margin: 0 0 8px;
+    font-weight: 800;
+    letter-spacing: .2px;
+}
+
+
+.wd-name{
+    color: var(--accent);
+}
+
+.stat-pills{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 8px;
+    max-width: 420px;
+}
+
+.stat-pill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: #3a4157;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,.08);
+    color: #e9ecf1;
+    font-weight: 600;
+    letter-spacing: .2px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stat-pill span{ opacity: .9; }
+.stat-pill strong{ font-weight: 800; }
+
+.level-row {
+    display: grid;
+    grid-template-columns: 28px 1fr 40px;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0 18px;
+    padding-left: 40px;
+    max-width: 520px;   
+    margin-inline: auto;
+}
+
+.level-row .min,
+.level-row .max{
+    color: #bdc4d4;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.level-row .min{
+    text-align: right;
+}
+.level-wrap{
+    position: relative;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    --thumb: 18px;
+    --pad: calc(var(--thumb) / 2);
+    --pct: 50;
+    --fill: calc(var(--pad) + (100% - var(--pad) * 2) * (var(--pct) / 100));
+}
+
+.level-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.25);
+
+    background: linear-gradient(
+        to right,
+        var(--accent) 0%,
+        var(--accent) calc(var(--pct) * 1%),
+        #3c445d    calc(var(--pct) * 1%),
+        #3c445d 100%
+    );
+}
+
+
+.level-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--thumb);
+    height: var(--thumb);
+    border-radius: 50%;
+    background: #fff;
+    border-color:var(--accent);
+    box-shadow: 0 1px 4px rgba(0,0,0,.35);
+    cursor: pointer;
+    margin-top: -5px; 
+}
+
+.level-range::-moz-range-thumb{
+    width: var(--thumb);
+    height: var(--thumb);
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.35);
+    cursor: pointer;
+    border: 3px solid var(--accent);
+}
+
+.level-range::-moz-range-track{
+    height: 8px;
+    border-radius: 8px;
+    background: #3c445d;
+}
+
+.slider-badge{
+    position: absolute;
+    top: -24px;
+    left: var(--fill);
+    transform: translateX(-50%);
+    background: #2a2e40;
+    color: var(--accent);
+    font-weight: 800;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid #e3cf7a;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+
+.skill {
+    border: 3px solid rgb(80, 74, 74);
+    border-radius: 15px;
+    margin: 2rem 3rem;
+    background-color: #1b2035;
+    
+}
+
+.skill h2{
+    margin: 10px 0 8px;
+    color: var(--accent);
+    font-weight: 800;
+}
+
+.skill h2,
+.skill-text{
+    margin-left: 10px;
+}
+
+.skill .skill-text{ line-height: 1.6; }
+.skill .description{
+    margin-top: 10px;
+}
+
+.about h1 {
+    color: var(--accent);
+}
+
+.about h1,
+.description{
+    margin: 20px 10px;
+    
+}
