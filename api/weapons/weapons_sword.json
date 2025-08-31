@@ -148,5 +148,34 @@
             ]
         },
         "weapon_description": "The surging tides force the crown of thorns upon the knight, out of which the knight forges this sword. Unburdened by the crown, the knight waded through the roaring waves unwaveringly."
+    },
+    {
+        "id": 206,
+        "name": "Discord",
+        "rarity": 4,
+        "type": "sword",
+        "stats": {
+            "atk": { "base": 27, "max": 337.5, "max_level": 90, "growth": "linear" },
+            "substats": {
+            "kind": "Energy Regen",
+            "base": 0.1152,
+            "max": 0.5184,
+            "max_level": 90,
+            "interval": 5,
+            "growth": "step"
+            }
+        },
+        "skill": {
+            "name": "Ceaseless Aria",
+            "skill_description": "When Resonance Skill is cast, restores {concerto} Concerto Energy. This effect can be triggered 1 time(s) every 20s.",
+            "ranks": [
+            { "rank": 1, "concerto": 8},
+            { "rank": 2, "concerto": 10},
+            { "rank": 3, "concerto": 12},
+            { "rank": 4, "concerto": 14},
+            { "rank": 5, "concerto": 16}
+            ]
+        },
+        "weapon_description": "A descending adagio. This broadblade dominates the battlefield with the power of discordance. The curtain never falls on a masterpiece."
     }
 ]
