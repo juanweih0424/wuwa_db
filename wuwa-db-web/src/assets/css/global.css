@@ -45,8 +45,8 @@ body {
 
 .main {
   background-color: var(--surface);
-  color: #ffffff;
-  flex: 1;                      
-  display: grid; 
-  justify-content: center;
+  color: #fff;
+  flex: 1;
+  width: 100%;
+  display: block;   
 }

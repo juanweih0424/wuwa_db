@@ -1,13 +1,12 @@
-.page-title{
+.page-title {
   text-align: center;
   margin-top: 2rem;
 }
 
-.content{
+.content {
   --side-pad: 50px;
   --gap: 18px;
-
-  --track-max: 1200px
+  --track-max: 1200px;
 
   max-width: calc(var(--track-max) + 2 * var(--side-pad));
   margin-inline: auto;
@@ -15,22 +14,22 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 960px){ .content{ --side-pad: 36px; } }
-@media (max-width: 720px){ .content{ --side-pad: 20px; } }
+@media (max-width: 960px) { .content { --side-pad: 36px; } }
+@media (max-width: 720px) { .content { --side-pad: 20px; } }
 
-.weapons{
-  min-height: calc(100vh - 220px); 
+.weapons {
+  min-height: calc(100vh - 220px);
   display: grid;
   align-content: start;
 }
 
-.filters{
+.filters {
   width: 100%;
   max-width: var(--track-max);
   margin-inline: auto;
 
   display: grid;
-  grid-template-columns: 1fr 160px 160px; 
+  grid-template-columns: 1fr 160px 160px;
   gap: 12px;
   align-items: center;
 
@@ -48,7 +47,7 @@
 }
 
 .filters input[type="search"],
-.filters select{
+.filters select {
   height: 36px;
   padding: 0 12px;
   border-radius: 10px;
@@ -59,40 +58,39 @@
   font: inherit;
   transition: border-color .15s ease, box-shadow .15s ease, background .15s ease, transform .15s ease;
 }
+
 .filters input[type="search"]:hover,
-.filters select:hover{
+.filters select:hover {
   border-color: #596386;
   box-shadow: 0 0 0 3px rgba(227,207,122,.12);
 }
+
 .filters input[type="search"]:focus,
-.filters select:focus{
+.filters select:focus {
   border-color: #e3cf7a;
   box-shadow: 0 0 0 3px rgba(227,207,122,.22);
 }
-.filters input[type="search"]::placeholder{
+
+.filters input[type="search"]::placeholder {
   color: #bdc4d4;
   opacity: .8;
 }
 
 
-@media (min-width: 800px) and (max-width: 1199.98px){
-  .filters{ grid-template-columns: minmax(320px, 1fr) 160px 160px; }
-}
-
-@media (max-width: 799.98px){
-  .filters{
+@media (max-width: 799.98px) {
+  .filters {
     grid-template-columns: 1fr;
     row-gap: 10px;
   }
   .filters .filter-search,
   .filters .filter-rarity,
-  .filters .filter-type{
+  .filters .filter-type {
     width: 100%;
     min-width: 0;
   }
 }
 
-.weapons-grid{
+.weapons-grid {
   width: 100%;
   max-width: var(--track-max);
   margin-inline: auto;
@@ -102,53 +100,48 @@
   padding-block: 20px;
   box-sizing: border-box;
 
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-columns: 1fr;
   align-content: start;
 }
 
-@media (min-width: 800px){
-  .weapons-grid{ grid-template-columns: repeat(2, 1fr); }
-  .content{ --track-max: 1000px; }
-}
-@media (min-width: 1200px){
-  .weapons-grid{ grid-template-columns: repeat(3, 1fr); }
-  .content{ --track-max: 1200px; }
-}
-@media (min-width: 1450px){
-  .weapons-grid{ grid-template-columns: repeat(4, 1fr); }
-  .content{ --track-max: 1450px; }
-}
-@media (min-width: 1700px){
-  .weapons-grid{ grid-template-columns: repeat(5, 1fr); }
-  .content{ --track-max: 1700px; }
+
+@media (min-width: 640px) {
+  .weapons-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 1500px){
+@media (min-width: 960px) {
+  .weapons-grid { grid-template-columns: repeat(3, 1fr); }
+  .content { --track-max: 1000px; }
+}
+
+@media (min-width: 1200px) {
+  .weapons-grid { grid-template-columns: repeat(4, 1fr); }
+  .content { --track-max: 1200px; }
+}
+
+@media (min-width: 1450px) {
+  .weapons-grid { grid-template-columns: repeat(5, 1fr); }
+  .content { --track-max: 1450px; }
+}
+
+@media (min-width: 1600px) {
+  .content { --track-max: 1600px; }
   .filters,
-  .weapons-grid{
+  .weapons-grid {
     width: var(--track-max);
     max-width: none;
   }
 }
 
-@media (min-width: 1600px){
-  .content{ --track-max: 1600px; }
-  .filters, .weapons-grid{
-    width: var(--track-max);
-    max-width: none;
-  }
-}
-@media (min-width: 1750px){
-  .content{ --track-max: 1750px; }
-  .filters, .weapons-grid{
+@media (min-width: 1750px) {
+  .content { --track-max: 1750px; }
+  .filters,
+  .weapons-grid {
     width: var(--track-max);
     max-width: none;
   }
 }
 
-@media (max-width: 640px){
-  .content{ --side-pad: 12px; }
-  .weapons-grid{ grid-template-columns: minmax(0, 1fr); }
+@media (max-width: 640px) {
+  .content { --side-pad: 12px; }
 }
-
-html, body { overflow-x: hidden; }

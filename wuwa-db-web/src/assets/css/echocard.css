@@ -1,0 +1,69 @@
+.echo-card {
+  display: block;                
+  width: 100%;                    
+  box-sizing: border-box;
+  padding: 10px;
+  background: #2f3548;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+.echo-card:hover {
+  transform: scale(1.05);
+  border-color: rgba(255,255,255,.22);
+  box-shadow: 0 8px 24px rgba(0,0,0,.22);
+
+}
+
+
+.echo-media {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #222839;
+  display: grid;
+  place-items: center;
+}
+
+.echo-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;          
+}
+
+.echo-name {
+  margin-top: 8px;
+  font-weight: 700;
+  color: #e9ecf1;
+  line-height: 1.2;
+
+  min-height: 2.4em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+.echo-sets {
+  margin-top: 6px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.echo-sets img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #1c2130;
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .echo-card { transition: none; }
+}

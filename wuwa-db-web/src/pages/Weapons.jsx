@@ -12,9 +12,9 @@ function Weapons() {
     const [err, setErr] = useState(null);
 
 
-    // UI state for search and filters
+
     const [query, setQuery] = useState("");
-    const [rarity, setRarity] = useState("all");  // default set to all
+    const [rarity, setRarity] = useState("all");  
     const [type, setType] = useState("all");
 
     useEffect(function () {

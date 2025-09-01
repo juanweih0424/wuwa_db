@@ -68,8 +68,7 @@ function WeaponDetail() {
     const skillHTML = buildSkillHTML(weapon?.skill);
     const atk = calcAtk(weapon.stats.atk.base, weapon.stats.atk.max, level);
     const substat = calcSubstats(weapon.stats.substats.base, weapon.stats.substats.max, level);
-    const pct = (level - 1) / (maxLevel - 1);
-    const left = Math.min(100, Math.max(0, pct * 100)); // clamp
+
 
 return (
   <main className="weapon-detail">
