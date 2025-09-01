@@ -325,7 +325,7 @@
             "description": "Summon the Talons of Decree to attack nearby enemies, dealing 273.60% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus.",
             "cd": 20
         },
-        "echo_sets": [1014]
+        "echo_sets": [1014,1020]
     },
     {
         "id": 630,
@@ -622,7 +622,7 @@
             "description": "Transform into Rage Against the Statue to attack enemies, dealing 313.20% Spectro DMG. Hold the Echo Skill to maintain the Echo form and charge towards enemies, dealing 469.80% Spectro DMG.",
             "cd": 20
         },
-        "echo_sets": [1012, 1015]
+        "echo_sets": [1012, 1015, 1020]
     },
     {
         "id": 657,
@@ -633,7 +633,7 @@
             "description": "Transform into Hurriclaw and charge forward, dealing 156.60% Aero DMG upon hit plus 156.60% Aero DMG with a sweep attack. Hold the Echo Skill to continue charging forward. Use Echo Skill again while charging to perform a sweep attack.",
             "cd": 20
         },
-        "echo_sets": [1013, 1015]
+        "echo_sets": [1013, 1015, 1018]
     },
     {
         "id": 658,
@@ -1150,7 +1150,7 @@
             "description": "Summon a Golden Junrock that charges forward, dealing 129.60% Spectro DMG to enemies in its path.",
             "cd": 8
         },
-        "echo_sets": [1012, 1009]
+        "echo_sets": [1012, 1009,1020]
     },
     {
         "id": 705,
@@ -1161,7 +1161,7 @@
             "description": "Summon a Calcified Junrock that restores HP for nearby Resonators in the team by 2.52% of their Max HP, up to 5 times.",
             "cd": 15
         },
-        "echo_sets": [1013, 1010]
+        "echo_sets": [1013, 1010, 1018]
     },
     {
         "id": 706,
@@ -1305,6 +1305,93 @@
             "cd": 8
         },
         "echo_sets": [1014]
+    },
+    {
+        "id": 719,
+        "name": "The False Sovereign",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Transform into the False Sovereign and dash forward in a spinning strike, dealing 55.35% Electro DMG 4 times. The Resonator with this Echo equipped in the main slot gains 12.00% Electro DMG Bonus and 12.00% Heavy Attack DMG Bonus. Upon casting Intro Skill, the False Sovereign is also summoned to deal 405.00% Electro DMG. Start with 2 charges. Gain 1 charge every 8s, up to 2 charges.",
+            "cd": 8
+        },
+        "echo_sets": [1018]
+    },
+    {
+        "id": 720,
+        "name": "Lady of the Sea",
+        "cost": 4,
+        "class": "Overlord",
+        "skill": {
+            "description": "Summon a Tidestorm to deal 13.68% Aero DMG ten times and 164.16% Aero DMG one time to enemies. The Resonator with this Echo equipped in the main slot gains 12.00% Aero DMG Bonus and 12.00% Resonance Liberation DMG Bonus.",
+            "cd": 20
+        },
+        "echo_sets": [1018]
+    },
+    {
+        "id": 721,
+        "name": "Nightmare: Violet-Feathered Heron",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing 288.00% Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover 5 Concerto Energy. ",
+            "cd": 15
+        },
+        "echo_sets": [1018]
+    },
+    {
+        "id": 722,
+        "name": "Nightmare: Electro Predator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals 17.28% Electro DMG, and the last deals 46.08% Electro DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1018]
+    },
+    {
+        "id": 723,
+        "name": "Nightmare: Aero Predator",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing 28.80% Aero DMG each time it hits.",
+            "cd": 8
+        },
+        "echo_sets": [1018]
+    },
+    {
+        "id": 724,
+        "name": "Nightmare: Cyan-Feathered Heron",
+        "cost": 3,
+        "class": "Elite",
+        "skill": {
+            "description": "Transform into Cyan-Feathered Heron and charge at the enemies, dealing 236.80% Aero DMG; This Echo Skill interrupts enemy Special Skills upon dealing damage.",
+            "cd": 15
+        },
+        "echo_sets": [1020]
+    },
+    {
+        "id": 725,
+        "name": "Nightmare: Gulpuff",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Gulpuff that blows bubbles 5 times, each time dealing 23.04% Glacio DMG.",
+            "cd": 8
+        },
+        "echo_sets": [1020]
+    },
+    {
+        "id": 726,
+        "name": "Nightmare: Chirpuff",
+        "cost": 1,
+        "class": "Common",
+        "skill": {
+            "description": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward 3 times. Each blast inflicts 38.40% Aero DMG and pushes enemies backwards.",
+            "cd": 8
+        },
+        "echo_sets": [1020]
     }
-
 ]

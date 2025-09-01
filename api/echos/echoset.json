@@ -141,5 +141,26 @@
             "2pc": "Aero DMG + 10%.",
             "5pc": "Hitting a target with Aero Erosion increases Crit. Rate by 10% and grants 30% Aero DMG Bonus, lasting for 10s."
         }
+    },
+    {
+        "id": 1018,
+        "name": "Crown of Valor",
+        "effect": {
+            "3pc": "Upon gaining a Shield, increase the Resonator's ATK by 6% and Crit. DMG by 4% for 4s. This effect can be triggered once every 0.5s and stacks up to 5 times."
+        }
+    },
+    {
+        "id": 1019,
+        "name": "Crown of Valor",
+        "effect": {
+            "3pc": "Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s. Additionally, all Resonators in the team gain 4% Echo Skill DMG Bonus for 30s, stacking up to 4 times. At 4 stacks, casting Echo Skill again resets the duration of this effect. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect."
+        }
+    },
+    {
+        "id": 1020,
+        "name": "Law of Harmony",
+        "effect": {
+            "3pc": "Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s. Additionally, all Resonators in the team gain 4% Echo Skill DMG Bonus for 30s, stacking up to 4 times. At 4 stacks, casting Echo Skill again resets the duration of this effect. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect."
+        }
     }
 ]
