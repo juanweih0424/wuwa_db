@@ -325,7 +325,7 @@
             "description": "Summon the Talons of Decree to attack nearby enemies, dealing 273.60% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus.",
             "cd": 20
         },
-        "echo_sets": [1014,1020]
+        "echo_sets": [1014,1019]
     },
     {
         "id": 630,
@@ -622,7 +622,7 @@
             "description": "Transform into Rage Against the Statue to attack enemies, dealing 313.20% Spectro DMG. Hold the Echo Skill to maintain the Echo form and charge towards enemies, dealing 469.80% Spectro DMG.",
             "cd": 20
         },
-        "echo_sets": [1012, 1015, 1020]
+        "echo_sets": [1012, 1015, 1019]
     },
     {
         "id": 657,
@@ -1150,7 +1150,7 @@
             "description": "Summon a Golden Junrock that charges forward, dealing 129.60% Spectro DMG to enemies in its path.",
             "cd": 8
         },
-        "echo_sets": [1012, 1009,1020]
+        "echo_sets": [1012, 1009,1019]
     },
     {
         "id": 705,
@@ -1370,7 +1370,7 @@
             "description": "Transform into Cyan-Feathered Heron and charge at the enemies, dealing 236.80% Aero DMG; This Echo Skill interrupts enemy Special Skills upon dealing damage.",
             "cd": 15
         },
-        "echo_sets": [1020]
+        "echo_sets": [1019]
     },
     {
         "id": 725,
@@ -1381,7 +1381,7 @@
             "description": "Summon a Gulpuff that blows bubbles 5 times, each time dealing 23.04% Glacio DMG.",
             "cd": 8
         },
-        "echo_sets": [1020]
+        "echo_sets": [1019]
     },
     {
         "id": 726,
@@ -1392,6 +1392,6 @@
             "description": "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward 3 times. Each blast inflicts 38.40% Aero DMG and pushes enemies backwards.",
             "cd": 8
         },
-        "echo_sets": [1020]
+        "echo_sets": [1019]
     }
 ]
