@@ -23,7 +23,9 @@ def list_echoes():
         items = data["echo_by_echosets"].get(set_id, [])
 
     return jsonify([
-        {"id": e["id"], "name": e.get("name"), "cost": e.get("cost"), "class": e.get("class")}
+        {"id": e["id"], "name": e.get("name"), "cost": e.get("cost"), "class": e.get("class"), 
+         "skill": e.get("skill"),
+         "echo_sets": e.get("echo_sets")}
         for e in items
     ])
 
