@@ -150,7 +150,7 @@
         "description": "Transform into Lorelei and attack surrounding enemies, dealing 405.00% Havoc DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Basic Attack DMG Bonus.",
         "cd": 25
         },
-        "echo_set": [1011]
+        "echo_sets": [1011]
     },
     {
         "id": 614,
@@ -161,7 +161,7 @@
         "description": "Transform into Sentry Construct and attack enemies in front, dealing 405.00% Glacio DMG. Each time the Resonator with this Echo casts Resonance Liberation, it charges the Strike Capacitor. Once Strike Capacitor is at max level, the Echo Skill cooldown will be reset. Use Echo Skill to transform into Sentry Construct and dive into enemies from the air, dealing 405.00% Glacio DMG and freezing the target. The Resonator with this Echo equipped in their main slot gains 12.00% Glacio DMG Bonus and 12.00% Resonance Skill DMG Bonus.",
         "cd": 25
         },
-        "echo_set": [1009]
+        "echo_sets": [1009]
     },
     {
         "id": 615,
@@ -172,7 +172,7 @@
         "description": "Transform into Dragon of Dirge and summon a Grief Rift lasting for 5s. Periodically deal 36.81% Fusion DMG to enemies within the area of effect. The Resonator with this Echo equipped in the main slot gains 12.00% Fusion DMG Bonus and 12.00% Basic Attack DMG Bonus.",
         "cd": 25
         },
-        "echo_set": [1013]
+        "echo_sets": [1013]
     },
     {
         "id": 616,
@@ -183,7 +183,7 @@
         "description": "Summon 3 twirling Crescent Servants around you. Crescent Servants attack enemies with their spinning blades, dealing 45.59% Havoc DMG. Triggering a Counterattack with the Echo attacks resets the Crescent Servants' duration. The Resonator with this Echo equipped in the main slot has their Coordinated Attack DMG increased by 40.00%.",
         "cd": 20
         },
-        "echo_set": [1010]
+        "echo_sets": [1010]
     },
     {
         "id": 617,
@@ -193,7 +193,7 @@
         "skill": {
             "description": "Summon a Nightmare: Feilian Beringal to attack enemies, dealing 164.16% Aero DMG. The remaining Whirlwind Beam will continuously attack surrounding enemies up to 5 times, each dealing 21.89% Aero DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus."
         },
-        "echo_set": [1005]
+        "echo_sets": [1005]
     },
     {
         "id": 618,
@@ -204,7 +204,7 @@
             "description": "Transform into Nightmare: Impermanence Heron and deliver up to 10 consecutive strikes to surrounding enemies, each dealing 40.50% Havoc DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Heavy Attack DMG Bonus.",
             "cd": 25
         },
-        "echo_set": [1011]
+        "echo_sets": [1011]
     },
     {
         "id": 619,
@@ -226,7 +226,7 @@
             "description": "Transform into Nightmare: Tempest Mephis and attack surrounding enemies, dealing 405.00% Electro DMG. The Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus and 12.00% Resonance Skill DMG Bonus.",
             "cd": 25
         },
-        "echo_set": [1002, 1010]
+        "echo_sets": [1002, 1010]
     },
     {
         "id": 621,

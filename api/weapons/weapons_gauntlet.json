@@ -83,7 +83,7 @@
             { "rank": 2, "atk": 0.15, "def_ignore": 0.10, "frazzle_dmg": 0.625 },
             { "rank": 3, "atk": 0.18, "def_ignore": 0.12, "frazzle_dmg": 0.75 },
             { "rank": 4, "atk": 0.21, "def_ignore": 0.14, "frazzle_dmg": 0.875 },
-            { "rank": 5, "atk": 0.24, "def_ignore": 0.16, "frazzle_dmg": 1.00 }
+            { "rank": 5, "atk": 0.24, "def_ignore": 0.16, "frazzle_dmg": 1.000 }
             ]
         },
         "weapon_description": "It heralds justice, precise and inexorable as a clock's toll. All sins are cleansed in flame, dissipating like night beneath the dawn's gaze."
