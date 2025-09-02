@@ -1,0 +1,89 @@
+{
+  "id": 2,
+  "name": "Cartethyia",
+  "element": "Aero",
+  "rarity": 5,
+  "weapon_type": "sword",
+  "stats": {
+    "HP":  { "base": 1184, "max": 14800 },
+    "ATK": { "base": 25,   "max": 313   },
+    "DEF": { "base": 50,   "max": 611   },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Sword to Carve My Forms",
+      "details": {
+        "Basic Attack - Cartethyia": "Perform up to 4 consecutive attacks, dealing Aero DMG. Following Stage 4, inflict 1 stack of Aero Erosion on targets hit and summon Sword of Divinity's Shadow. Up to 1 Sword of Divinity's Shadow may exist at the same time, lasting for 20s.",
+        "Heavy Attack - Cartethyia": "Consume STA to attack the target, dealing Aero DMG and summoning Sword of Discord's Shadow. Can be performed in mid-air. Up to 1 Sword of Discord's Shadow may exist at the same time, lasting for 20s. This instance of DMG is considered Basic Attack DMG.",
+        "Mid-air Attack - Cartethyia": "Release Normal Attack while airborne to perform Plunging Attack at the cost of STA, dealing Aero DMG (also considered Aero Erosion DMG). Press Normal Attack shortly after the Plunging Attack to perform Basic Attack - Cartethyia Stage 2. Casting Mid-air Attack - Cartethyia recalls all Sword Shadows. Based on the type/number of Sword Shadows recalled, perform different forms of Plunging Attack and obtain the corresponding Heart of Virtue, Mandate of Divinity, and Power of Discord.",
+        "Dodge Counter - Cartethyia": "Press Normal Attack shortly after a successful Dodge to attack the target, dealing Aero DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Sword to Bear Their Names",
+      "details": {
+        "Resonance Skill - Cartethyia": "Attack the target, launch nearby enemies, then plunge them to the ground, dealing Aero DMG and inflicting 2 stacks of Aero Erosion on targets hit. This instance of DMG is considered Basic Attack DMG. Can be performed in mid-air. Following the skill, summon Sword of Virtue's Shadow. Up to 1 Sword of Virtue's Shadow may exist at the same time, lasting for 20s."
+      }
+    },
+    "resonance_liberation": {
+      "name": "A Knight's Heartfelt Prayers",
+      "details": {
+        "Resonance Liberation - A Knight's Heartfelt Prayers": "By reducing HP to 50% of Max HP, Cartethyia transforms into Fleurdelys, unlocking new moves and entering Manifest for 12s. Can be performed in mid-air. Entering Manifest clears all Conviction. As Fleurdelys, Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, and Resonance Skill - May Tempest Break the Tides instantly trigger 1 instance of Aero Erosion DMG and reduce the Aero Erosion stack on the target hit by 1. Ending the state will not clear Resonance Energy. No HP cost when HP is below 50%. Fleurdelys’s attacks restore Conviction on hit. When Conviction reaches 120, press Resonance Liberation to cast Resonance Liberation - Blade of Howling Squall. When Conviction is below 120, press Resonance Liberation to transform back into Cartethyia. When in Manifest, casting this skill as Cartethyia consumes no Resonance Energy.",
+        "Manifest — Heart of Virtue": "When Fleurdelys has Heart of Virtue: Basic Attack - Fleurdelys Stage 4 generates a force field to Stagnate the targets within range; Fleurdelys’s resistance to interruption increases. Heart of Virtue is removed when Manifest ends.",
+        "Manifest — Mandate of Divinity": "When Fleurdelys has Mandate of Divinity: Aero Erosion DMG is Amplified by 50% and the damage interval is decreased by 50% for enemies within a certain distance from Fleurdelys. Removed when Manifest ends.",
+        "Manifest — Power of Discord": "When Fleurdelys has Power of Discord: When casting Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, or after Resonance Skill - May Tempest Break the Tides deals damage, raise the Aero Erosion stacks on all nearby targets to the highest count among the targets. Removed when Manifest ends.",
+        "Avatar - Cartethyia": "As Fleurdelys, when Conviction is below 120, press Resonance Liberation to perform Basic Attack - Cartethyia Stage 2 and temporarily transform back to Cartethyia, pausing the Manifest timer. Can be cast in mid-air; casting in mid-air performs Mid-air Attack - Cartethyia.",
+        "Avatar - Fleurdelys": "When in Manifest, casting Resonance Liberation as Cartethyia performs Basic Attack - Fleurdelys Stage 2 without consuming Resonance Energy and transforms back to Fleurdelys, resuming the Manifest timer. Can be cast in mid-air; casting in mid-air performs Mid-air Attack - Fleurdelys Stage 1.",
+        "Resonance Liberation - Blade of Howling Squall": "When Fleurdelys has 120 Conviction, A Knight’s Heartfelt Prayers is replaced by Blade of Howling Squall. Casting it removes all Conviction, ends Manifest, restores 50% of Max HP, then deals Aero DMG in a line ahead. Upon hit, remove all stacks of Aero Erosion on the target; each stack removed Amplifies the DMG taken by the targets by 20%, up to 5 stacks. Can be cast in mid-air.",
+        "Notes": "Fleurdelys will transform back to Cartethyia during quest dialogues, environmental interactions, or using Utilities. Fleurdelys can walk on water (consumes STA on deep water) and can step out from high places to walk in mid-air by continuously consuming STA."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Tempest",
+    "details": {
+      "Overview": "Cartethyia unlocks new moves when she transforms into Fleurdelys.",
+      "Basic Attack - Fleurdelys": "Basic Attack - Cartethyia is replaced by Basic Attack - Fleurdelys. Perform up to 5 consecutive attacks, dealing Aero DMG and restoring Conviction on hit.",
+      "Mid-air Attack - Fleurdelys": "Mid-air Attack - Cartethyia is replaced by Mid-air Attack - Fleurdelys. Perform up to 3 consecutive attacks in the air at the cost of STA, dealing Aero DMG and restoring Conviction on hit. While airborne, hold Normal Attack to cast Stage 3, then follow up with Basic Attack shortly afterward to cast Stage 3 follow-up. Casting Resonance Skill - Sword to Answer Waves' Call or May Tempest Break the Tides resets the Mid-air cycle.",
+      "Heavy Attack - Fleurdelys": "Heavy Attack - Cartethyia is replaced by Heavy Attack - Fleurdelys. Thrust forward to deliver a focused strike, dealing Aero DMG and restoring Conviction on hit. This instance is considered Basic Attack DMG.",
+      "Enhanced Heavy Attack - Fleurdelys": "While casting Heavy Attack - Fleurdelys, press Normal Attack again to cast Enhanced Heavy Attack - Fleurdelys: fall back and blast the area in a straight line in front, dealing Aero DMG and restoring Conviction on hit (considered Basic Attack DMG). Follow up with Basic Attack shortly after to cast Upward Cut - Fleurdelys.",
+      "Upward Cut - Fleurdelys": "While on the ground, Jump to cast; deals Aero DMG and restores Conviction on hit.",
+      "Dodge Counter - Fleurdelys": "Dodge Counter - Cartethyia is replaced by Dodge Counter - Fleurdelys. Press Normal Attack shortly after a successful Dodge to attack, dealing Aero DMG and restoring Conviction on hit. Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 4.",
+      "Resonance Skill - Sword to Answer Waves' Call": "Resonance Skill - Cartethyia is replaced by Sword to Answer Waves' Call. Summon a force field near the target to continuously pull in nearby targets, dealing Aero DMG and restoring Conviction on hit. Can be cast in mid-air.",
+      "Resonance Skill - May Tempest Break the Tides": "Following Sword to Answer Waves' Call, press Resonance Skill again to call down a giant Sword Shadow, crushing an area around the target, creating a force field to pull in nearby targets, dealing Aero DMG to ground targets, and restoring Conviction on hit. Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 3. The skill enters cooldown if May Tempest Break the Tides is not cast within a certain time or when switching Resonators. Can be cast in mid-air."
+    }
+  },
+    "inherent_skill1": {
+        "name": "A Heart's Truest Wishes",
+        "description": "The healing received by all Resonators other than Cartethyia/Fleurdelys in the team is increased by 20% and their resistance to interruption is enhanced. If Rover: Aero is in the team, Rover: Aero additionally restores 25 Windstrings upon casting Omega Storm."
+    },
+    "inherent_skill2": {
+        "name": "Wind's Indelible Imprint",
+        "description": "Targets with 1 to 3 stacks of Aero Erosion take 30% more DMG from Cartethyia and Fleurdelys. Targets with more than 3 stacks of Aero Erosion additionally take 10% more DMG from Cartethyia and Fleurdelys for each stack of Aero Erosion they have, up to 3 stacks."
+    },
+    "minor_fortes": {
+        "crit_rate": 0.08,
+        "hp_percent": 0.12
+    },
+    "intro_skill": {
+    "name": "Sword to Mark Tide's Trace",
+    "description": "Cartethyia: Deal Aero DMG and inflict 2 stacks of Aero Erosion on targets hit. Summon Sword of Discord's Shadow (lasts 20s, up to 1). Press Normal Attack shortly after to perform Basic Attack - Cartethyia Stage 2. Fleurdelys: Thrust forward to impale the target, dealing Aero DMG and restoring Conviction. Press Normal Attack shortly after to cast Basic Attack - Fleurdelys Stage 2."
+    },
+    "outro_skill": {
+    "name": "Wind's Divine Blessing",
+    "description": "Aero DMG dealt by the active Resonator in the team other than Cartethyia/Fleurdelys to targets with Negative Statuses is Amplified by 17.5% for 20s."
+    },
+    "resonance_chain": {
+        "s1": "Gain Zeal that lasts for 10s when Cartethyia's or Fleurdelys's attacks directly damage and defeat targets inflicted with Aero Erosion. In Zeal, upon defeating enemies, the next move that directly damages targets raises the Aero Erosion stacks to the highest count among defeated targets (does not exceed current max). Zeal is removed afterward and enters a 1s cooldown. When Fleurdelys's Conviction hits 30/60/90/120, her Crit DMG is increased by 25% for 15s, up to 4 stacks. Effect does not reset on new stacks. After casting Resonance Liberation - Blade of Howling Squall, the increased Crit DMG is removed.",
+        "s2": "Casting Resonance Liberation - A Knight's Heartfelt Prayers increases the max stack limit of Aero Erosion on nearby targets by 3. The next attack that directly damages the target inflicts 3 stacks of Aero Erosion and immediately triggers Aero Erosion DMG without consuming stacks. Cartethyia's Basic Attack, Heavy Attack, Dodge Counter, and Intro Skill DMG Multipliers are increased by 50%, and her Mid-air Attack DMG Multiplier is increased by 200%. After casting Mid-air Attack - Cartethyia, every 1 type of Sword Shadow recalled reduces the cooldown of Resonance Skill - Cartethyia by 1s.",
+        "s3": "Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, and Resonance Skill - May Tempest Break the Tides now inflict 2 stacks of Aero Erosion. The DMG Multiplier of Resonance Skill - Blade of Howling Squall is increased by 100%.",
+        "s4": "After Resonators in the team inflict Havoc Bane, Fusion Burst, Spectro Frazzle, Electro Flare, Glacio Chafe, or Aero Erosion, all Resonators in the team gain 20% DMG Bonus for all Attributes for 20s.",
+        "s5": "When Cartethyia or Fleurdelys takes a fatal blow, they are not downed but instead gain a Shield equal to 20% of Cartethyia's Max HP for 10s. Can be triggered once every 10 min. The HP cost for casting Resonance Liberation - A Knight's Heartfelt Prayers is reduced to 25% of Max HP.",
+        "s6": "After casting Resonance Liberation - Blade of Howling Squall, raise the Aero Erosion stacks on the target to max. Blade of Howling Squall no longer removes Aero Erosion stacks. Within 30s after casting Intro Skill - Sword to Mark Tide's Trace, Intro Skill - Sword to Call for Freedom, Resonance Liberation - A Knight's Heartfelt Prayers, or Blade of Howling Squall, when any Resonator inflicts Aero Erosion on a target with max stacks, immediately trigger Aero Erosion DMG once. Those targets take 40% more DMG from Fleurdelys."
+    },
+  "echo_set": [1017],
+  "best_weapon": 205
+}
