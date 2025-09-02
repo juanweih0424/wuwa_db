@@ -4,6 +4,7 @@
   "element": "Fusion",
   "rarity": 5,
   "weapon_type": "sword",
+  "description": "Changli is a counselor serving the Jinzhou Magistrate, and former Secretary-General in the capital. Shrouded in flames, she's fated to burn brightly until her final embers. With her fiery determination and strategic mindset, she rises to power, always thinking ahead to reach her ultimate goal.",
   "stats": {
     "HP": { "base": 831, "max": 10388 },
     "ATK": { "base": 37, "max": 463 },

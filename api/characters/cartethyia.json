@@ -4,6 +4,7 @@
   "element": "Aero",
   "rarity": 5,
   "weapon_type": "sword",
+  "description": "Cartethyia, the wandering knight who travels across Rinascita. Formerly known as the Blessed Maiden, the vessel of Divinity, and the Queen of Gale and Tide, she went by the name Fleurdelys. Now, she is simply a free and unfettered wandering knight.",
   "stats": {
     "HP":  { "base": 1184, "max": 14800 },
     "ATK": { "base": 25,   "max": 313   },
