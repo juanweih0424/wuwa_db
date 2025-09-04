@@ -7,6 +7,7 @@ import Echoes from "./pages/Echoes.jsx"
 import Weapons from "./pages/Weapons.jsx"
 import WeaponDetail from "./pages/WeaponDetail.jsx";
 import EchoDetail from "./pages/EchoDetail.jsx";
+import CharacterDetail from "./pages/CharacterDetail.jsx";
 
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
                 <Route index element={<Home />} />
                 <Route path="home" element={<Navigate to="/" replace />} />
                 <Route path="/characters" element={<Characters/>} />
+                <Route path="/characters/:name" element={<CharacterDetail/>}/>
                 <Route path="/echoes" element={<Echoes/>} />
                 <Route path="/echoes/:slug" element={<EchoDetail />} />
                 <Route path="/weapons" element={<Weapons/>} />
