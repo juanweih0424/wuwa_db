@@ -1,0 +1,77 @@
+{
+    "id": 14,
+    "rarity": 5,
+    "weapon_type": "sword",
+    "element": "Fusion",
+    "name": "Brant",
+    "description":"Brant, the captain of Rinascita's Troupe of Fools, is a free spirit and romantic. Unpredictable and full of life, he is the beating heart of the troupe. On stage, he slips into countless roles, donning new masks to breathe life into every story. Yet beyond the spotlight, he is unwaveringly genuine, offering nothing but true sincerity to those around him.",
+    "stats": {
+        "HP":  { "base": 934,  "max": 11675 },
+        "ATK": { "base": 30,   "max": 375   },
+        "DEF": { "base": 107,  "max": 1308  },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 175
+    },
+    "active_skills": {
+        "basic_attack": {
+            "name": "Captain's Rhapsody",
+            "details": {
+                "Basic Attack": "Perform up to 4 consecutive attacks, dealing Fusion DMG.",
+                "Heavy Attack": "Consume STA to attack the target, dealing Fusion DMG.",
+                "Heavy Attack - Rhapsodic Riff": "Consume STA to attack the target, dealing Fusion DMG. After performing Basic Attack Stage 2 or Stage 4, hold Normal Attack to perform Heavy Attack - Rhapsodic Riff. After performing Mid-air Attack Stage 4, press Normal Attack to perform Heavy Attack - Rhapsodic Riff.",
+                "Mid-air Attack": "Perform up to 4 consecutive attacks, dealing Fusion DMG. Press Normal Attack following Mid-air Attack Stage 1 or 2 to swing to the target with Grapple. Brant attacks the target if he reaches them with the swing. Release while in action to flip backward after the attack hits; or hold Normal Attack to attack continuously and flip backward after the finishing move. Brant flips backward automatically after Mid-air Attack Stage 3. Press Normal Attack after each flip to perform the next stage of Mid-air Attack. Flip resets Mid-air Dodge attempts. • If Brant fails to reach the target with the Grapple swing of Mid-air Attack Stage 1, he instead performs a slash forward, dealing Fusion DMG. • If Brant reaches the target with the Grapple swing of Mid-air Attack Stage 1 or Stage 2 but fails to hit the target, he will drop down after a temporary suspension in mid-air.",
+                "Dodge Counter": "Press Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG."
+            }
+        },
+        "resonance_skill": {
+            "name": "Anchors Aweigh!",
+            "details": {
+                "Resonance Skill - Anchors Aweigh!": "Brant launches himself into the air and blasts all targets in an area, dealing Fusion DMG. While in mid-air, if Bravo is not full, Resonance Skill Anchors Aweigh! is replaced with Plunging Attack.",
+                "Plunging Attack": "Plunge at the target at the cost of STA, dealing Fusion DMG (considered Basic Attack DMG). If Brant fails to reach the target with the Grapple swing of Mid-air Attack Stage 1, he instead performs a slash forward. Afterward, Press Normal Attack to perform Plunging Attack. If Brant reaches the target with the Grapple swing of Mid-air Attack Stage 1 or 2 but the attack fails to hit the target, Press Normal Attack to perform Plunging Attack during the suspension."
+            }
+        },
+        "resonance_liberation": {
+            "name": "To the Horizon",
+            "details": {
+                "Resonance Liberation - To the Horizon": "Deal Fusion DMG to targets within the range and heal all nearby Resonators in the team before entering the Aflame state. Can be cast in mid-air.",
+                "Aflame": "The efficiency of gaining Bravo is increased by 100% when Normal Attack or Resonance Skill Anchors Aweigh! hits the target. Meanwhile, Forte Circuit Theatrical Moment is replaced by \"My\" Moment.",
+                "\"My\" Moment": "Brant gains additional ATK based on his Energy Regen: For every 1% of his Energy Regen over 150%, Brant gains additional 20 points of ATK, up to 2600."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "Ocean Odyssey",
+        "details": {
+            "Theatrical Moment": "Brant gains additional ATK based on his Energy Regen: For every 1% of his Energy Regen over 150%, Brant gains additional 12 points of ATK, up to 1560.",
+            "Waves of Acclaims": "Heal all nearby Resonators in the team when Bravo reaches 25, 50, 75, and 100. Returned from Ashes: When Bravo is full, replace Resonance Skill Anchor Aweigh! with Returned from Ashes. Consume all Bravo to perform Returned from Ashes, dealing Fusion DMG (considered Basic Attack DMG), and generate a shield. Casting this skill when in Aflame ends this state after Returned from Ashes ends.",
+            "Bravo": "Brant can hold up to 100 Bravo. Obtain Bravo when Normal Attacks hit the target. Obtain Bravo when Intro Skill hits the target. Obtain Bravo when Resonance Skill hits the target."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Voyager's Blaze",
+        "description": "Healing provided by Waves of Acclaims is increased by 20%."
+    },
+    "inherent_skill2": {
+        "name": "Trial by Fire and Tide",
+        "description": "Brant's resistance to interruption is increased during Mid-air Attacks and gains 15% Fusion DMG Bonus."
+    },
+    "intro_skill": {
+        "name": "Applaud for Me!",
+        "description": "Attack the target, dealing Fusion DMG, and gain Interlude Applause effect. Interlude Applause: The next Mid-air Attack begins at Stage 2. This effect ends when Brant lands early or is switched out."
+    },
+    "outro_skill": {
+        "name": "The Course is Set!",
+        "description": "Amplify the incoming Resonator's Fusion DMG by 20% and Resonance Skill DMG by 25% for 14s or until the Resonator is switched out."
+    },
+    "resonance_chain": {
+        "s1": "Returned from Ashes temporarily causes nearby targets to stagnate while casting. The stagnation effect is removed when Brant is switched off the field. After casting Intro Skill Applaud for Me! or each flip following Mid-air Attack, Brant's DMG dealt is increased by 20% for 5s, stacking up to 3 times.",
+        "s2": "Casting Mid-air Attack and Returned from Ashes increases Brant's Crit. Rate by 30%. Brant's Outro Skill The Course is Set! gains a new enhancement: When Resonance Skill cast by the incoming Resonator (or nearby Resonators who activate Brant's Outro Skill) hits a target within 20s after Brant's Outro Skill, Brant blasts the hit target, dealing Fusion DMG equal to 440% of Brant's ATK (considered Basic Attack DMG). This explosion can be triggered 1 time per second, up to 2 explosions in total. This effect remains active when Brant is switched off the field.",
+        "s3": "The DMG Multiplier of Returned from Ashes is increased by 42%.",
+        "s4": "The Shield obtained from Returned from Ashes is increased by 20%. Casting Returned from Ashes restores HP for all nearby Resonators in the team (6.60 HP for every 1% Energy Regen).",
+        "s5": "Dealing Basic Attack DMG gives Brant 15% Basic Attack DMG Bonus for 10s.",
+        "s6": "Mid-air Attack's DMG Multiplier is increased by 30%. Casting Returned from Ashes causes a secondary blast, dealing Fusion DMG equal to 30% of the DMG dealt by Returned from Ashes (considered Basic Attack DMG)."
+    },
+    "echo_set": [1013],
+    "best_weapon": 204
+}

@@ -11,7 +11,7 @@
         "DEF": { "base": 90,   "max": 1100  },
         "crit_rate": 0.05,
         "crit_dmg": 1.5,
-        "energy": 125
+        "energy": 175
     },
     "active_skills": {
     "basic_attack": {
