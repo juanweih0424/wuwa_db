@@ -36,7 +36,8 @@
             "Inner Stellarealm": "When a party member uses Intro Skill within the Outer Stellarealm, it evolves into the Inner Stellarealm. Within the effective range of the Inner Stellarealm, for every 0.2% of Shorekeeper's Energy Regen, all party members gain 0.01% bonus Crit. Rate, up to 12.5%. Inner Stellarealm has all the effects of the Outer Stellarealm.",
             "Supernal Stellarealm": "When a party member uses Intro Skill within the Inner Stellarealm, it evolves into the Supernal Stellarealm. Within the effective range of the Supernal Stellarealm, for every 0.1% of Shorekeeper's Energy Regen, all party members gain a 0.01% increase of Crit. DMG, up to 25%. Supernal Stellarealm has all the effects of the Inner Stellarealm. When Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. This effect takes place once each time a Supernal Stellarealm is generated."
             }
-        },
+        }
+    },
     "forte_circuit": {
         "name": "Astral Chord",
         "details": {
@@ -45,7 +46,6 @@
             "Transmutation": "When Shorekeeper has 5 segments of Empirical Data, casting Mid-air Attack will consume all segments to deal Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies. Quickly press the Normal Attack Button afterward to perform Basic Attack Stage 2.",
             "Empirical Data": "Shorekeeper can hold up to 5 segments of Empirical Data. • Obtain 1 segment of Empirical Data when Basic Attack Stage 1, 2, or 4 hits a target. • Obtain 2 segments of Empirical Data when Basic Attack Stage 3 hits a target. • Obtain 1 segment of Empirical Data when Mid-air Attack hits a target. • Obtain 1 segment of Empirical Data when Dodge Counter hits a target."
             }
-        }
     },
     "inherent_skill1": {
         "name": "Life Entwined",
