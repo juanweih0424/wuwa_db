@@ -1,0 +1,77 @@
+{
+  "id": 18,
+  "rarity": 5,
+  "weapon_type": "broadblade",
+  "element": "Aero",
+  "name": "Jiyan",
+  "description": "Jiyan, leader of the Midnight Rangers, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.",
+  "stats": {
+    "HP":  { "base": 839,  "max": 10488 },
+    "ATK": { "base": 35,   "max": 438   },
+    "DEF": { "base": 97,   "max": 1186  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Lone Lance",
+      "details": {
+        "Basic Attack": "Perform up to 5 consecutive thrusts, dealing Aero DMG.",
+        "Heavy Attack": "Consume STA to perform a powerful thrust, dealing Aero DMG.",
+        "Heavy Attack: Windborne Strike": "Hold Basic Attack during Heavy Attack to cast Windborne Strike after the Heavy Attack ends, dealing Aero DMG.",
+        "Heavy Attack: Abyssal Slash": "Release the Basic Attack during Heavy Attack to cast Abyssal Slash after the Heavy Attack ends, dealing Aero DMG.",
+        "Mid-air Attack": "Consume STA to perform a plunging attack from mid-air, dealing Aero DMG; follow up with Basic Attack to continue the sequence, dealing Aero DMG.",
+        "Mid-air Attack: Banner of Triumph": "After Windborne Strike or using Resonance Skill Windqueller in the air, perform an aerial attack dealing Aero DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to strike, dealing Aero DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Windqueller",
+      "details": {
+        "Windqueller": "Dash forward a certain distance, dealing Aero DMG. Can be cast in mid-air."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Emerald Storm: Prelude",
+      "details": {
+        "Prelude": "After release, enter Qingloong Mode (enhanced anti-interruption). Basic/Heavy/Dodge Counter are replaced with Heavy Attack: Lance of Qingloong.",
+        "Heavy Attack: Lance of Qingloong": "Perform up to 3 continuous lunges, dealing Aero DMG (considered Heavy Attack DMG)."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Qingloong at War",
+    "details": {
+      "Windqueller Enhancement": "If Jiyan has 30 or more Resolve when casting Windqueller, consume 30 Resolve to increase its DMG by 20%. In Qingloong Mode, Windqueller’s DMG is further increased by 20% and no longer consumes Resolve.",
+      "Emerald Storm: Finale": "When casting Emerald Storm: Prelude, if Jiyan has 30 or more Resolve, consume 30 Resolve to cast Emerald Storm: Finale, dealing Aero DMG (considered Heavy Attack DMG). Emerald Storm: Finale can be cast in mid-air at low altitude.",
+      "Resolve": "Max 60. Gain Resolve when Normal Attack Lone Lance hits a target or when Intro Skill Tactical Strike hits. If Jiyan does not hit a target within 15s, Resolve gradually decreases."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Heavenly Balance",
+    "description": "After casting Intro Skill Tactical Strike, ATK +10% for 15s."
+  },
+  "inherent_skill2": {
+    "name": "Tempest Taming",
+    "description": "When attacks hit a target, Crit. DMG +12% for 8s."
+  },
+  "intro_skill": {
+    "name": "Tactical Strike",
+    "description": "Stab the target from the air, dealing Aero DMG."
+  },
+  "outro_skill": {
+    "name": "Discipline",
+    "description": "When the next character’s Heavy Attack (or a nearby team’s character that activates an Outro Skill) hits the target, Jiyan summons Qingloong to launch a Coordinated Attack, dealing Aero DMG equal to 313.40% of Jiyan’s ATK. Lasts 8s, can trigger once every 1s, up to 2 times."
+  },
+  "resonance_chain": {
+    "s1": "Windqueller can be used 1 more time. When casting Windqueller, Resolve cost −15.",
+    "s2": "After casting Intro Skill Tactical Strike, gain 30 Resolve and ATK +28% for 15s (once every 15s).",
+    "s3": "When casting Windqueller, Emerald Storm: Prelude, Emerald Storm: Finale, or Intro Skill Tactical Strike, Crit. Rate +16% and Crit. DMG +32% for 8s.",
+    "s4": "When casting Emerald Storm: Prelude or Emerald Storm: Finale, Heavy Attack DMG Bonus of all team members +25% for 30s.",
+    "s5": "Outro Skill Discipline DMG Multiplier +120%. When Jiyan’s attacks hit a target, ATK +3% for 8s, stacking up to 15 times (instantly maxed after casting Intro Skill Tactical Strike).",
+    "s6": "Every Heavy Attack, Intro Skill Tactical Strike, or Windqueller grants 1 stack of Momentum (max 2). Emerald Storm: Finale consumes all Momentum; each stack consumed increases Finale’s DMG Multiplier by 120%."
+  },
+  "echo_set": [1005],
+  "best_weapon": 101
+}
