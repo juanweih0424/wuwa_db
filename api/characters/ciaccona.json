@@ -1,0 +1,78 @@
+{
+    "id": 11,
+    "rarity": 5,
+    "weapon_type": "pistol",
+    "element": "Aero",
+    "name": "Ciaccona",
+    "description": "A wandering bard from Rinascita, Ciaccona. She sings not only for the Divinity, but also for the common folk. She records stories along her journeys, turning them into songs that evoke laughter, emotion, and tears in both the storytellers and the audience.",
+    "stats": {
+        "HP": { "base": 979, "max": 12238 },
+        "ATK": { "base": 30, "max": 375 },
+        "DEF": { "base": 98, "max": 1198 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "Quadruple Time Steps",
+        "details": {
+            "Basic Attack": "Perform up to 4 consecutive attacks, dealing Aero DMG. Stage 4 inflicts 1 stack of Aero Erosion. If interrupted, resume attack cycle with dodge timing.",
+            "Solo Concert": "After Stage 4, triggers Solo Concert. Ensemble Sylphs may also trigger this. Grants 24% Aero DMG Bonus to all allies. Not stackable.",
+            "Ensemble Sylph": "Up to 2 can exist. Generated if Stage 4 or Solo Concert is interrupted. Sylphs finish Ciaccona's current attack and trigger Solo Concert.",
+            "Heavy Attack": "Consume STA to jump mid-air and deal Aero DMG.",
+            "Aimed Attack": "Press Aim to fire charged shots, dealing Aero DMG (considered Heavy Attack).",
+            "Mid-air Attack": "Consume STA for up to 2 attacks, dealing Aero DMG. Can follow up into Stage 4.",
+            "Dodge Counter": "Follow up Dodge with Basic Attack to strike and deal Aero DMG."
+        }
+        },
+        "resonance_skill": {
+        "name": "Harmonic Allegro",
+        "details": {
+            "Resonance Skill": "Move a distance, dealing Aero DMG and inflicting Aero Erosion. Press Normal Attack in time to cast Stage 2. Interrupting Basic Attack, Heavy, Mid-air, or Solo Concert with Resonance Skill generates an Ensemble Sylph. Can be cast in mid-air."
+        }
+        },
+        "resonance_liberation": {
+        "name": "Singer's Triple Cadenza",
+        "details": {
+            "Resonance Liberation": "Ciaccona and Sylphs perform an Improvised Symphonic Poem, dealing Aero DMG and entering Recital.",
+            "Recital": "Sound waves radiate periodically. Interact with green/yellow buttons to generate Symphonic Poem: Tonic of matching color and recover Concerto Energy. Ciaccona gains 50% DMG reduction and interruption resistance. Switching out does not end Recital.",
+            "Symphonic Poem: Green Tonic": "Deal Aero DMG to nearby targets and inflict Aero Erosion.",
+            "Symphonic Poem: Yellow Tonic": "Deal Aero DMG to nearby targets and inflict Spectro Frazzle."
+        }
+        }
+    },
+    "forte_circuit": {
+        "name": "Symphony of Wind and Verse",
+        "details": {
+        "Heavy Attack - Quadruple Downbeat": "When 3 Musical Essence are held, Heavy Attack is replaced with Quadruple Downbeat, consuming all Essence to fire Downbeat Notes, pulling in targets and inflicting Aero Erosion.",
+        "Musical Essence": "Ciaccona can hold up to 3. Gained from Basic Attack Stage 4 or Intro Skill."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Interlude Tune",
+        "description": "Casting Resonance Liberation grants Ciaccona a Shield equal to 100% Max HP for 4s. Switching out removes the Shield."
+    },
+    "inherent_skill2": {
+        "name": "Winds of Rinascita",
+        "description": "Increase Heavy Attack - Quadruple Downbeat’s DMG by 30%."
+    },
+    "intro_skill": {
+        "name": "Roaming with the Wind",
+        "description": "Attack the target, dealing Aero DMG and inflicting Aero Erosion. Can follow up with Basic Attack to cast Stage 3."
+    },
+    "outro_skill": {
+        "name": "Windcalling Tune",
+        "description": "Amplify Aero Erosion DMG dealt to targets near the active Resonator by 100% for 30s."
+    },
+    "resonance_chain": {
+        "s1": "Casting Resonance Skill grants immunity to interruption for 3s and increases ATK by 35% for 10s.",
+        "s2": "During Resonance Liberation, Resonators in the team gain 40% Aero DMG Bonus.",
+        "s3": "Basic Attack Stage 4 additionally grants 1 Musical Essence. Resonance Skill gains 1 more charge.",
+        "s4": "Ignores 45% DEF when dealing damage with Quadruple Downbeat or Resonance Liberation.",
+        "s5": "Gain 40% Resonance Liberation DMG Bonus. Damage taken by Resonators within range of Liberation is reduced by 30%.",
+        "s6": "When in Solo Concert, Ciaccona or Ensemble Sylph deals Aero DMG equal to 220% ATK to nearby targets (considered Resonance Liberation DMG)."
+    },
+    "echo_set": [1015],
+    "best_weapon": 302
+}
