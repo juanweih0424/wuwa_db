@@ -1,0 +1,73 @@
+{
+    "id": 15,
+    "rarity": 5,
+    "weapon_type": "gauntlet",
+    "element": "Havoc",
+    "name": "Roccia",
+    "description": "Assistant, prop master, and improv comedian, Roccia is always there to make sure the Troupe of Fools is at the ready. The Magic Box she carries appears to hold the world, or perhaps she had recreated a world inside the box.",
+    "stats": {
+        "HP":  { "base": 980,  "max": 12250 },
+        "ATK": { "base": 30,   "max": 375   },
+        "DEF": { "base": 98,   "max": 1198  },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+            "name": "Pero, Easy",
+            "details": {
+                "Basic Attack": "Perform up to 4 consecutive attacks, dealing Havoc DMG.",
+                "Heavy Attack": "Consume STA to attack, dealing Havoc DMG. Hitting a target with at least 100 Imagination sends Roccia into mid-air and activates Beyond Imagination. The longer the Basic Attack button is held, the more Imagination Roccia gains. Heavy Attack automatically casts when the button is released or Imagination reaches max.",
+                "Mid-air Attack": "Consume STA to perform a Plunging Attack, dealing Havoc DMG.",
+                "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
+            }
+        },
+        "resonance_skill": {
+            "name": "Acrobatic Trick",
+            "details": {
+                "Resonance Skill": "Roccia projects her creativity into reality, pulling in nearby targets and dealing Havoc DMG. She then launches into mid-air and activates the Beyond Imagination state."
+            }
+        },
+        "resonance_liberation": {
+            "name": "Commedia Improvviso!",
+            "details": {
+                "Resonance Liberation": "Roccia’s improvised comedy begins! Deal Havoc DMG to the target, considered Heavy Attack DMG. For every 0.1% of Roccia’s Crit Rate over 50%, this skill increases the ATK of all Resonators in the team by 1 point for 30s, up to 200 points."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "A Prop Master Prepares",
+        "details": {
+            "Beyond Imagination": "When Roccia is in Beyond Imagination with at least 100 Imagination, press the Basic Attack button to consume 100 Imagination to cast Basic Attack Real Fantasy. Roccia exits this state when airborne ends or when switched off field.",
+            "Basic Attack - Real Fantasy": "Perform up to 3 consecutive attacks, dealing Havoc DMG, considered Heavy Attack DMG. When Roccia lands after Stage 1 and Stage 2 attacks with over 100 Imagination, she launches into mid-air and activates Beyond Imagination.",
+            "Imagination": "Roccia can hold up to 300 Imagination. • Dealing DMG with Normal Attacks restores Imagination. • Hold Normal Attack to charge the next attack while restoring Imagination. • Casting Resonance Skill Acrobatic Trick restores 100 Imagination. • Casting Intro Skill Pero, Help restores 100 Imagination."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Immersive Performance",
+        "description": "Casting Resonance Skill or Heavy Attack increases Roccia's ATK by 20% for 12s."
+    },
+    "inherent_skill2": {
+        "name": "Super Attractive Magic Box",
+        "description": "After casting Outro Skill, the Utility of the incoming Resonator is replaced with Magic Box. Magic Box: • Upon use, pull nearby targets toward the Magic Box, dealing 100 points of Havoc DMG. This skill is considered Echo Skill that deals Utility DMG. • The Magic Box lasts for 14s or until the Resonator is switched out."
+    },
+    "intro_skill": {
+        "name": "Pero, Help",
+        "description": "Attack the target, dealing Havoc DMG. Use Basic Attack right after this to cast Basic Attack Stage 4."
+    },
+    "outro_skill": {
+        "name": "Applause, Please!",
+        "description": "The incoming Resonator has their Havoc DMG Amplified by 20% and Basic Attack DMG Amplified by 25% for 14s or until the Resonator is switched out."
+    },
+    "resonance_chain": {
+        "s1": "Casting Resonance Skill Acrobatic Trick grants 100 additional Imagination and 10 Concerto Energy. Immune to interruptions when casting Basic Attack Real Fantasy.",
+        "s2": "Casting Basic Attack Real Fantasy grants all Resonators in the team 10% Havoc DMG Bonus for 30s, stacking up to 3 times. Upon reaching max stacks, it grants an additional 10% Havoc DMG Bonus for 30s.",
+        "s3": "Casting Intro Skill Pero, Help increases Roccia’s Crit. Rate by 10% and Crit. DMG by 30% for 15s.",
+        "s4": "Casting Resonance Skill Acrobatic Trick increases Basic Attack Real Fantasy’s DMG Multiplier by 60% for 12s.",
+        "s5": "Increase Resonance Liberation Commedia Improvviso!'s DMG Multiplier by 20% and Heavy Attack's DMG Multiplier by 80%.",
+        "s6": "Casting Resonance Liberation Commedia Improvviso! grants the following for 12s: • Basic Attack Real Fantasy ignores 60% DEF. • Roccia lands after performing Basic Attack Real Fantasy Stage 3, activating Beyond Imagination and casting Basic Attack Reality Recreation (100% of Real Fantasy Stage 3 DMG, considered Heavy Attack DMG). Roccia is immune to interruptions while casting it. • Roccia lands after Reality Recreation, activating Beyond Imagination again. Reality Recreation is only available in Beyond Imagination state."
+    },
+    "echo_set": [1011],
+    "best_weapon": 402
+}

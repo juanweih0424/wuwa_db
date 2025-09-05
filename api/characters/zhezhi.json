@@ -1,0 +1,75 @@
+{
+    "id": 16,
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "element": "Glacio",
+    "name": "Zhezhi",
+    "description": "An artist for hire trying to make a living. Reserved and timid, she is not good with words but speaks volumes through her art, where her creations come to life with impossible authenticity.",
+    "stats": {
+        "HP": { "base": 980, "max": 12250 },
+        "ATK": { "base": 30, "max": 375 },
+        "DEF": { "base": 98, "max": 1198 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "Dimming Brush",
+        "details": {
+            "Basic Attack": "Perform up to 3 consecutive attacks, dealing Glacio DMG.",
+            "Heavy Attack": "Consume STA to perform an attack, dealing Glacio DMG. Heavy Attack does not reset the Basic Attack cycle.",
+            "Mid-air Attack": "Consume STA to perform up to 2 consecutive attacks while in mid-air, dealing Glacio DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+        }
+        },
+        "resonance_skill": {
+        "name": "Manifestation",
+        "details": {
+            "Resonance Skill - Manifestation": "Deal Glacio DMG. If Afflatus is no less than 60, consume 60 Afflatus to summon Phantasmic Imprint - Left and Phantasmic Imprint - Right. • Press the button on the ground to summon the Imprints on the ground. • Hold on the ground or press in mid-air to summon the Imprints in mid-air."
+        }
+        },
+        "resonance_liberation": {
+        "name": "Living Canvas",
+        "details": {
+            "Resonance Liberation - Living Canvas": "Summon InkLit Spirits for assistance (can be cast in mid-air). When the active Resonator deals DMG, for 3s after dealing DMG one InkLit Spirit is summoned per second (once per second). Up to 1 InkLit Spirit can be summoned every second, and up to 21 in total. Lasts for 30s or until max InkLit Spirits are summoned."
+        }
+        }
+    },
+    "forte_circuit": {
+        "name": "Ink and Wash",
+        "details": {
+        "Phantasmic Imprint": "May summon Phantasmic Imprints at the cost of Afflatus when casting Resonance Skill Manifestation or Heavy Attack Conjuration. Up to 1 of each Left, Middle, and Right can exist at the same time, each lasting for 15s.",
+        "Heavy Attack - Conjuration": "The following consume STA to attack, dealing Glacio DMG: • Hold Normal Attack shortly after Basic Attack Stage 3. • Press Normal Attack shortly after casting Resonance Skill Manifestation. • Hold Normal Attack shortly after casting Stroke of Genius or Creation’s Zenith. • Hold Normal Attack while in mid-air. • Hold Normal Attack after a successful Dodge. If Afflatus ≥ 30 when performing any of these, consume 30 Afflatus to summon a Phantasmic Imprint - Middle.",
+        "Resonance Skill - Stroke of Genius": "When a Phantasmic Imprint is nearby, Manifestation is replaced with Stroke of Genius (can be cast mid-air). Move to the Imprint, remove it, then summon an Ivory Herald to attack, dealing Glacio DMG (considered Basic Attack DMG) and refreshing mid-air Dodge attempts if the target Imprint is in mid-air. Gain 1 stack of Painter’s Delight, lasting 8s and stacking up to 2 times.",
+        "Resonance Skill - Creation's Zenith": "When a Phantasmic Imprint is nearby and there are 2 stacks of Painter’s Delight, Stroke of Genius is replaced with Creation’s Zenith (can be cast mid-air). Move to the Imprint, remove it, then summon a greater Ivory Herald to attack, dealing higher Glacio DMG (considered Basic Attack DMG) and increasing Basic Attack DMG Bonus by 18% for 27s. Refresh mid-air Dodge attempts if the target Imprint is in mid-air.",
+        "Afflatus": "Zhezhi can hold up to 90 Afflatus. Normal Attacks grant Afflatus on hit. Casting Intro Skill grants Afflatus."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Calligrapher's Touch",
+        "description": "When casting Resonance Skill Stroke of Genius or Resonance Skill Creation’s Zenith, ATK is increased by 6% for 27s, stacking up to 3 times."
+    },
+    "inherent_skill2": {
+        "name": "Flourish",
+        "description": "After Outro Skill is cast, restore 15 Resonance Energy for the incoming Resonator."
+    },
+    "intro_skill": {
+        "name": "Radiant Ruin",
+        "description": "Attack the target, dealing Glacio DMG."
+    },
+    "outro_skill": {
+        "name": "Carve and Draw",
+        "description": "The incoming Resonator has their Glacio DMG Amplified by 20% and Resonance Skill DMG Amplified by 25% for 14s or until they are switched out."
+    },
+    "resonance_chain": {
+        "s1": "When casting Creation’s Zenith, restore 15 Resonance Energy and increase Crit. Rate by 10% for 27s.",
+        "s2": "Max InkLit Spirits summoned by Resonance Liberation Living Canvas increases by 6.",
+        "s3": "When Manifestation, Stroke of Genius, or Creation’s Zenith is cast, ATK increases by 15%, stacking up to 3 times for 27s.",
+        "s4": "When Resonance Liberation Living Canvas is cast, ATK of all Resonators on the team increases by 20% for 30s.",
+        "s5": "For every 3 InkLit Spirits summoned by Living Canvas, summon 1 extra InkLit Spirit to perform a Coordinated Attack, dealing DMG equal to 140% of an InkLit Spirit’s DMG, considered Basic Attack DMG (this extra hit does not further summon Spirits).",
+        "s6": "When Stroke of Genius or Creation’s Zenith is cast, an extra Ivory Herald is summoned to deal DMG equal to 120% of Stroke of Genius’s DMG, considered Basic Attack DMG."
+    },
+    "echo_set": [1001],
+    "best_weapon": 502
+}
