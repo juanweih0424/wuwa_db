@@ -1,0 +1,85 @@
+{
+    "id": 8,
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "element": "Havoc",
+    "name": "Phrolova",
+    "description": "Phrolova, a Fractsidus Overseer walking the fine line between life and death, an uncanny, deadly conductor. A silent wave of her baton is enough to attune the very frequencies of being and conduct the symphonies of "souls." The music of hers can sculpt a better world or, just as easily, summon a legion to wreak havoc.",
+    "stats": {
+        "HP": { "base": 862, "max": 10775 },
+        "ATK": { "base": 35, "max": 438 },
+        "DEF": { "base": 93, "max": 1137 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "Movement of Life and Death",
+        "details": {
+            "Basic Attack": "Perform up to 3 consecutive attacks, dealing Havoc DMG. Performing Stage 3 enters Reincarnate state.",
+            "Heavy Attack": "Consume STA to attack the target, dealing Havoc DMG. Follow up with Normal Attack to cast Basic Attack Stage 2.",
+            "Scarlet Coda": "Every 25s, Phrolova can enter Compose state. When she has 6 Volatile Notes, is in Compose, and not in Resolving Chord, Heavy Attack is replaced with Scarlet Coda. Scarlet Coda consumes STA to deal Havoc DMG, pulling nearby targets. This counts as Resonance Skill DMG and Echo Skill. Each stack of Aftersound increases Scarlet Coda’s DMG Multiplier. Casting ends Compose and activates Resolving Chord.",
+            "Mid-air Attack": "Consume STA to perform a Plunging Attack, dealing Havoc DMG.",
+            "Dodge Counter": "Press Normal Attack after a successful Dodge to attack the target, dealing Havoc DMG. Follow-up with Normal Attack to cast Stage 3."
+            }
+        },
+        "resonance_skill": {
+            "name": "Whispers in a Fleeting Dream",
+            "details": {
+            "Resonance Skill": "Attack the target and deal Havoc DMG. Casting this skill sends Phrolova into Reincarnate."
+            }
+        },
+        "resonance_liberation": {
+            "name": "Waltz of Forsaken Depths",
+            "details": {
+                "Waltz of Forsaken Depths": "Phrolova’s max Resonance Energy is 0 and this skill does not consume Resonance Energy. When in Resolving Chord, Waltz becomes available. Casting ends Resolving Chord and enters Maestro for 24s, gaining a large ATK increase and causing Volatile Notes to be played every 4s.",
+                "Maestro": "Phrolova floats and commands Hecate. Hecate shares Phrolova’s stats and her damage is considered coming from Phrolova. Hecate’s attacks do not remove Hazy Dream state.",
+                "Cues (when Phrolova is active)": "Cue — Basic Attack: Press Normal Attack to command Hecate to cast Basic Attack – Hecate. For every 2 Basic Attack – Hecate casts, the next one is Enhanced Attack – Hecate. • Cue — Dodge: Press Dodge to command Hecate to dodge; Hecate takes no damage if a hit is successfully dodged. Cue — Reset: Press Jump to reset Hecate’s position. Cue — Curtain Call: Press Resonance Liberation to command Hecate to cast Curtain Call and end Maestro.",
+                "Hecate (when Phrolova is not active)": "Hecate takes no damage and automatically casts Basic Attack – Hecate to attack the target. When Resonators in the team cast Echo Skill, Hecate casts Enhanced Attack – Hecate to attack; this can trigger up to 10 times during one Maestro.",
+                "End of Maestro": "Switching back to Phrolova ends Maestro. Ending Maestro removes all Volatile Notes.",
+                "Basic Attack — Hecate": "Perform up to 2 consecutive attacks, dealing Havoc DMG (considered Echo Skill DMG).",
+                "Enhanced Attack — Hecate: Strings": "Casts Enhanced Attack — Hecate: Strings when Volatile Note – Strings is played, dealing Havoc DMG and Stagnating targets (considered Echo Skill DMG).",
+                "Enhanced Attack — Hecate: Winds": "Casts Enhanced Attack — Hecate: Winds when Volatile Note – Winds is played, dealing Havoc DMG and pulling targets in (considered Echo Skill DMG).",
+                "Enhanced Attack — Hecate: Cadena": "Casts Enhanced Attack — Hecate: Cadena when Volatile Note – Cadena is played, dealing Havoc DMG and Stagnating + pulling targets in (considered Echo Skill DMG).",
+                "Curtain Call": "Deals Havoc DMG, Stagnates and pulls targets, and consumes all Volatile Notes. Casting Curtain Call ends Maestro and the Resolving Chord state.",
+                "Curtain Call — Triggers": "Can be cast in the following cases: • Press Resonance Liberation while Phrolova is active during Maestro. • While in Maestro and Phrolova is on the field, switching to another Resonator into their Intro Skill. • When Phrolova is not the active Resonator and Maestro ends, switch back into Maestro without casting Intro Skill. • While in Maestro state, press Resonance Liberation. • When in Resolving Chord, cast Resonance Liberation."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "Rhapsody of a New World",
+        "details": {
+        "Basic Attack - Movement of Fate and Finality": "When in Reincarnate, press Normal Attack on the ground to cast this skill, Stagnating the target and dealing Havoc DMG (considered Resonance Skill DMG), then ending Reincarnate.",
+        "Resonance Skill - Murmurs in a Haunting Dream": "When in Reincarnate, press Resonance Skill on the ground to cast Murmurs in a Haunting Dream, dealing Havoc DMG (considered Resonance Skill DMG) and ending Reincarnate.",
+        "Aftersound": "Hold up to 24 stacks. When Phrolova is not the active Resonator, casting Enhanced Attack – Hecate (Strings/Winds/Cadenza) grants 1 stack. Out of combat, all stacks of Aftersound are removed every 30s.",
+        "Volatile Note": "Hold up to 6 Volatile Notes. When at max, gaining a new Note moves all Notes left, removing the leftmost Note (Strings or Winds). Triggers: hitting a target with Basic Attack Stage 3 or Movement of Fate and Finality grants 1 Volatile Note – Strings; hitting with Whispers in a Fleeting Dream or Murmurs in a Haunting Dream grants 1 Volatile Note – Winds. When Inherent Skill – Accidental is active, casting Suite of Quietus, Suite of Immortality, or Echo Skill grants 1 Volatile Note – Cadenza. Phrolova cannot obtain Volatile Notes during Resolving Chord."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Accidental",
+        "description": "Casting Echo Skill grants increased resistance to interruption and reduces damage taken by 30% for 15s. After casting Suite of Quietus, Suite of Immortality, and Echo Skill, the next Volatile Note becomes Volatile Note – Cadenza."
+    },
+    "inherent_skill2": {
+        "name": "Octet",
+        "description": "Obtain 10 stacks of Aftersound upon entering battle (cannot trigger again within 4s after exiting combat). For every 1 stack of Aftersound, Crit. DMG is increased by 2.5%. When Aftersound reaches the max, each new stack increases Crit. DMG by 1%, up to 100%. The increased Crit. DMG is removed when Aftersound stacks are cleared."
+    },
+    "intro_skill": {
+        "name": "Suite of Quietus",
+        "description": "Attack the target, dealing Havoc DMG. In Maestro, the next Suite of Quietus is replaced with Suite of Immortality (replacement is cancelled if Curtain Call is cast while in Maestro). Suite of Immortality deals Havoc DMG (considered Resonance Skill DMG) and Stagnates the target. Press Normal Attack shortly after casting to perform Basic Attack Stage 3."
+    },
+    "outro_skill": {
+        "name": "Unfinished Piece",
+        "description": "The incoming Resonator gains 20% Havoc DMG Amplification and 25% Heavy Attack DMG Amplification for 14s or until they are switched out. If Phrolova is in Maestro when she casts this, Hecate also casts Enhanced Attack – Hecate 2 times when Phrolova is switched off the field during the same Maestro."
+    },
+    "resonance_chain": {
+        "s1": "Increase the DMG Multiplier of Movement of Fate and Finality by 80% and Murmurs in a Haunting Dream by 80%. If Phrolova has fewer than 2 Volatile Notes while not in Maestro and stays out of combat for 4s, she gains Volatile Note – Cadenza until she has at least 2 Volatile Notes.",
+        "s2": "Increase the DMG Multiplier of Scarlet Coda by 75%. Aftersound additionally increases Scarlet Coda’s DMG Multiplier by 75%. Casting Scarlet Coda grants 14 stacks of Aftersound.",
+        "s3": "Echo Skill DMG is Amplified by 80%. Casting Scarlet Coda converts all Volatile Notes to Volatile Notes – Cadenza in turn. Targets hit by Enhanced Attack – Hecate: Cadenza have their ATK reduced by 20% for 15s.",
+        "s4": "Casting Echo Skill grants all Resonators 20% Attribute DMG Bonus for 30s.",
+        "s5": "Upon entering Maestro, generate a field that Stagnates nearby targets for 4s. Leaving Maestro or switching Resonators removes the Stagnation early. Damage taken during Maestro is reduced by 30%.",
+        "s6": "Increase the DMG Multiplier of Enhanced Attack – Hecate by 24%. During Movement of Fate and Finality and Murmurs in a Haunting Dream, command Hecate to cast 1 Apparition of Beyond – Hecate, dealing Havoc DMG (considered Echo Skill DMG) and granting 8 stacks of Aftersound on hit. If Phrolova is not the active Resonator during Maestro, targets take 40% more DMG from Hecate and Phrolova; if she is active, gain 60% Havoc DMG Bonus."
+    },
+    "echo_set": [1014],
+    "best_weapon":506
+}
