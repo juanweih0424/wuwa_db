@@ -1,0 +1,85 @@
+{
+    "id": 10,
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "element": "Fusion",
+    "name": "Lupa",
+    "description": "A Gladiator of Septimont, a radiant star of the arena. Fiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole.",
+    "stats": {
+        "HP": { "base": 953, "max": 11913 },
+        "ATK": { "base": 31, "max": 388 },
+        "DEF": { "base": 97, "max": 1186 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "Flaming Star",
+        "details": {
+            "Basic Attack": "Perform up to 4 consecutive attacks, dealing Fusion DMG.",
+            "Heavy Attack": "Consume STA to attack the target, dealing Fusion DMG.",
+            "Heavy Attack - Wolf's Gnawing": "When Wolflame reaches 50 points, Heavy Attack is replaced by Wolf's Gnawing, consuming STA to attack the target and dealing Fusion DMG. Does not restore Wolflame. Consumes 50 points of Wolflame and grants 1 point of Wolfaith.",
+            "Heavy Attack - Wolf's Claw": "When Wolflame reaches 50 points and Wolfaith reaches 1 point, Heavy Attack is replaced by Wolf's Claw, consuming STA to attack the target and dealing Fusion DMG. Consumes 50 points of Wolflame and grants 1 point of Wolfaith. Can also trigger after Mid-air Attack – Firestrike or Heavy Attack – Wolf's Gnawing by pressing Normal Attack in time.",
+            "Mid-air Attack": "Consume STA to perform up to 3 attacks in mid-air, dealing Fusion DMG. The cycle will not reset.",
+            "Mid-air Attack - Firestrike": "When Wolflame reaches 50 points, Mid-air Attack Stage 3 is replaced by Firestrike, consuming STA to attack the target and dealing Fusion DMG (considered Heavy Attack DMG). Consumes 50 points of Wolflame and grants 1 point of Wolfaith.",
+            "Plunging Attack": "Hold Normal Attack while airborne to perform a Plunging Attack at the cost of STA, dealing Fusion DMG. After, press Normal Attack in time to perform Basic Attack Starfall.",
+            "Basic Attack - Starfall": "Attack the target, dealing Fusion DMG.",
+            "Dodge Counter": "Press Normal Attack after a successful Dodge to counterattack, dealing Fusion DMG."
+            }
+        },
+        "resonance_skill": {
+        "name": "Shewolf's Hunt",
+        "details": {
+            "Shewolf's Hunt": "Hurl Wildfire Banner at the target, dealing Fusion DMG and restoring 15 Wolflame. Mark the target for 8s. After performing this skill, Lupa can perform Feral Fang within a certain period.",
+            "Resonance Skill - Feral Fang": "Lupa locks onto a target, dealing Fusion DMG and restoring 15 Wolflame. DMG Multiplier to marked targets is increased by 50%. Enters cooldown if not cast in time or if Lupa is switched out."
+            }
+        },
+        "resonance_liberation": {
+        "name": "Fire-Kissed Glory",
+        "details": {
+            "Fire-Kissed Glory": "Attack the target and deal Fusion DMG. Consumes 100 Wolflame and all Wolfaith. Can be used to chain into Resonance Skill Foebreaker. Can be cast mid-air.",
+            "Pack Hunt": "All Resonators gain Pack Hunt for 35s: +6% ATK, +10% Fusion DMG against Overlord/Calamity targets. If there are 3 Fusion Resonators, Fusion DMG Bonus increases by 10%. Casting Intro Skill enhances Pack Hunt, granting an additional +6% ATK to the team (max 18%).",
+            "Resonance Skill - Foebreaker": "Consume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burning Matchpoint.",
+            "Burning Matchpoint": "Normal Attacks restore 500% more Wolflame on hit. Cannot perform Shewolf's Hunt or Feral Fang in this state."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "Ignis Lupa",
+        "details": {
+        "Wildfire Banner": "Lupa’s ATK is increased by 12% for 8s when performing: Resonance Skill Feral Fang, Heavy Attack - Wolf’s Gnawing / Wolf’s Claw / Mid-air Attack - Firestrike, Resonance Liberation Fire-Kissed Glory, or Dance With the Wolf / Dance With the Wolf: Climax.",
+        "Resonance Skill - Dance With the Wolf": "When Wolffaith reaches 2 points, Resonance Skill is replaced with Dance With the Wolf. Consumes all Wolffaith to deal Fusion DMG (considered Resonance Liberation DMG). Can be used in mid-air near ground.",
+        "Resonance Skill - Dance With the Wolf: Climax": "When Wolffaith reaches 2 points in Burning Matchpoint, Resonance Skill becomes Dance With the Wolf: Climax. Consumes all Wolffaith, deals Fusion DMG (considered Resonance Liberation DMG), and ends Burning Matchpoint.",
+        "Resonance Skill - Set the Arena Ablaze": "Within 8s after casting Dance With the Wolf / Climax, Lupa stays on the field after switching out and backs up the active Resonator during Resonance Liberation, dealing Fusion DMG (considered Resonance Skill DMG). Can trigger once during its duration.",
+        "Wolflame": "Hold up to 100. Restores when Normal Attacks hit, during Resonance Skill, or Resonance Liberation.",
+        "Wolffaith": "Hold up to 2. Lasts 10s, duration resets when restored. Each remaining point at expiration converts to 50 Wolflame. Restore 1 Wolffaith when casting Heavy Attack - Wolf’s Gnawing / Wolf’s Claw / Firestrike."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Remember My Name",
+        "description": "After dashing for 2.5s, Lupa enters Sprint. Next Basic Attack is replaced with Basic Attack - Starfall. Gain increased interruption resistance while casting Wolf’s Gnawing, Wolf’s Claw, and Firestrike."
+    },
+    "inherent_skill2": {
+        "name": "Applause of Victory",
+        "description": "Defeating a marked target resets Shewolf’s Hunt cooldown. Resonance Liberation - Glory: Casting Fire-Kissed Glory grants Glory for 35s. Attacks ignore 3% Fusion RES (up to 9%). With 3 Fusion Resonators, ignore +6% Fusion RES."
+    },
+    "intro_skill": {
+        "name": "Try Focusing, Eh?",
+        "description": "Attack the target, dealing Fusion DMG. Press Normal Attack after casting to chain into Mid-air Attack Stage 3. When Lupa enters Wild Hunt, Intro becomes Nowhere to Run!, removing Pack Hunt and Glory, dealing Fusion DMG (considered Resonance Liberation DMG)."
+    },
+    "outro_skill": {
+        "name": "Stand by Me, Warrior",
+        "description": "Incoming Resonator gains 20% Fusion DMG Amp and 25% Basic Attack DMG Amp for 14s or until switched out."
+    },
+    "resonance_chain": {
+        "s1": "Casting Fire-Kissed Glory recovers 10 Concerto Energy, increases Crit. Rate by 20% for 10s, and grants immunity when casting Dance With the Wolf: Climax.",
+        "s2": "Performing Fire-Kissed Glory, Wolf’s Gnawing / Wolf’s Claw / Firestrike grants all Resonators 20% Fusion DMG Bonus for 30s (stacks 2 times).",
+        "s3": "Increases Nowhere to Run! DMG by 100%. Pack Hunt no longer requires 3 Fusion Resonators. Glory effect modified: Fire-Kissed Glory additionally grants Glory, causing Resonators to ignore 15% Fusion RES for 35s.",
+        "s4": "Increases Dance With the Wolf: Climax DMG by 125%.",
+        "s5": "Casting Try Focusing, Eh? or Nowhere to Run! grants 15% Resonance Liberation DMG Bonus for 10s.",
+        "s6": "Dance With the Wolf: Climax, Fire-Kissed Glory, and Nowhere to Run! ignore 30% DEF. Feral Fang restores 100 Wolflame on hit (1 per 20s). Dance With the Wolf becomes usable outside Burning Matchpoint. Casting Nowhere to Run! no longer ends Pack Hunt or Glory."
+    },
+    "best_weapon":103,
+    "echo_set": [1016]
+}
