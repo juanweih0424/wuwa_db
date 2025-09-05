@@ -1,0 +1,72 @@
+{
+   "id": 13,
+    "rarity": 5,
+    "weapon_type": "gauntlet",
+    "element": "Spectro",
+    "name": "Zani",
+    "description": "A member of Averardo Vault's security team and holder of Best Employee for longer than she cares to count. She has made plenty of plans for her free time, but for now, her biggest mission is simple: clocking out on time.",
+    "active_skills": {
+        "basic_attack": {
+        "name": "Routine Negotiation",
+        "details": {
+            "Basic Attack": "Perform up to 4 consecutive attacks to deal Spectro DMG. After Basic Attack Stage 3, press Normal Attack at the right time to cast Basic Attack Breakthrough, which can be followed by Stage 4 by pressing Normal Attack again. Stage 4 can also be triggered by dodging after Stage 3 and pressing Normal Attack within a short time.",
+            "Heavy Attack": "Consume STA to attack the target, dealing Spectro DMG. Press Normal Attack within a short time to cast Basic Attack Stage 3.",
+            "Mid-air Attack": "Consume STA to perform a plunging attack, dealing Spectro DMG. Press Normal Attack within a short time to cast Basic Attack Stage 3.",
+            "Dodge Counter": "After a successful Dodge, quickly use Basic Attack to attack the target, dealing Spectro DMG. Then press Normal Attack at the right time to cast Basic Attack Breakthrough. If Breakthrough is not followed by Basic Attack Stage 4, press Normal Attack on the ground within a short time to cast Stage 4."
+        }
+        },
+        "resonance_skill": {
+        "name": "Restless Watch",
+        "details": {
+            "Standard Defense Protocol": "Attack the target to deal Spectro DMG and enter a block stance (ends early if Zani is switched off-field). Press Normal Attack within a short time to perform Basic Attack Stage 3, recovering 10 Redundant Energy and Stagnating the target on hit.",
+            "Pinpoint Strike (block success)": "When attacked while in the block stance, reduce this instance of DMG by 100% and Stagnate nearby targets, then cast Pinpoint Strike, dealing Spectro DMG and further reducing their Vibration Strength by 5%. Zani takes 30% less DMG for the next 2s.",
+            "Crisis Response Protocol": "When Zani is not in Inferno Mode and has full Redundant Energy, her Resonance Skill becomes Crisis Response Protocol. Hold Skill to enter Ready Stance (immune to interruption; ends early if switched off). On release or when duration ends, consume all Redundant Energy to cast Targeted Action, dealing Spectro DMG.",
+            "Forcible Riposte (hit while ready)": "When attacked in Ready Stance, reduce that instance of DMG by 100% and consume all Redundant Energy to cast Forcible Riposte, dealing Spectro DMG, Stagnating the target, and further reducing their Vibration Strength by 5%. Zani takes 30% less DMG for the next 2s.",
+            "Heliacal Ember & Sunburst": "Casting Targeted Action or Forcible Riposte inflicts a stack of Helical Ember on hit and recovers Blaze before entering Sunburst mode. While in Sunburst, Spectro Frazzle DMG dealt by Zani to the target is Amplified by 20%."
+        }
+        },
+        "resonance_liberation": {
+        "name": "Between Dawn and Dusk",
+        "details": {
+            "Rekindle": "Deal Spectro DMG and enter Inferno Mode, increasing Max Blaze from 100 to 150 and granting 50 Blazes. While in Inferno Mode, the DMG Multiplier of Basic Attack is increased.",
+            "The Last Stand": "When in Inferno Mode, The Last Stand becomes available when Blaze is lower than 30 or after 8s in Inferno Mode. Casting it deals Spectro DMG and ends Inferno Mode."
+        }
+        }
+    },
+    "forte_circuit": {
+        "name": "There Will Be A Light",
+        "details": {
+        "Heliacal Ember": "When Zani is in the team and a nearby Resonator inflicts Spectro Frazzle on a target, immediately consume all Spectro Frazzle stacks to trigger the corresponding DMG, then convert the stacks into an equal number of Heliacal Embers. Each conversion grants Blaze based on the stacks consumed. Heliacal Ember is capped at 60 stacks (6s each), and its stacks are also counted toward the Spectro Frazzle stacks for Eternal Radiance Sonata.",
+        "Scorching Light": "In Inferno Mode, Heavy Slash - Daybreak, - Dawning, - Nightfall, and - Lightsmash become available, dealing Spectro DMG considered both Heavy Attack DMG and Spectro Frazzle DMG. Entering Ready Stance reduces a timed instance of DMG by 100% and Stagnates nearby targets before performing Heavy Slash - Lightsmash; after Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall (consumes up to 40 Blazes, gaining extra DMG per Blaze). Numerous conditional rules replace Basic Attack with Daybreak or Dawning based on Blaze thresholds (>30) and will consume Blazes.",
+        "Redundant Energy": "Max 100. Gained when Normal Attacks, Intro Skill Immediate Execution, Resonance Skill Standard Defense Protocol, or Pinpoint Strike hit a target. Cannot be obtained in Inferno Mode.",
+        "Blaze": "Max 100 (150 in Inferno Mode). Casting Targeted Action or Forcible Riposte grants Blazes. Every Heliacal Ember stack converted from Spectro Frazzle grants 5 Blazes. Casting Rekindle grants 50 Blazes."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Quick Response",
+        "description": "Casting Intro Skill Immediate Execution grants 12% Spectro DMG Bonus for 14s."
+    },
+    "inherent_skill2": {
+        "name": "Fear No Pain",
+        "description": "When in Ready Stance, all DMG taken is reduced by 40%."
+    },
+    "intro_skill": {
+        "name": "Immediate Execution",
+        "description": "Attack the target, dealing Spectro DMG."
+    },
+    "outro_skill": {
+        "name": "Beacon For the Future",
+        "description": "Attack the target, dealing Spectro DMG equal to 150% of Zani's ATK and removing all stacks of Heliacal Ember on the target. Each stack increases DMG dealt by 10% (considered Spectro Frazzle DMG). Spectro DMG dealt by other Resonators to that target is Amplified by 20% for 20s."
+    },
+    "resonance_chain": {
+        "s1": "Casting Targeted Action or Forcible Riposte grants 50% Spectro DMG Bonus for 14s. Immune to interruptions while casting Resonance Skill Heavy Slash - Nightfall.",
+        "s2": "Crit. Rate +20%. DMG Multiplier of Targeted Action and Forcible Riposte +80%.",
+        "s3": "In Inferno Mode, every 1 Blaze consumed increases the DMG Multiplier of The Last Stand by 8%, up to 1200%.",
+        "s4": "Casting Intro Skill Immediate Execution increases all teammates' ATK by 20% for 30s.",
+        "s5": "DMG Multiplier of Resonance Liberation Rekindle +120%.",
+        "s6": "DMG Multipliers of Heavy Slash - Daybreak/Dawning/Nightfall/Lightsmash +40%. Every Blaze consumed further increases the DMG Multiplier of Heavy Slash - Nightfall by 40% on hit. If Blaze < 70, immediately restore 70 Blazes once per Inferno Mode. Within 8s after entering Inferno Mode, fatal damage leaves Zani at 1 HP once."
+    },
+    "best_weapon": 403,
+    "echo_set": [1012]
+
+}
