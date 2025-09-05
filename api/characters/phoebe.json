@@ -1,0 +1,81 @@
+{
+    "id": 12,
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "element": "Spectro",
+    "name": "Phoebe",
+    "description": "Phoebe, Acolyte of the Order of the Deep, is a young woman of quiet devotion. With a kind heart, she fulfills her duties with unwavering diligence. Her prayers, like the light she carries, offer comfort and peace to all.",
+    "stats": {
+        "HP": { "base": 866, "max": 10825 },
+        "ATK": { "base": 33, "max": 413 },
+        "DEF": { "base": 103, "max": 1259 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "O Come Divine Light",
+        "details": {
+            "Basic Attack": "Perform up to 3 consecutive attacks of Holy Light, dealing Spectro DMG.",
+            "Heavy Attack": "Consume STA to attack the target, dealing Spectro DMG.",
+            "Mid-air Attack": "Consume STA to ride the staff and dive down to attack, dealing Spectro DMG.",
+            "Mid-air Heavy Attack": "Consume STA to ride the staff for a distance. Can be re-cast after a Mid-Air Dodge or Grapple.",
+            "Dodge Counter": "After a successful Dodge, use Basic Attack to counter, dealing Spectro DMG. Inside the Ring of Mirrors, becomes Chamuel's Star: Dodge Counter."
+        }
+        },
+        "resonance_skill": {
+        "name": "To Where Light Shines",
+        "details": {
+            "Resonance Skill": "Summon a Ring of Mirrors at the target location, stagnating enemies for 2s and dealing Spectro DMG. Can apply to 12 targets max.",
+            "Teleport": "Cast again shortly after to teleport Phoebe to the Ring, dealing Spectro DMG.",
+            "Ring of Mirrors": "Lasts 30s. • Outside: attacks refract Holy Light into the ring, pulling targets and dealing Spectro DMG (considered Basic Attack DMG). Triggers once every 0.5s. • Inside: Basic Attack becomes Chamuel's Star, up to 3 attacks, dealing Spectro DMG (considered Basic Attack DMG)."
+        }
+        },
+        "resonance_liberation": {
+        "name": "Dawn of Enlightenment",
+        "details": {
+            "Resonance Liberation": "Phoebe concentrates divine light into the Mirror of Enlightenment and smashes it, dealing Spectro DMG.",
+            "Absolution Enhancement": "Increases DMG Multiplier by 255%.",
+            "Confession Enhancement": "Applies 8 stacks of Spectro Frazzle to targets hit."
+        }
+        }
+    },
+    "forte_circuit": {
+        "name": "Radiant Invocation",
+        "details": {
+        "Invocation": "When Prayer is full, consume all to unleash Absolution or Confession skills.",
+        "Heavy Attack - Absolution Litany": "Hold Basic Attack to consume Prayer, dealing Spectro DMG and applying Spectro Frazzle. Enter Absolution status.",
+        "Resonance Skill - Utter Confession": "Hold Resonance Skill to consume Prayer, dealing Spectro DMG and applying Spectro Frazzle. Enter Confession status.",
+        "Starflash": "With Divine Voice, replace the next Heavy Attack with Starflash, dealing Spectro DMG at the cost of 30 Divine Voice. • Absolution: Reduce cost by 15, gain +256% DMG Amp. • Confession: Apply 5 stacks of Spectro Frazzle.",
+        "Prayer": "Max 120. Automatically regenerates 5 per second.",
+        "Divine Voice": "Max 60. Restored by casting Absolution Litany or Utter Confession."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Presence",
+        "description": "Mid-air Heavy Attack can be cast one additional time."
+    },
+    "inherent_skill2": {
+        "name": "Revelation",
+        "description": "While in Absolution or Confession, increases Spectro DMG Bonus by 12%."
+    },
+    "intro_skill": {
+        "name": "Golden Grace",
+        "description": "Knock back nearby targets, dealing Spectro DMG."
+    },
+    "outro_skill": {
+        "name": "Attentive Heart",
+        "description": "Deal Spectro DMG equal to 528.41% of Phoebe’s ATK to nearby targets. • Absolution: Increase DMG Multiplier by 255%. • Confession: Grants Silent Prayer, reducing Spectro RES by 10% and granting +100% Frazzle DMG Amplification. Extends Frazzle duration by 50%."
+    },
+    "resonance_chain": {
+        "s1": "In Absolution, Dawn of Enlightenment increases DMG Multiplier by 480% instead of 255%. In Confession, Dawn of Enlightenment increases DMG Multiplier by 90% and applies Spectro Frazzle to targets at max stacks.",
+        "s2": "In Absolution, Outro Skill DMG to Frazzle targets is amplified by 120%. In Confession, Silent Prayer grants +120% Frazzle DMG Amplification.",
+        "s3": "In Absolution, Heavy Attack Starflash DMG Multiplier increased by 91%. In Confession, Heavy Attack Starflash DMG Multiplier increased by 249%.",
+        "s4": "When Basic Attack, Chamuel’s Star, Dodge Counter, or Chamuel’s Star: Dodge Counter hit, target’s Spectro RES reduced by 10% for 30s.",
+        "s5": "Casting Intro Skill Golden Grace increases Spectro DMG Bonus by 12% for 15s.",
+        "s6": "Enemies entering Ring of Mirrors are stagnated for +2s. In Absolution/Confession, summoning Ring of Mirrors increases ATK by 10% for 20s and triggers an extra Heavy Attack Starflash at the Ring’s location."
+    }, 
+    "best_weapon" : 504,
+    "echo_set": [1012]
+}
