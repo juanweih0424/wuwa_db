@@ -1,0 +1,83 @@
+{
+    "id": 7,
+    "rarity": 5,
+    "weapon_type": "pistol",
+    "element": "Glacio",
+    "name": "Carlotta",
+    "description": "The second daughter of Montelli and an art investor unbound by convention, Carlotta moves seamlessly through social circles and business transactions while quietly handling the family's unspeakable troubles in secret. The blooming of a gem the taking of a life—In her own name, she reshapes reality, giving it a new dimension.",
+    "stats": {
+        "HP": { "base": 996, "max": 12450 },
+        "ATK": { "base": 37, "max": 463 },
+        "DEF": { "base": 98, "max": 1198 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "Silent Execution",
+        "details": {
+            "Basic Attack": "Perform up to 2 consecutive strikes, dealing Glacio DMG.",
+            "Basic Attack - Necessary Measures": "With Moldable Crystals, Carlotta's Basic Attack is replaced with Necessary Measures. Chain up to 3 strikes, dealing Glacio DMG. Each strike of Necessary Measures consumes 1 Moldable Crystal.",
+            "Heavy Attack": "Deliver a charged attack at the target at the cost of STA, dealing Glacio DMG.",
+            "Heavy Attack - Containment Tactics": "When Carlotta's Substance is full, her Heavy Attack is replaced with Containment Tactics: consume all Substance to deal Glacio DMG and reduce the cooldown of Resonance Skill Art of Violence by 6s.",
+            "Mid-air Attack": "Perform a Plunging Attack at the cost of STA, dealing Glacio DMG. Using Basic Attack shortly after the landing will cast Customary Greetings.",
+            "Mid-air Attack - Customary Greetings": "Flip over the target and deliver a surprise shot, dealing Glacio DMG.",
+            "Dodge Counter": "Press Normal Attack shortly after a successful Dodge to deliver a riposte shot, dealing Glacio DMG. This consumes 1 Moldable Crystal."
+            }
+        },
+    "resonance_skill": {
+        "name": "Art of Violence",
+        "details": {
+            "Resonance Skill - Art of Violence": "Deal Glacio DMG and inflict Dispersion on the target. Press Resonance Skill again shortly after to cast Chromatic Splendor.",
+            "Dispersion": "Targets with Dispersion are immobilized for 1.5s.",
+            "Chromatic Splendor": "Consume all Moldable Crystals and deal Glacio DMG. Resonance Skill enters cooldown after a while if Chromatic Splendor is not cast or Carlotta is switched off the field."
+            }
+        },
+    "resonance_liberation": {
+        "name": "Era of New Wave",
+        "details": {
+            "Era of New Wave": "Deal Glacio DMG to all targets in an area (considered Resonance Skill DMG) and inflict Deconstruction. Then activate Twilight Tango. Can be cast in mid-air close to the ground.",
+            "Deconstruction": "Dealing DMG to targets inflicted with Deconstruction ignores 18% of their DEF.",
+            "Twilight Tango": "While active, press Normal Attack or Resonance Liberation to cast Death Knell. Each Death Knell grants 1 Meta Vector. With 4 Meta Vectors, cast Fatal Finale. All Substance is removed when entering/exiting Twilight Tango. Cannot perform Basic Attack Necessary Measures, Heavy Attack Containment Tactics, and Heavy Attack Imminent Oblivion during Twilight Tango.",
+            "Death Knell": "Carlotta fires musket shots and summons 4 crystal shards to attack, dealing Glacio DMG (Resonance Skill DMG). She moves in the input direction with each shot.",
+            "Fatal Finale": "Deal Glacio DMG to an area (Resonance Skill DMG). Twilight Tango ends after Fatal Finale."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "Lethal Repertoire",
+        "details": {
+            "Heavy Attack - Imminent Oblivion": "Carlotta activates Tinted Crystal every 22s. When Substance is full and Tinted Crystal is activated, hold Normal Attack to consume all Substance and cast Heavy Attack Imminent Oblivion, after which Tinted Crystal enters cooldown. Deals Glacio DMG (considered Resonance Skill DMG) and reduces the cooldown of Resonance Skill Art of Violence by 6s.",
+            "Final Bow": "When Substance is full, Carlotta enters the Final Bow state. Increases the DMG Multiplier of Resonance Liberation Era of New Wave, Resonance Liberation Death Knell, and Resonance Liberation Fatal Finale by 80%. This effect ends if Carlotta is switched off the field during Twilight Tango or when Twilight Tango ends.",
+            "Substance": "Carlotta can hold up to 120 points of Substance. Cannot gain Substance while in Twilight Tango triggered by Resonance Liberation. Restore 30 Substance when casting Intro Skill Wintertime Aria. Restore 10 Substance per Moldable Crystal consumed when casting Resonance Skill Chromatic Splendor. Restore 10 Substance per Moldable Crystal consumed when casting Basic Attack Necessary Measures. Consume 1 Moldable Crystal and restore 10 Substance upon casting Dodge Counter.",
+            "Moldable Crystal": "Carlotta can hold up to 6 Moldable Crystals. Cannot gain Moldable Crystals while in Twilight Tango triggered by Resonance Liberation. Restore 3 Moldable Crystals when casting Basic Attack Stage 2. Restore 3 Moldable Crystals when casting Heavy Attack. Restore 3 Moldable Crystals when casting Mid-air Attack Customary Greetings. Restore 3 Moldable Crystals when casting Intro Skill Wintertime Aria. Restore 3 Moldable Crystals when casting Resonance Skill Art of Violence. Restore 3 Moldable Crystals upon a successful Dodge."
+        }
+    },
+    "inherent_skill1": {
+    "name": "Flawless Purity",
+    "description": "After casting Resonance Skill Chromatic Splendor, Carlotta can perform Mid-air Attacks while immune to DMG and interruptions until the attack lands. Additionally, reduces active Resonator's Flight STA cost by 20%."
+    },
+    "inherent_skill2": {
+        "name": "Ars Gratia Artis",
+        "description": "Intro Skill Wintertime Aria, Resonance Skill Chromatic Splendor, Resonance Liberation Death Knell, and Heavy Attack Imminent Oblivion can inflict Deconstruction."
+    },
+    "intro_skill": {
+        "name": "Wintertime Aria",
+        "description": "Attack the target, dealing Glacio DMG."
+    },
+    "outro_skill": {
+        "name": "Closing Remark",
+        "description": "Attack the target, dealing Glacio DMG equal to 794.2% of Carlotta's ATK."
+    },
+    "resonance_chain": {
+        "s1": "When Carlotta deals DMG to a target inflicted with Deconstruction, the Crit. Rate of this instance of DMG is increased by 12.5%. When Resonance Skill Chromatic Splendor hits a target inflicted with Dispersion, Carlotta additionally restores 30 points of Substance.",
+        "s2": "The DMG Multiplier of Resonance Liberation Fatal Finale is increased by 126%.",
+        "s3": "Enable Outro Skill Kaleidoscope Sparks: Deal 1 additional strike at the end of Outro Skill Closing Remark, dealing Glacio DMG equal to 1032.18% of Carlotta's ATK. The DMG Multiplier of Resonance Skill Art of Violence and Resonance Skill Chromatic Splendor is increased by 93%.",
+        "s4": "Casting Heavy Attack, Heavy Attack Containment Tactics, and Heavy Attack Imminent Oblivion grants all Resonators in the team 25% Resonance Skill DMG Bonus for 30s.",
+        "s5": "The DMG Multiplier of Heavy Attack Imminent Oblivion is increased by 47%.",
+        "s6": "Shots of Resonance Liberation Death Knell deal higher DMG and shoot out double the number of crystal shards, representing a total increase of 186.6% in the DMG Multiplier of Resonance Liberation Death Knell. Shots also inflict Scattering, immobilizing the target for 1.5s or until they receive DMG."
+    },
+    "echo_set": [1009],
+    "best_weapon":301
+}

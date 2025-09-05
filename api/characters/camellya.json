@@ -27,7 +27,7 @@
         "name": "Valse of Bloom and Blight",
         "details": {
             "Crimson Blossom": "Attack the target, dealing Havoc DMG (considered Basic Attack DMG), then enter Blossom Mode. This attack can be performed in mid-air.",
-            "Blossom Mode": "Unable to move in Blossom Mode. • Basic Attack and Heavy Attack Pruning are replaced by Basic Attack Vining Waltz (4 consecutive attacks, Havoc DMG). • At Stage 3 of Vining Waltz, hold Normal Attack Button to cast Blazing Waltz (Havoc DMG) before auto Stage 4. • Dodge Counter becomes Dodge Counter Atonement. • Resonance Skill becomes Resonance Skill Floral Ravage, which deals Havoc DMG (considered Basic Attack DMG). • Blossom Mode ends after using Floral Ravage or Levitiator. • Jump is replaced with Basic Attack Vining Ronde. • Using Waltz/Blazing Waltz in mid-air consumes STA. • Casting Floral Ravage doesn’t restore STA. • Consumes STA continuously to stay suspended."
+            "Blossom Mode": "Unable to move in Blossom Mode. Basic Attack and Heavy Attack Pruning are replaced by Basic Attack Vining Waltz (4 consecutive attacks, Havoc DMG). At Stage 3 of Vining Waltz, hold Normal Attack Button to cast Blazing Waltz (Havoc DMG) before auto Stage 4. Dodge Counter becomes Dodge Counter Atonement. • Resonance Skill becomes Resonance Skill Floral Ravage, which deals Havoc DMG (considered Basic Attack DMG). Blossom Mode ends after using Floral Ravage or Levitiator. • Jump is replaced with Basic Attack Vining Ronde. Using Waltz/Blazing Waltz in mid-air consumes STA. Casting Floral Ravage doesn’t restore STA. Consumes STA continuously to stay suspended."
             }
         },
         "resonance_liberation": {
