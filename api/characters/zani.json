@@ -5,6 +5,14 @@
     "element": "Spectro",
     "name": "Zani",
     "description": "A member of Averardo Vault's security team and holder of Best Employee for longer than she cares to count. She has made plenty of plans for her free time, but for now, her biggest mission is simple: clocking out on time.",
+    "stats": {
+        "HP": { "base": 862, "max": 10775 },
+        "ATK": { "base": 35, "max": 438 },
+        "DEF": { "base": 93, "max": 1137 },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+        },
     "active_skills": {
         "basic_attack": {
         "name": "Routine Negotiation",
