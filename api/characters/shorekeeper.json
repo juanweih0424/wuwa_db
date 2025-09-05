@@ -1,0 +1,77 @@
+{
+    "id": 3,
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "element": "Spectro",
+    "name": "Shorekeeper",
+    "description":"The Shorekeeper, guardian of the Black Shores—this title alone once defined her. But desires, bonds, and emotions… She only began to understand these things after meeting you.",
+    "stats": {
+        "HP":  { "base": 1337, "max": 16713 },
+        "ATK": { "base": 23,   "max": 288   },
+        "DEF": { "base": 90,   "max": 1100  },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+    },
+    "active_skills": {
+    "basic_attack": {
+        "name": "Origin Calculus",
+        "details": {
+            "Basic Attack": "Perform up to 4 consecutive attacks, dealing Spectro DMG. Each hit generates 1 Collapsed Core.",
+            "Heavy Attack": "Hold the Normal Attack Button to enter Unbound Form, which consumes STA continuously. While in this form, Shorekeeper will: • Generate a segment of Deductive Data every second. • Automatically collect nearby plant collectibles. Using up all STA or actions such as casting Basic Attack will end the Unbound Form and deal Spectro DMG to the target. Each accumulated segment of Deductive Data will convert into a segment of Empirical Data and generate a Collapsed Core.",
+            "Mid-air Attack": "Consume STA to perform a Plunging Attack. Each hit generates 1 Collapsed Core. Quickly press the Normal Attack Button after the Plunging Attack to perform Basic Attack Stage 2.",
+            "Dodge Counter": "Press the Normal Attack Button after a successful Dodge to attack a target, dealing Spectro DMG."
+            }
+        },
+    "resonance_skill": {
+    "name": "Chaos Theory",
+        "details": {
+            "Resonance Skill - Chaos Theory": "Restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. Follow up with Basic Attack in time to start the Basic Attack cycle from Stage 2. Can be performed in mid-air."
+            }
+        },
+    "resonance_liberation": {
+    "name": "End Loop",
+    "details": {
+            "Outer Stellarealm": "Generate the Outer Stellarealm to restore HP for all party members within its effective range continuously. This effect can be triggered once every 3s.",
+            "Inner Stellarealm": "When a party member uses Intro Skill within the Outer Stellarealm, it evolves into the Inner Stellarealm. Within the effective range of the Inner Stellarealm, for every 0.2% of Shorekeeper's Energy Regen, all party members gain 0.01% bonus Crit. Rate, up to 12.5%. Inner Stellarealm has all the effects of the Outer Stellarealm.",
+            "Supernal Stellarealm": "When a party member uses Intro Skill within the Inner Stellarealm, it evolves into the Supernal Stellarealm. Within the effective range of the Supernal Stellarealm, for every 0.1% of Shorekeeper's Energy Regen, all party members gain a 0.01% increase of Crit. DMG, up to 25%. Supernal Stellarealm has all the effects of the Inner Stellarealm. When Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. This effect takes place once each time a Supernal Stellarealm is generated."
+            }
+        },
+    "forte_circuit": {
+        "name": "Astral Chord",
+        "details": {
+            "Flare Star Butterfly": "Hitting a target with a Normal Attack generates a Collapsed Core, which transforms into a Flare Star Butterfly after 6s. Flare Star Butterflies automatically track and attack a target, dealing Spectro DMG. If there are already 5 Collapsed Cores, Shorekeeper's next Normal Attack hit will instantly convert a Collapsed Core into a Flare Star Butterfly.",
+            "Illation": "When Shorekeeper has 5 segments of Empirical Data, casting Heavy Attack will consume all segments to pull in nearby targets, dealing Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies.",
+            "Transmutation": "When Shorekeeper has 5 segments of Empirical Data, casting Mid-air Attack will consume all segments to deal Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies. Quickly press the Normal Attack Button afterward to perform Basic Attack Stage 2.",
+            "Empirical Data": "Shorekeeper can hold up to 5 segments of Empirical Data. • Obtain 1 segment of Empirical Data when Basic Attack Stage 1, 2, or 4 hits a target. • Obtain 2 segments of Empirical Data when Basic Attack Stage 3 hits a target. • Obtain 1 segment of Empirical Data when Mid-air Attack hits a target. • Obtain 1 segment of Empirical Data when Dodge Counter hits a target."
+            }
+        }
+    },
+    "inherent_skill1": {
+        "name": "Life Entwined",
+        "description": "When a Resonator other than Shorekeeper takes a fatal blow, they will not be knocked out and will instead be healed for 50% of Shorekeeper's HP while Shorekeeper loses the same amount of HP. Shorekeeper's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes."
+        },
+    "inherent_skill2": {
+        "name": "Self Gravitation",
+        "description": "When the Resonator on the field is within the effective range of a Stellarealm, Shorekeeper's Energy Regen increases by 10%. If Rover is on the same team, Rover's Energy Regen also increases by 10%."
+    },
+    "intro_skill": {
+        "name": "Proof of Existence",
+        "description": "Shorekeeper appears to restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. This is considered Resonance Skill DMG. When a Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. Casting Discernment ends the current Stellarealm, restores HP for all nearby party members, and deals Spectro DMG to the targets. This attack is guaranteed to be a Critical Hit dealing Resonance Liberation DMG. The Intro Skill Discernment can only be cast one time for each Supernal Stellarealm generated."
+    },
+    "outro_skill": {
+        "name": "Binary Butterfly",
+        "description": "Shorekeeper summons 1 Flare Star Butterfly and 1 Dim Star Butterfly to circle the Resonator on the field for up to 30s, granting the following effects: If the Resonator on the field is hit or launched, tapping the Dodge Button allows the Resonator to immediately recover from the interruption, triggering a successful Dodge. The Resonator launched in the air can land on the ground standing if they are close to the ground. This effect can be triggered up to 5 times. All nearby party members' DMG is Amplified by 15%."
+    },
+    "resonance_chain": {
+        "s1": "The Stellarealms generated by Resonance Liberation End Loop gain the following enhancements: • The effective range of the healing and buffs is extended by 150%. • The duration is extended by 10s. • Casting Intro Skill Discernment no longer ends the existing Stellarealm.",
+        "s2": "The Outer Stellarealm now increases the ATK of all nearby party members by 40%.",
+        "s3": "Casting Resonance Liberation End Loop grants Shorekeeper 20 Concerto Energy. This effect can be triggered once every 25s.",
+        "s4": "Gain 70% additional Healing Bonus when casting Resonance Skill Chaos Theory.",
+        "s5": "Extend the ranges of the pulling effect of Basic Attack Stage 3 by 50% and Illation by 30%.",
+        "s6": "Increase the DMG Multiplier of Intro Skill Discernment by 42%. Casting Intro Skill Discernment increases Shorekeeper's Crit. DMG by 500%."
+        },
+    "echo_set": [1000],
+    "best_weapon":503
+
+}

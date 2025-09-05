@@ -65,10 +65,6 @@
         "name": "Wind's Indelible Imprint",
         "description": "Targets with 1 to 3 stacks of Aero Erosion take 30% more DMG from Cartethyia and Fleurdelys. Targets with more than 3 stacks of Aero Erosion additionally take 10% more DMG from Cartethyia and Fleurdelys for each stack of Aero Erosion they have, up to 3 stacks."
     },
-    "minor_fortes": {
-        "crit_rate": 0.08,
-        "hp_percent": 0.12
-    },
     "intro_skill": {
     "name": "Sword to Mark Tide's Trace",
     "description": "Cartethyia: Deal Aero DMG and inflict 2 stacks of Aero Erosion on targets hit. Summon Sword of Discord's Shadow (lasts 20s, up to 1). Press Normal Attack shortly after to perform Basic Attack - Cartethyia Stage 2. Fleurdelys: Thrust forward to impale the target, dealing Aero DMG and restoring Conviction. Press Normal Attack shortly after to cast Basic Attack - Fleurdelys Stage 2."
