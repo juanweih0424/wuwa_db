@@ -1,0 +1,74 @@
+{
+    "id": 5,
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "element": "Spectro",
+    "name": "Jinhsi",
+    "description": "Jinhsi, Magistrate of Jinzhou, gently brightens the hopes of her people, like rays of winter sunlight. As the revered Sentinel's Appointed Resonator, she displays humility and wholeheartedly commits herself to guiding her people towards a brilliant future.",
+    "stats": {
+        "HP":  { "base": 866,  "max": 10825 },
+        "ATK": { "base": 33,   "max": 413   },
+        "DEF": { "base": 103,  "max": 1259  },
+        "crit_rate": 0.05,
+        "crit_dmg": 1.5,
+        "energy": 125
+        },
+    "active_skills": {
+        "basic_attack": {
+            "name": "Slash of Breaking Dawn",
+            "details": {
+            "Basic Attack": "Perform up to 4 consecutive strikes, dealing Spectro DMG.",
+            "Heavy Attack": "Perform a charged attack at the cost of Stamina, dealing Spectro DMG.",
+            "Mid-air Attack": "Perform a plunging attack while in mid-air at the cost of Stamina, dealing Spectro DMG.",
+            "Dodge Counter": "Use Basic Attack after a successful Dodge to counterattack, dealing Spectro DMG."
+            }
+        },
+        "resonance_skill": {
+            "name": "Trailing Lights of Eons",
+            "details": {
+            "Resonance Skill - Trailing Lights of Eons": "Dash forward and perform consecutive strikes that inflict Spectro DMG. Overflowing Radiance: After Jinshi uses Basic Attack 4 or, while not in Incarnation, Intro Skill Loong's Halo, an alternative Resonance Skill Overflowing Radiance is available within 5s. Resonance Skill Overflowing Radiance inflicts Spectro DMG and sends Jinshi into Incarnation. Can be cast in mid-air."
+            }
+        },
+        "resonance_liberation": {
+            "name": "Purge of Light",
+            "details": {
+            "Resonance Liberation - Purge of Light": "Unleash the power of invocation to deal Spectro DMG. Can be cast in mid-air."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "Luminal Synthesis",
+        "details": {
+            "Incarnation": "While in Incarnation: • Alternative Basic Attack 'Incarnation - Basic Attack' becomes available. Perform up to 4 consecutive strikes, dealing Spectro DMG considered as Resonance Skill DMG. • Alternative Resonance Skill 'Crescent Divinity' becomes available. Deal Spectro DMG. • Alternative Heavy Attack 'Incarnation - Heavy Attack' becomes available. Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG. • Alternative Dodge 'Incarnation - Dodge' is available while in mid-air. Can be cast multiple times. • Alternative Dodge Counter 'Incarnation - Dodge Counter' becomes available. Deal Spectro DMG.",
+            "Resonance Skill - Illuminous Epiphany": "After Stage 4 of Incarnation - Basic Attack, Incarnation terminates and Jinshi gains Ordination Glow. While Ordination Glow lasts: • Basic Attack is replaced with Heavy Attack 'Incarnation - Heavy Attack'. • Resonance Skill is replaced with Resonance Skill 'Illuminous Epiphany', sending out a Solar Flare that detonates as Stella Glamor, dealing Spectro DMG. Consumes up to 50 Incandescence, with each point granting bonus DMG Multiplier percentage. • After casting Illuminous Epiphany, Jinshi gains Unison. This can be triggered once every 25s.",
+            "Unison": "While Jinshi has Unison, switching to other Resonators removes Unison to trigger Jinshi's Outro Skill. Incoming Resonator’s Intro Skill consumes Unison in place of Concerto Energy when Concerto Energy is full.",
+            "Incandescence": "Jinshi can hold up to 50 Incandescence. When Jinshi is in the party, all nearby Resonators gain Eras in Unity, which provides 2 effects: • Gain 1 Incandescence whenever Resonators inflict Attribute DMG (triggered up to 1 time(s) every 3s per Attribute). • Gain 2 Incandescence when Resonators damage the enemy with Coordinated Attacks (triggered up to 1 time(s) every 3s per Attribute)."
+        }
+    },
+    "inherent_skill1": {
+        "name": "Radiant Surge",
+        "description": "Jinshi's Spectro DMG Bonus is increased by 20%."
+    },
+    "inherent_skill2": {
+        "name": "Converged Flash",
+        "description": "DMG Multiplier of Intro Skill Loong's Halo is increased by 50%."
+    },
+    "intro_skill": {
+        "name": "Loong's Halo",
+        "description": "Attack the target, dealing Spectro DMG."
+    },
+    "outro_skill": {
+        "name": "Temporal Bender",
+        "description": "Summoning the power homologous with the Sentinel, Jinshi may gain Incandescence via Eras in Unity from damage of the same Attribute more effectively, at 1 time(s) every 1s for 20s."
+    },
+    "resonance_chain": {
+        "s1": "When casting Basic Attack 'Incarnation - Basic Attack' or Resonance Skill Crescent Divinity, Jinshi gains one stack of Herald of Revival, stacking up to 4 times and lasting for 6s. When casting Resonance Skill Illuminous Epiphany, Jinshi consumes all stacks of Herald of Revival. Each stack increases the damage of Illuminous Epiphany by 20%.",
+        "s2": "Jinshi restores 50 Incandescence while staying out of combat for more than 4s. This effect can only be triggered 1 time(s) every 4s.",
+        "s3": "Jinshi gains one stack of Immortal's Descendancy after casting Intro Skill Loong's Halo. Each stack increases Jinshi's ATK by 25%, stacking up to 2 time(s) and lasting for 20s.",
+        "s4": "When Jinshi casts Resonance Liberation Purge of Light or Resonance Skill Illuminous Epiphany, all nearby Resonators gain 20% Attribute DMG Bonus for 20s.",
+        "s5": "The DMG Multiplier of Resonance Liberation Purge of Light is increased by 120%.",
+        "s6": "The DMG Multiplier of Resonance Skill Illuminous Epiphany is increased by 45% and the additional DMG Multiplier gained by consuming Incandescence is increased by 45%."
+    },
+    "echo_set": [1006],
+    "best_weapon": 102
+}
