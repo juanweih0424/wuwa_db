@@ -1,0 +1,75 @@
+{
+    "id": 6,
+    "rarity": 5,
+    "weapon_type": "sword",
+    "element": "Havoc",
+    "name": "Camellya",
+    "description": "A Bloom Bearer of the Black Shores, Camellya is free-spirited and dangerously charming. She roams Solaris in search of talent, immersing herself in the present and relishing its pleasures, all while remaining true to herself, unburdened by thoughts of the past or future.",
+    "stats": {
+    "HP":  { "base": 826,  "max": 10325 },
+    "ATK": { "base": 36,   "max": 450   },
+    "DEF": { "base": 95,   "max": 1161  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+    },
+    "active_skills": {
+        "basic_attack": {
+        "name": "Burgeoning",
+        "details": {
+            "Basic Attack": "Perform up to 5 consecutive attacks, dealing Havoc DMG. After performing Basic Attack Stage 3 or Heavy Attack Pruning, hold Normal Attack Button to continuously strike, dealing Havoc DMG. Basic Attack Stage 4 is automatically followed by Basic Attack Stage 5.",
+            "Heavy Attack": "Consume STA to attack the target, dealing Havoc DMG.",
+            "Plunging Attack": "Consume STA to perform Plunging Attack, dealing Havoc DMG.",
+            "Dodge Counter": "Use Basic Attack right after a successful Dodge to counterattack, dealing Havoc DMG."
+            }
+        },
+        "resonance_skill": {
+        "name": "Valse of Bloom and Blight",
+        "details": {
+            "Crimson Blossom": "Attack the target, dealing Havoc DMG (considered Basic Attack DMG), then enter Blossom Mode. This attack can be performed in mid-air.",
+            "Blossom Mode": "Unable to move in Blossom Mode. • Basic Attack and Heavy Attack Pruning are replaced by Basic Attack Vining Waltz (4 consecutive attacks, Havoc DMG). • At Stage 3 of Vining Waltz, hold Normal Attack Button to cast Blazing Waltz (Havoc DMG) before auto Stage 4. • Dodge Counter becomes Dodge Counter Atonement. • Resonance Skill becomes Resonance Skill Floral Ravage, which deals Havoc DMG (considered Basic Attack DMG). • Blossom Mode ends after using Floral Ravage or Levitiator. • Jump is replaced with Basic Attack Vining Ronde. • Using Waltz/Blazing Waltz in mid-air consumes STA. • Casting Floral Ravage doesn’t restore STA. • Consumes STA continuously to stay suspended."
+            }
+        },
+        "resonance_liberation": {
+        "name": "Fervor Efflorescent",
+        "details": {
+            "Resonance Liberation - Fervor Efflorescent": "Attack the target, dealing Havoc DMG. This attack can be performed in mid-air."
+            }
+        }
+    },
+    "forte_circuit": {
+        "name": "Vegetative Universe",
+        "details": {
+            "Overview": "Hitting a target with Normal Attack, Vining Waltz, Blazing Waltz, Vining Ronde, Dodge Counter Atonement, Resonance Skill Crimson Blossom, and Resonance Skill Floral Ravage consumes Crimson Pistils. Energy Regen Multiplier of this attack is increased by 150%. Consuming 10 Crimson Pistils recovers 4 Concerto Energy and obtains 1 Crimson Bud (lasts 15s, up to 10 stacks).",
+            "Ephemeral": "When Concerto Energy is full and Ephemeral is not on cooldown, Resonance Skill is replaced with Ephemeral. Consumes 70 Concerto Energy to deal Havoc DMG and enter Budding Mode. Can be cast in mid-air.",
+            "Budding Mode": "Sweet Dream: Increase DMG Multiplier of Normal/Heavy/Vining Waltz, Blazing Waltz, Vining Ronde, Atonement, Crimson Blossom, and Floral Ravage by 50%. Casting Ephemeral consumes all Crimson Buds; each consumed Bud grants +5% DMG Multiplier to Sweet Dream (up to 50%). Camellya cannot gain Crimson Buds in Budding Mode. Energy Regen Multiplier of attacks reduced to 0%. Budding Mode ends when Camellya leaves the field or when all Crimson Pistils are consumed.",
+            "Crimson Pistil": "Camellya can hold up to 100 Crimson Pistils. Casting Intro Skill Everblooming or activating Ephemeral recovers 100 Crimson Pistils."
+        }
+    },
+    "inherent_skill1": {
+    "name": "Seedbed",
+    "description": "Gain 15% Havoc DMG Bonus. Heavy Attack Pruning is now considered Basic Attack DMG."
+    },
+    "inherent_skill2": {
+        "name": "Epiphyte",
+        "description": "Gain 15% Basic DMG Bonus. Resistance to interruption increases when casting Basic Attacks, Vining Waltz, or Blazing Waltz."
+    },
+    "intro_skill": {
+        "name": "Everblooming",
+        "description": "Attack the target, dealing Havoc DMG."
+    },
+    "outro_skill": {
+        "name": "Twining",
+        "description": "Attack the target, dealing Havoc DMG equal to 329.24% of Camellya's ATK. After activating Ephemeral, Twining deals an additional Havoc DMG equal to 459.02% of ATK."
+    },
+    "resonance_chain": {
+        "s1": "Casting Everblooming increases Camellya's Crit DMG by 28% for 18s (CD: 25s). Immune to interruptions while casting Ephemeral.",
+        "s2": "Resonance Skill Ephemeral's DMG Multiplier increased by 120%.",
+        "s3": "Fervor Efflorescent DMG increased by 50%. While in Budding Mode, ATK increased by 58%.",
+        "s4": "Casting Everblooming grants all team members 25% Basic Attack DMG Bonus for 30s.",
+        "s5": "Outro Skill Everblooming DMG Multiplier increased by 303%. Outro Skill Twining DMG increased by 68%.",
+        "s6": "Sweet Dream's bonus increased by 150%. Unlocks Perennial (castable after Ephemeral if Concerto Energy is full): consumes 50 Concerto Energy and 50 Crimson Pistils to deal Havoc DMG equal to 100% of Ephemeral DMG, enter Budding Mode, and grant +250% Sweet Dream bonus DMG Multiplier. Immune to interruptions while casting Perennial."
+    },
+    "echo_set": [1007],
+    "best_weapon":202
+}
