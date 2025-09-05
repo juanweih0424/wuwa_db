@@ -4,7 +4,7 @@
     "weapon_type": "rectifier",
     "element": "Havoc",
     "name": "Phrolova",
-    "description": "Phrolova, a Fractsidus Overseer walking the fine line between life and death, an uncanny, deadly conductor. A silent wave of her baton is enough to attune the very frequencies of being and conduct the symphonies of "souls." The music of hers can sculpt a better world or, just as easily, summon a legion to wreak havoc.",
+    "description": "Phrolova, a Fractsidus Overseer walking the fine line between life and death, an uncanny, deadly conductor. A silent wave of her baton is enough to attune the very frequencies of being and conduct the symphonies of souls. The music of hers can sculpt a better world or, just as easily, summon a legion to wreak havoc.",
     "stats": {
         "HP": { "base": 862, "max": 10775 },
         "ATK": { "base": 35, "max": 438 },
