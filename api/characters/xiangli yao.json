@@ -6,9 +6,9 @@
     "name": "Xiangli Yao",
     "description": "Principal Investigator at Jinzhou Huaxu Academy, and the Academy's youngest multi-disciplinary scientist. A gentle soul with a sharp mind, whose relentless passion for Automata Mechanics always translates into constructive findings and insights.",
     "stats": {
-        "HP": { "base": 862, "max": 10775 },
-        "ATK": { "base": 35, "max": 438 },
-        "DEF": { "base": 93, "max": 1137 },
+        "HP":  { "base": 850,  "max": 10625 },
+        "ATK": { "base": 34,   "max": 425   },
+        "DEF": { "base": 100,  "max": 1222  },
         "crit_rate": 0.05,
         "crit_dmg": 1.5,
         "energy": 125
