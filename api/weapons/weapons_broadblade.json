@@ -90,6 +90,40 @@
             ]
         },
         "weapon_description" : "The young wolf races through the wilds, shedding every shadow that once held her back. The lone wolf strides into the arena, cutting down each obstacle in her path. She seizes victory. She claims glory. She raises everything she has high above. She belongs to the arena, but even more, she belongs to herself."
+    },
+    {
+    "id": 104,
+    "name": "Thunderflare Dominion",
+    "rarity": 5,
+    "type": "broadblade",
+    "stats": {
+        "atk": {
+        "base": 54,
+        "max": 675,
+        "max_level": 90,
+        "growth": "linear"
+        },
+        "substats": {
+        "kind": "Crit. Rate",
+        "base": 0.027,
+        "max": 0.1215,
+        "max_level": 90,
+        "interval": 5,
+        "growth": "step"
+        }
+    },
+    "skill": {
+        "name": "Thunderblaze Eminence",
+        "skill_description": "Increases ATK by {atk}%. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {heavy_attack_dmg}% for 15s. Obtaining Shield allows Heavy Attack DMG to ignore {def_ignore}% of the target's DEF for 7s, stacking up to 5 times (triggers once every 0.5s).",
+        "ranks": [
+        { "rank": 1, "atk": 0.12, "heavy_attack_dmg": 0.20, "def_ignore": 0.072 },
+        { "rank": 2, "atk": 0.15, "heavy_attack_dmg": 0.25, "def_ignore": 0.084 },
+        { "rank": 3, "atk": 0.18, "heavy_attack_dmg": 0.30, "def_ignore": 0.096 },
+        { "rank": 4, "atk": 0.21, "heavy_attack_dmg": 0.35, "def_ignore": 0.108 },
+        { "rank": 5, "atk": 0.24, "heavy_attack_dmg": 0.40, "def_ignore": 0.12 }
+        ]
+    },
+    "weapon_description": "Thunder shall purge her pain and weakness. From the crucible of blood and sand, the Sun rises. Not dimmed by dust, but ablaze in her full radiance."
     }
 
 ]

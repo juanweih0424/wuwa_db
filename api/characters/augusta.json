@@ -1,0 +1,87 @@
+{
+  "id": 25,
+  "rarity": 5,
+  "weapon_type": "broadblade",
+  "element": "Electro",
+  "name": "Augusta",
+  "description": "Ephor of Septimont. The undying sun eternally ablaze, and a banner under which defeat does not exist. She comes. She sees. She conquers. With blade held high, she awaits the next challenger or the fate that claims it cannot be defied.",
+  "stats": {
+    "HP":  { "base": 824,  "max": 10300 },
+    "ATK": { "base": 37,   "max": 463   },
+    "DEF": { "base": 91,   "max": 1112  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Hunter's Path",
+      "details": {
+        "Basic Attack": "Perform up to 4 consecutive attacks, dealing Electro DMG.",
+        "Heavy Attack - Steelclash": "Consume Stamina to strike, dealing Electro DMG. Press Normal Attack shortly after performing Heavy Attack to perform Basic Attack Stage 2.",
+        "Mid-air Attack": "Consume Stamina to perform Plunging Attack from mid-air, dealing Electro DMG.",
+        "Dodge Counter": "Press Normal Attack after a successful Dodge to attack the target, dealing Electro DMG.",
+        "Mid-air Dodge Counter": "Press Normal Attack after a successful Mid-air Dodge to perform Plunging Attack at the cost of Stamina, dealing Electro DMG.",
+        "Heavy Attack – Thunderoar: Backstep": "When Prowess is full, Heavy Attack – Steelclash is replaced with Thunderoar: Backstep, dealing Electro DMG and consuming all Prowess. While in action, release or press Normal Attack within a certain period to perform Thunderoar: SpinSlash.",
+        "Heavy Attack – Thunderoar: SpinSlash": "Slashes in place if Augusta remains on the ground for a period after Backstep is interrupted.",
+        "Heavy Attack – Thunderoar: Uppercut": "Press Jump when Prowess is full to perform Thunderoar: Uppercut, dealing Electro DMG and consuming all Prowess.",
+        "Dodge Counter – Heavy Attack: Steelclash": "When Prowess is full, Dodge Counter is replaced with Dodge Counter – Heavy Attack: Steelclash, dealing Electro DMG (counted as Heavy Attack DMG).",
+        "Dodge Counter – Thunderoar: Backstep": "When Ascendancy is full, press Normal Attack following a successful Dodge on the ground to cast Dodge Counter – Thunderoar: Backstep in place of Dodge Counter, then cast Heavy Attack: Steelclash, dealing Electro DMG (counted as Heavy Attack DMG).",
+        "Prowess": "Augusta can hold up to 100 points. Prowess is obtained when Basic Attack, Heavy Attack – Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill – Warrior's Blade, Dodge Counter, or Dodge Counter – Heavy Attack: Steelclash deals damage. Prowess is fully restored when casting Intro Skill – Stride of Goldenflare."
+      }
+    },
+    "resonance_skill": {
+      "name": "Warrior's Blade",
+      "details": {
+        "Warrior's Blade": "Leaps and slams down her broadblade, dealing Electro DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Sunward Conquest",
+      "details": {
+        "Sword of Eternal Oath": "Press and release Resonance Liberation to sweep the Broadblade forward, dealing Electro DMG (treated as Heavy Attack DMG).",
+        "Sublime in the Sun": "When Majesty reaches 2 stacks, hold Resonance Liberation to cast Sublime in the Sun. Costs no Resonance Energy but consumes 2 stacks of Majesty.",
+        "Sublime in the Sun – Sunborne": "Deals Electro DMG (Heavy Attack DMG). After casting, press Normal Attack or Resonance Liberation to perform Sublime in the Sun – Everbright Protector.",
+        "Sublime in the Sun – Everbright Protector": "Deals Electro DMG (Heavy Attack DMG), ends the Sworn Allegiance state, and consumes all stacks of Crown of Wills. All other Resonators on the team are forced to leave the field.",
+        "Ruler's Realm": "Lasts for 30s. When teammates cast an Intro Skill within Ruler's Realm, they gain a shield equal to 650 + 8% of Augusta's Max HP for 10s (unstackable; not passed to the incoming Resonator).",
+        "Majesty": "Can hold up to 2 stacks. Gain 1 stack when casting Resonance Skill – Undying Sunlight: Plunge, and 1 stack when teammates cast an Outro Skill while Battlesong of the Unyielding is active."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Call Me By the Sun",
+    "details": {
+      "Undying Sunlight: Strike": "When Ascendancy is full, Resonance Skill – Warrior's Blade is replaced with Undying Sunlight: Strike, dealing Electro DMG. Can be cast mid-air. Press Normal Attack or Resonance Skill during the action to cast Undying Sunlight: Leap. Can be re-cast shortly after being interrupted.",
+      "Undying Sunlight: Leap": "Deals Electro DMG. Can be cast mid-air. Press Normal Attack or Resonance Skill during the action to cast Undying Sunlight: Plunge. Can be re-cast shortly after being interrupted.",
+      "Undying Sunlight: Plunge": "Consumes all Ascendancy to plunge and strike, dealing Electro DMG (treated as Heavy Attack DMG). Casting this skill grants 1 stack of Majesty. Can only be cast mid-air.",
+      "Dodge Counter – Undying Sunlight: Strike": "When Ascendancy is full, press Resonance Skill after a successful ground/mid-air Dodge to cast this Strike, dealing Electro DMG (treated as Resonance Skill DMG).",
+      "Ascendancy": "Augusta can hold up to 100. Obtained when Normal Attacks deal damage. Stride of Goldenflare restores 20% Ascendancy; Warrior's Blade restores 10%; Sword of Eternal Oath restores 40%."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Glory's Favor",
+    "description": "When Augusta deals damage, she gains a shield equal to 350 + 2.5% of her Max HP for 5s (triggers once every 0.5s; unstackable; not passed to the incoming Resonator)."
+  },
+  "inherent_skill2": {
+    "name": "Blazing Valor",
+    "description": "When out of combat for over 4s, if Majesty is less than 1 stack, restore 1 stack; fully restore Crown of Wills."
+  },
+  "intro_skill": {
+    "name": "Stride of Goldenflare",
+    "description": "Deal Electro DMG."
+  },
+  "outro_skill": {
+    "name": "Battlesong of the Unyielding",
+    "description": "The next Resonator switched onto the field gains 15% DMG Amplification for all attributes for 14s (ends immediately if switched out). Casting this Outro grants 1 stack of Majesty and 1 stack of Crown of Wills to Augusta. Crown of Wills: Each stack grants 15% Electro DMG Bonus, up to 1 stack; all stacks are removed when Everbright Protector ends."
+  },
+  "resonance_chain": {
+    "s1": "Each stack of Crown of Wills additionally increases Crit DMG by 15%. Max stacks increased to 2. Casting Stride of Goldenflare now grants 1 stack of Crown of Wills. Undying Sunlight: Strike/Leap/Plunge are now immune to interruption.",
+    "s2": "Crown of Wills grants more power: each stack increases Crit Rate by 20%. For every 1% Crit Rate over 100%, gain 2% Crit DMG (up to 100%).",
+    "s3": "DMG Multiplier of the following is increased by 25%: Thunderoar: Backstep/SpinSlash/Uppercut, Dodge Counter – Thunderoar: Backstep, Undying Sunlight: Plunge, Sublime in the Sun: Sunborne, Sublime in the Sun: Everbright Protector.",
+    "s4": "Casting Stride of Goldenflare increases the ATK of all Resonators in the team by 20% for 30s.",
+    "s5": "Shield value from Glory's Favor increased by 50%.",
+    "s6": "Max Crown of Wills stacks increased to 4. For every 1% Crit Rate over 150%, gain 2% Crit DMG (up to 50%). Performing Thunderoar: SpinSlash or Uppercut obtains 2 stacks of Crown of Wills every 1s while Engraved in Radiant Light. While casting SpinSlash or Uppercut, Thunder Rage triggers at the spot, dealing two instances of Electro DMG equal to 100% of Augusta's ATK each (treated as Heavy Attack DMG)."
+  },
+  "echo_set": [1018],
+  "best_weapon": 104
+}
