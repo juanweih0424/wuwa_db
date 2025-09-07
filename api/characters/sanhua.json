@@ -1,0 +1,73 @@
+{
+  "id": 24,
+  "rarity": 4,
+  "weapon_type": "sword",
+  "element": "Glacio",
+  "name": "Sanhua",
+  "description": "The bodyguard of Jinzhou's Magistrate, known for having an icy personality. Once regarded as the Asura of Calamity, Sanhua is now a taciturn guardian. She has learned to maintain inner calmness amidst the chaotic frequencies, and the things that once frightened her now fuel her determination.",
+  "stats": {
+    "HP":  { "base": 805,  "max": 10063 },
+    "ATK": { "base": 22,   "max": 275   },
+    "DEF": { "base": 77,   "max": 941   },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 100
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Frigid Light",
+      "details": {
+        "Basic Attack": "Sanhua performs up to 5 consecutive attacks, dealing Glacio DMG.",
+        "Heavy Attack": "Sanhua consumes Stamina to launch attacks, dealing Glacio DMG.",
+        "Mid-air Attack": "Consume Stamina to perform a Mid-air Plunging Attack, dealing Glacio DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Eternal Frost",
+      "details": {
+        "Eternal Frost": "Sanhua sends an air blade to create 1 \"Ice Prism\" across the ground, dealing Glacio DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Glacial Gaze",
+      "details": {
+        "Glacial Gaze": "Sanhua deals Glacio DMG and creates 1 \"Glacier\"."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Clarity of Mind",
+    "details": {
+      "Heavy Attack: Detonate": "While holding Basic Attack, the cursor can move. If Basic Attack is released when the cursor falls in the \"Frostbite\" area, Sanhua casts Heavy Attack Detonate, dealing Glacio DMG (considered Heavy Attack DMG).",
+      "Ice Burst": "Heavy Attack Detonate detonates all \"Ice Thorns\", \"Ice Prisms\" and \"Glaciers\" within her attack range, dealing Glacio DMG (considered Resonance Skill DMG).",
+      "Frostbite Area": "The \"Frostbite\" area expands with every 1 stack of \"Clarity\" (max 2). • Gain 1 stack after Basic Attack V. • Gain 1 stack after Intro Skill Freezing Thorns. • Gain 1 stack after Resonance Skill Eternal Frost. • Gain 2 stacks after Resonance Liberation Glacial Gaze. • Casting Heavy Attack Detonate removes all \"Clarity\"."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Condensation",
+    "description": "Damage dealt by Sanhua's Resonance Skill is increased by 20% for 8s after casting her Intro Skill."
+  },
+  "inherent_skill2": {
+    "name": "Avalanche",
+    "description": "Damage dealt by Sanhua's Forte Circuit Ice Burst is increased by 20% for 8s after casting Basic Attack V."
+  },
+  "intro_skill": {
+    "name": "Freezing Thorns",
+    "description": "Sanhua swings her blade downward and creates 1 \"Ice Thorn\", dealing Glacio DMG."
+  },
+  "outro_skill": {
+    "name": "Silversnow",
+    "description": "The next character (or nearby team that activates an Outro Skill) gains 38% Basic Attack DMG Deepen for 14s, or until the character is switched off field."
+  },
+  "resonance_chain": {
+    "s1": "Basic Attack V increases Sanhua's Crit Rate by 15% for 10s.",
+    "s2": "Stamina cost of Heavy Attack Detonate is reduced by 10. When Sanhua casts Eternal Frost, her anti-interruption is enhanced for 10s.",
+    "s3": "Damage dealt is increased by 35% against targets with HP below 70%.",
+    "s4": "Glacial Gaze restores 10 Resonance Energy. The DMG of the next Heavy Attack Detonate within 5s is increased by 120%.",
+    "s5": "Crit DMG of Ice Burst is increased by 100%. Ice Creations (Ice Thorn, Ice Prism, Glacier) will explode even if they are not detonated.",
+    "s6": "After an Ice Prism or a Glacier is detonated, all team members' ATK is increased by 10% for 20s, stacking up to 2 times."
+  },
+  "echo_set": [1001],
+  "best_weapon": 200
+}
