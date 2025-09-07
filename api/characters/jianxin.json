@@ -1,0 +1,77 @@
+{
+  "id": 21,
+  "rarity": 5,
+  "weapon_type": "gauntlet",
+  "element": "Aero",
+  "name": "Jianxin",
+  "description": "Jianxin, a Taoist monk and successor of Fengyiquan, has dedicated her life to mastering the ultimate martial art. With the power to harness and transform environmental Chi, she can create protective barriers that purify both body and mind.",
+  "stats": {
+    "HP":  { "base": 1129, "max": 14113 },
+    "ATK": { "base": 27,   "max": 338   },
+    "DEF": { "base": 92,   "max": 1124  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 150
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Fengyiquan",
+      "details": {
+        "Basic Attack": "Perform up to 4 attacks, dealing Aero DMG.",
+        "Heavy Attack": "Consume Stamina to attack the target, dealing Aero DMG.",
+        "Mid-air Attack": "Jianxin consumes Stamina to plunge and unleash a powerful kick, dealing Aero DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Calming Air",
+      "details": {
+        "Parry Stance": "Hold Resonance Skill to enter Parry Stance.",
+        "Chi Counter": "When Jianxin is attacked in the Parry Stance, she does not take damage and immediately performs Chi Counter, dealing Aero DMG.",
+        "Chi Parry": "Release the Resonance Skill during Parry Stance to interrupt Parry Stance and cast Chi Parry, dealing Aero DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Purification Force Field",
+      "details": {
+        "Overview": "Creates a strong wind field, continuously pulling targets within the wind field to the center and causing Aero DMG. When the wind field disappears, it will cause Aero DMG to all targets within the range again."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Primordial Chi Spiral",
+    "details": {
+      "Heavy Attack: Primordial Chi Spiral": "When \"Chi\" is stacked to its max, hold Heavy Attack to cast Primordial Chi Spiral and start Zhoutian Progress.",
+      "Zhoutian Progress": "Jianxin's anti-interruption is increased, and her damage taken is reduced by 50%. Jianxin continuously consumes \"Chi\" and casts Chi Strike to attack targets nearby, dealing Aero DMG. As Zhoutian Progress accumulates, Jianxin reaches different Zhoutian and gains effects accordingly.",
+      "Zhoutian Stages": "Before Minor Zhoutian: Gain Zhoutian Progress 1 shield. When Zhoutian Progress is interrupted, cast Pushing Punch to attack the target, dealing Aero DMG. • Minor Zhoutian: Gain Zhoutian Progress 2 shield and cast Shock to attack the target, dealing Aero DMG. • Major Zhoutian: Inner: Gain Zhoutian Progress 3 shield and cast Shock to attack the target, dealing Aero DMG. • Major Zhoutian: Outer: Gain Zhoutian Progress 3 shield and cast Shock to attack the target, dealing Aero DMG. When you release Basic Attack button, interrupt Zhoutian Progress and lose all \"Chi\". When all \"Chi\" is consumed, end Zhoutian Progress.",
+      "After-effect": "When Zhoutian Progress ends, regain a shield according to the Zhoutian Progress you reached; as the shield provided by Heavy Attack: Primordial Chi Spiral persists, restore HP for the on-field character once every 6s.",
+      "Chi": "Jianxin can hold up to 120 Chi. Chi is obtained when Normal Attack Fengyiquan hits the target; when Resonance Skill Calming Air is cast; when Resonance Skill Chi Counter or Chi Parry hits the target; and when Intro Skill Essence of Tao hits the target."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Formless Release",
+    "description": "Damage of Resonance Liberation Purification Force Field is increased by 20%."
+  },
+  "inherent_skill2": {
+    "name": "Reflection",
+    "description": "The shield obtained with Heavy Attack Primordial Chi Spiral is increased by 20%."
+  },
+  "intro_skill": {
+    "name": "Essence of Tao",
+    "description": "Pull targets within the range, dealing Aero DMG."
+  },
+  "outro_skill": {
+    "name": "Transcendence",
+    "description": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Resonance Liberation DMG Deepen for 14s or until the Character is switched."
+  },
+  "resonance_chain": {
+    "s1": "After casting Intro Skill Essence of Tao, Jianxin gains 100% extra \"Chi\" from Basic Attacks for 10s.",
+    "s2": "Resonance Skill Calming Air can be used 1 more time.",
+    "s3": "After staying in the Parry Stance of Calming Air for 2.5s, Resonance Skill Chi Counter becomes immediately available.",
+    "s4": "When performing Forte Circuit Heavy Attack: Primordial Chi Spiral, Jianxin's Resonance Liberation Purification Force Field damage is increased by 80% for 14s.",
+    "s5": "The range of Resonance Liberation Purification Force Field is increased by 33%.",
+    "s6": "During Forte Circuit Heavy Attack: Primordial Chi Spiral, if Jianxin performs Pushing Punch, enhanced Resonance Skill Special Chi Counter can be used 1 time(s) in 5s. Special Chi Counter: Inflicts Aero DMG equal to 556.67% of Jianxin's ATK (regarded as Heavy Attack DMG) and grants a Zhoutian Progress 4 Shield (affected by Inherent Skill Reflection)."
+  },
+  "echo_set": [1001],
+  "best_weapon": 400
+}
