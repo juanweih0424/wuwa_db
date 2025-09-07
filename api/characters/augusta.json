@@ -82,6 +82,6 @@
     "s5": "Shield value from Glory's Favor increased by 50%.",
     "s6": "Max Crown of Wills stacks increased to 4. For every 1% Crit Rate over 150%, gain 2% Crit DMG (up to 50%). Performing Thunderoar: SpinSlash or Uppercut obtains 2 stacks of Crown of Wills every 1s while Engraved in Radiant Light. While casting SpinSlash or Uppercut, Thunder Rage triggers at the spot, dealing two instances of Electro DMG equal to 100% of Augusta's ATK each (treated as Heavy Attack DMG)."
   },
-  "echo_set": [1018],
+  "echo_set": [1018,1002],
   "best_weapon": 104
 }
