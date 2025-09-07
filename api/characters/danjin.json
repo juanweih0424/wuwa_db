@@ -1,0 +1,79 @@
+{
+  "id": 30,
+  "name": "Danjin",
+  "rarity": 4,
+  "element": "Havoc",
+  "weapon_type": "Sword",
+  "best_weapon": 201,
+  "echo_set": [1007],
+  "description": "With a vengeful blade of condensed blood in hand, Ranger Danjin hunts down thieves and bandits for retribution. She journeys to distant lands in pursuit of justice.",
+  "stats": {
+    "HP": { "base": 755, "max": 9438 },
+    "ATK": { "base": 21, "max": 263 },
+    "DEF": { "base": 94, "max": 1149 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 100
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Execution",
+      "details": {
+        "Basic Attack": "Danjin performs up to 3 consecutive attacks, dealing Havoc DMG.",
+        "Heavy Attack": "Danjin combines her Forte with the blade in her hand and consumes Stamina to launch consecutive attacks, dealing Havoc DMG.",
+        "Mid-air Attack": "Consumes Stamina to perform a mid-air Plunging Attack, dealing Havoc DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to launch an attack, dealing Havoc DMG.",
+        "Dodge Counter: Ruby Shades": "After a successful Dodge Counter, Danjin can use Resonance Skill Crimson Fragment to cast the Resonance Skill Crimson Erosion."
+      }
+    },
+    "resonance_skill": {
+      "name": "Crimson Fragment",
+      "details": {
+        "Incinerating Will (HP Cost)": "When casting Incinerating Will, each attack consumes 3% of Danjin's Max HP. When HP is less than 1%, this no longer consumes HP.",
+        "Carmine Gleam": "Danjin attacks the target, dealing Havoc DMG.",
+        "Crimson Erosion": "After Basic Attack II, Dodge Counter, or Intro Skill Vindication, use Resonance Skill to perform up to 2 consecutive strikes, dealing Havoc DMG. When Crimson Erosion II hits a target, apply Incinerating Will to it.",
+        "Incinerating Will": "Danjin's damage dealt to targets marked with Incinerating Will is increased by 20%.",
+        "Sanguine Pulse": "Use Resonance Skill after Basic Attack III to perform up to 3 consecutive attacks, dealing Havoc DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Crimson Bloom",
+      "details": {
+        "Crimson Bloom": "Danjin frantically swings her dual blades, performing multiple rapid consecutive attacks, and 1 Scarlet Burst attack, dealing Havoc DMG."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Serene Vigil",
+    "details": {
+      "Heavy Attack: Chaoscleave": "After accumulating 60 Ruby Blossom, long press Basic Attack to consume all Ruby Blossom to cast Chaoscleave, dealing Havoc DMG, considered as Heavy Attack damage, and restoring HP to Danjin.",
+      "Overcapped Blossom": "If current Ruby Blossom exceeds 120, this consumes 120 Ruby Blossom to increase the damage multiplier of Chaoscleave and Scatterbloom performed this time.",
+      "Heavy Attack: Scatterbloom": "Use Basic Attack after Heavy Attack Chaoscleave to launch Shatter to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.",
+      "Ruby Blossom": "Danjin obtains Ruby Blossom when using Resonance Skill Crimson Fragment."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Crimson Light",
+    "description": "The damage of the Resonance Skill Crimson Erosion triggered by Dodge Counter: Ruby Shades is increased by 20%. The HP cost and stacks of Ruby Blossom recovered are doubled."
+  },
+  "inherent_skill2": {
+    "name": "Overflow",
+    "description": "After casting Resonance Skill Sanguine Pulse, Danjin's Heavy Attack DMG is increased by 30% for 5s."
+  },
+  "intro_skill": {
+    "name": "Vindiction",
+    "description": "With unwavering determination, Danjin unleashes a strike, dealing Havoc DMG."
+  },
+  "outro_skill": {
+    "name": "Duality",
+    "description": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 23% Havoc DMG Deepen for 14s or until the character is switched."
+  },
+  "resonance_chain": {
+    "s1": "When Danjin attacks a target with Incinerating Will, her ATK is increased by 5% for 6s, stacking up to 6 times. Danjin loses 1 stack each time she takes damage.",
+    "s2": "When Danjin attacks a target with Incinerating Will, her damage dealt is increased by 20%.",
+    "s3": "Resonance Liberation DMG Bonus is increased by 30%.",
+    "s4": "When Danjin has more than 60 Ruby Blossom, her Crit. Rate is increased by 15%. This effect lasts until the end of Heavy Attack: Scatterbloom even after all Ruby Blossom is consumed when casting Heavy Attack: Chaoscleave.",
+    "s5": "Danjin's Havoc DMG Bonus is increased by 15%, and further increased by another 15% when her HP is lower than 60%.",
+    "s6": "Heavy Attack Chaoscleave increases the ATK of all team members by 20% for 20s."
+  }
+}
