@@ -1,0 +1,74 @@
+{
+  "id": 27,
+  "name": "Rover: Havoc",
+  "element": "Havoc",
+  "weapon_type": "Sword",
+  "rarity": 5,
+  "best_weapon": 200,
+  "echo_set": [1007],
+  "description": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
+  "stats": {
+    "HP": { "base": 912, "max": 11400 },
+    "ATK": { "base": 30, "max": 375 },
+    "DEF": { "base": 112, "max": 1369 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Tuneslayer",
+      "details": {
+        "Basic Attack": "Rover-Havoc performs up to 5 consecutive attacks, dealing Havoc DMG.",
+        "Heavy Attack": "Consumes Stamina to attack, dealing Havoc DMG. After casting Heavy Attack, use Basic Attack to cast Basic Attack IV.",
+        "Mid-air Attack": "Consumes Stamina to cast a Mid-Air Plunging Attack, dealing Havoc DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Wingblade",
+      "details": {
+        "Wingblade": "Transforms sound into feathers to attack, dealing Havoc DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Deadening Abyss",
+      "details": {
+        "Deadening Abyss": "Gathers the echoes between Rover's palms to attack a target, dealing Havoc DMG."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Umbra Eclipse",
+    "details": {
+      "Devastation": "When Umbra is full, hold Basic Attack to cast Devastation, dealing Havoc DMG (considered Heavy Attack DMG).",
+      "Dark Surge": "After casting Devastation, enter the Dark Surge state. Basic Attack becomes Enhanced Basic Attack, performing up to 5 consecutive attacks and dealing Havoc DMG.",
+      "Dark Surge – Rules": "• Heavy Attack is replaced with Enhanced Heavy Attack.\n• Use Basic Attack after Enhanced Heavy Attack to cast Heavy Attack Thwackblade, dealing Havoc DMG.\n• Use Basic Attack after Heavy Attack Thwackblade to cast Enhanced Basic Attack 3, dealing Havoc DMG.\n• Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing Havoc DMG.",
+      "Umbra": "Rover can hold up to 100 Umbra. Basic Attack Tuneslayer restores Umbra on hit. Resonance Skill Wingblade and Resonance Skill Lifetaker restore Umbra when cast. Intro Skill Instant of Annihilation restores Umbra when cast."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Metamorph",
+    "description": "In the Dark Surge state, Havoc DMG Bonus is increased by 20%."
+  },
+  "inherent_skill2": {
+    "name": "Bleak Crescendo",
+    "description": "While in the Dark Surge state, Basic Attack restores 1 Resonance Energy when it hits a target. Can trigger once per second."
+  },
+  "intro_skill": {
+    "name": "Instant of Annihilation",
+    "description": "Attacks the target, dealing Havoc DMG."
+  },
+  "outro_skill": {
+    "name": "Soundweaver",
+    "description": "Summons a Havoc Field that attacks a target, dealing Havoc DMG equal to 143.3% of Rover's ATK every 2s for 6s."
+  },
+  "resonance_chain": {
+    "s1": "Resonance Skill DMG Bonus is increased by 30%.",
+    "s2": "Resets Resonance Skill's Cooldown when Rover enters the Dark Surge state by casting Heavy Attack Devastation.",
+    "s3": "In the Dark Surge state, Basic Attack V restores HP equal to 10% of total HP lost on hit.",
+    "s4": "Heavy Attack Devastation and Resonance Liberation Deadening Abyss reduce the target's Havoc RES by 10% for 20s on hit.",
+    "s5": "In the Dark Surge state, Basic Attack V deals additional Havoc DMG equal to 50% of Basic Attack V's damage.",
+    "s6": "In the Dark Surge state, Rover's Crit. Rate is increased by 25%."
+  }
+}
