@@ -1,0 +1,73 @@
+{
+  "id": 31,
+  "name": "Chixia",
+  "element": "Fusion",
+  "weapon_type": "pistol",
+  "rarity": 4,
+  "best_weapon": 300,
+  "echo_set": [1004],
+  "description": "Chixia is a spirited young Jinzhou Patroller who lights up the streets of Jinzhou. She's always ready to be the hero someone needs. She fuses such passion into the bullets that blast out of her fingertips.",
+  "stats": {
+    "HP":   { "base": 727, "max": 9088 },
+    "ATK":  { "base": 24,  "max": 300  },
+    "DEF":  { "base": 78,  "max": 953  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.50,
+    "energy": 150
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "POW POW",
+      "details": {
+        "Basic Attack": "Chixia fires up to 4 consecutive shots at a single target, dealing Fusion DMG.",
+        "Heavy Attack": "Chixia enters the aiming state for a more powerful shot. The shot fired deals Fusion DMG.",
+        "Mid-air Attack": "Chixia consumes Stamina to continuously shoot the target in the air, dealing Fusion DMG.",
+        "Dodge Counter": "Use a Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Whizzing Fight Spirit",
+      "details": {
+        "Effect": "Chixia unleashes a flurry of shots, dealing Fusion DMG. Whizzing Fight Spirit has 2 initial charges."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Blazing Flames",
+      "details": {
+        "Effect": "Chixia fires up fast shots at nearby enemies, dealing Fusion DMG."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Heroic Bullets",
+    "details": {
+      "Resonance Skill: DAKA DAKA!": "Hold Resonance Skill Whizzing Fight Spirit to enter \"DAKA DAKA!\". In this state: Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing Fusion DMG, considered as Resonance Skill DMG. Tap Basic Attack to cast Basic Attack IV, dealing Fusion DMG, considered as Basic Attack DMG, then terminate \"DAKA DAKA!\". If 30 \"Thermobaric Bullets\" have been fired when Basic Attack is activated, Chixia will cast Resonance Skill Boom Boom and terminate \"DAKA DAKA!\". \"DAKA DAKA!\" also ends when all \"Thermobaric Bullets\" are consumed.",
+      "Resonance Skill: Boom Boom": "Chixia deals Fusion DMG, considered as Resonance Skill DMG.",
+      "Thermobaric Bullets": "Chixia can hold up to 60 \"Thermobaric Bullets\". Innate Skill Scorching Magazine increases Max \"Thermobaric Bullets\" by 10. She gains \"Thermobaric Bullets\" when Normal Attack POW POW hits, and upon casting Intro Skill Grand Entrance and Resonance Skill Whizzing Fight Spirit."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Scorching Magazine",
+    "description": "Max \"Thermobaric Bullets\" is increased by 10 rounds. The damage for Resonance Skill Boom Boom is increased by 50%."
+  },
+  "inherent_skill2": {
+    "name": "Numbingly Spicy!",
+    "description": "Each \"Thermobaric Bullets\" that hits a target during Resonance Skill DAKA DAKA! increases ATK by 1% for 10s, stacking up to 30 times."
+  },
+  "intro_skill": {
+    "name": "Grand Entrance",
+    "description": "Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing Fusion DMG."
+  },
+  "outro_skill": {
+    "name": "Leaping Flames",
+    "description": "Chixia releases a shock wave surrounding the target, dealing Fusion DMG equal to 530.00% of Chixia's ATK to enemies within the range."
+  },
+  "resonance_chain": {
+    "s1": "Resonance Skill Boom Boom hits will always be Critical Hits.",
+    "s2": "During Resonance Liberation Blazing Flames, for every 1 target defeated, Chixia recovers 5 Resonance Energy, up to 20 each time.",
+    "s3": "Resonance Liberation Blazing Flames deals 40% more damage to targets whose HP is below 50%.",
+    "s4": "Resonance Liberation Blazing Flames grants 60 \"Thermobaric Bullets\" and immediately resets the Cooldown of Resonance Skill Whizzing Fight Spirit.",
+    "s5": "When the Inherent Skill Numbingly Spicy! reaches max stacks, ATK is additionally increased by 30%.",
+    "s6": "Resonance Skill Boom Boom increases the Basic Attack DMG Bonus of all team members by 25% for 15s."
+  }
+}
