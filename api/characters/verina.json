@@ -1,0 +1,74 @@
+{
+  "id": 22,
+  "rarity": 5,
+  "weapon_type": "rectifier",
+  "element": "Spectro",
+  "name": "Verina",
+  "description": "With an extensive knowledge of botany, Verina is always solicitous, always smiling, and always wishing for every flower to be blessed with the miracle of life.",
+  "stats": {
+    "HP":  { "base": 1139, "max": 14238 },
+    "ATK": { "base": 27,   "max": 338   },
+    "DEF": { "base": 90,   "max": 1100  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 175
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Cultivation",
+      "details": {
+        "Basic Attack": "Perform up to 5 consecutive attacks with vines, dealing Spectro DMG.",
+        "Heavy Attack": "Consume Stamina to charge forward, dealing Spectro DMG.",
+        "Mid-air Attack": "Consume Stamina to perform up to 3 consecutive mid-air strikes, dealing Spectro DMG.",
+        "Mid-air Heavy Attack": "Hold Basic Attack in mid-air to plunge, dealing Spectro DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to counter, dealing Spectro DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Botany Experiment",
+      "details": {
+        "Overview": "Converge an energy field ahead that grows foliage, dealing Spectro DMG in the area."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Arboreal Flourish",
+      "details": {
+        "Overview": "Rapidly nourishes nearby foliage, dealing Spectro DMG and healing all nearby team members. Applies a Photosynthesis Mark; when allies hit marked targets, Veria triggers a Coordinated Attack that deals Spectro DMG and heals the active ally (1/s)."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Starflower Blooms",
+    "details": {
+      "Heavy Attack: Starflower Blooms": "If carrying Photosynthesis Energy, consumes 1 stack to restore Concerto Energy and heal all nearby team members; deals Spectro DMG (treated as Heavy Attack).",
+      "Mid-air Attack: Starflower Blooms": "If carrying Photosynthesis Energy, consumes 1 stack to restore Concerto Energy and heal all nearby team members; deals Spectro DMG (treated as Basic Attack). Can be cast after the heavy version.",
+      "Photosynthesis Energy": "Can hold up to 4 stacks. Gain 1 stack after Basic Attack Stage 5 hits, after casting Botany Experiment, and after Intro Skill Verdant Growth."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Grace of Life",
+    "description": "Prevents a team member from fatal damage and grants a shield equal to 120% of ATK for 10s (triggers once every 10 minutes)."
+  },
+  "inherent_skill2": {
+    "name": "Gift of Nature",
+    "description": "When casting Starflower Blooms (heavy/mid-air), Arboreal Flourish, or Blossom, increase all team members' ATK by 20% for 20s."
+  },
+  "intro_skill": {
+    "name": "Verdant Growth",
+    "description": "Attack the target, dealing Spectro DMG."
+  },
+  "outro_skill": {
+    "name": "Blossom",
+    "description": "Heal the incoming Resonator by 19% of ATK per second for 6s. All nearby teams gain DMG Amplification +15% for 30s."
+  },
+  "resonance_chain": {
+    "s1": "Blossom grants the next character a continuous heal: 20% of Veria's ATK every 5s for 30s.",
+    "s2": "Botany Experiment additionally grants 1 Photosynthesis Energy and 10 Concerto Energy.",
+    "s3": "Photosynthesis Mark healing from Arboreal Flourish increased by 12%.",
+    "s4": "Casting Starflower Blooms (heavy/mid-air), Arboreal Flourish, or Blossom increases all allies' Spectro DMG Bonus by 15% for 24s.",
+    "s5": "When healing allies below 50% HP, Veria's healing is increased by 20%.",
+    "s6": "Starflower Blooms (heavy/mid-air) deal 20% more DMG and trigger one Coordinated Attack that heals, matching Arboreal Flourish's Photosynthesis Mark effects."
+  },
+  "echo_set": [1000],
+  "best_weapon": 507
+}

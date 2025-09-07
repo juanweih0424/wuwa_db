@@ -200,6 +200,40 @@
         ]
     },
     "weapon_description": "I am not there. I do not die. I shall be death's companion—with euphoric delights I drown my fear, with the coming days I trade for the past."
-    }
+    },
+    {
+    "id": 507,
+    "name": "Variation",
+    "rarity": 4,
+    "type": "rectifier",
+    "stats": {
+        "atk": {
+        "base": 27,
+        "max": 337.5,
+        "max_level": 90,
+        "growth": "linear"
+        },
+        "substats": {
+        "kind": "Energy Regen",
+        "base": 0.1152,
+        "max": 0.5184,
+        "max_level": 90,
+        "interval": 5,
+        "growth": "step"
+        }
+    },
+    "skill": {
+        "name": "Ceaseless Aria",
+        "skill_description": "When Resonance Skill is cast, restores {concerto_energy} Concerto Energy. This effect can be triggered 1 times every 20s.",
+        "ranks": [
+        { "rank": 1, "concerto_energy": 8},
+        { "rank": 2, "concerto_energy": 10},
+        { "rank": 3, "concerto_energy": 12},
+        { "rank": 4, "concerto_energy": 14},
+        { "rank": 5, "concerto_energy": 16}
+        ]
+    },
+    "weapon_description": "A descending adagio. This rectifier opens up an insightful window into the situation, changing the tune of the intense battle concerto."
+}
   
 ]
