@@ -2,7 +2,7 @@
   "id": 27,
   "name": "Rover: Havoc",
   "element": "Havoc",
-  "weapon_type": "Sword",
+  "weapon_type": "sword",
   "rarity": 5,
   "best_weapon": 200,
   "echo_set": [1007],
