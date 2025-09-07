@@ -1,0 +1,74 @@
+{
+  "id": 29,
+  "name": "Yangyang",
+  "element": "Aero",
+  "rarity": 4,
+  "weapon_type": "sword",
+  "best_weapon": 100,
+  "echo_set": [1001],
+  "description": "Yangyang is an Outrider of the Midnight Rangers. Once sheltered, now a fighter. She soars with the wind to protect others, like a skylark in flight.",
+  "stats": {
+    "HP": { "base": 816, "max": 10200 },
+    "ATK": { "base": 20, "max": 250},
+    "DEF": { "base": 90, "max": 1100 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 100
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Feather as Blade",
+      "details": {
+        "Basic Attack": "Yangyang performs up to 4 consecutive attacks, dealing Aero DMG.",
+        "Heavy Attack": "Consumes Stamina to lunge forward, dealing Aero DMG.",
+        "Heavy Attack: Zephyr Song": "After Heavy Attack or Dodge Counter, use a Basic Attack to cast Heavy Attack Monsoon to attack the target, dealing Aero DMG.",
+        "Mid-air Attack": "Consumes Stamina to perform a Plunging Attack from mid-air, dealing Aero DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to thrust forward, dealing Aero DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Zephyr Domain",
+      "details": {
+        "Skill": "Yangyang wields her sword to create a whirling vortex of winds that gathers nearby enemies to the center, dealing Aero DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Wind Spirals",
+      "details": {
+        "Liberation": "Conjures a mighty cyclone that gathers nearby enemies, dealing Aero DMG."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Echoing Feathers",
+    "details": {
+      "Heavy Attack: Stormy Strike": "When Yangyang has 3 Melodies, she can cast Stormy Strike after Heavy Attack, dealing Aero DMG.",
+      "Mid-air Attack: Feather Release": "At 3 Melodies, casting Basic Attacks in mid-air consumes all Melodies to perform consecutive strikes and dive from mid-air, dealing Aero DMG. Upon landing, she sheathes her sword with an attack (considered Basic Attack).",
+      "Melody": "Yangyang can hold up to 3 Melodies. Gains 1 Melody with every Basic Attack IV on hit; 1 Melody for every Zephyr Song on hit; 1 Melody when Resonance Skill Zephyr Domain hits; and 1 Melody upon casting Intro Skill Cerulean Song."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Compassion",
+    "description": "Recovers 30 Stamina after casting Mid-air Attack Feather Release."
+  },
+  "inherent_skill2": {
+    "name": "Lazuline Mercy",
+    "description": "Yangyang's Aero DMG Bonus is increased by 8% for 8s after casting Intro Skill Cerulean Song."
+  },
+  "intro_skill": {
+    "name": "Cerulean Song",
+    "description": "Sends the target into the air, dealing Aero DMG."
+  },
+  "outro_skill": {
+    "name": "Whispering Breeze",
+    "description": "Recovers 4 Resonance Energy per second for 5s for the next character (or nearby team that activates an Outro Skill)."
+  },
+  "resonance_chain": {
+    "s1": "Intro Skill Cerulean Song increases Yangyang's Aero DMG Bonus by an additional 15% for 8s.",
+    "s2": "Heavy Attack restores an additional 10 Resonance Energy when it hits a target, once every 20s.",
+    "s3": "Resonance Skill DMG Bonus is increased by 40%. The Wind Field’s pulling effect on surrounding targets is enhanced, and pulling range is expanded by 33%.",
+    "s4": "Mid-air Attack Feather Release DMG is increased by 95%.",
+    "s5": "Resonance Liberation Wind Spirals DMG is increased by 85%.",
+    "s6": "After casting Mid-air Attack Feather Release, all team members’ ATK is increased by 20% for 20s."
+  }
+}
