@@ -1,0 +1,75 @@
+{
+  "id": 28,
+  "name": "Rover: Aero",
+  "element": "Aero",
+  "rarity": 5,
+  "weapon_type": "sword",
+  "best_weapon": 204,
+  "echo_set": [1017],
+  "description": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
+  "stats": {
+    "HP": { "base": 862, "max": 10775 },
+    "ATK": { "base": 35, "max": 438 },
+    "DEF": { "base": 93, "max": 1137 },
+    "crit_rate": 0.05,
+    "crit_dmg": 0.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Wind Cutter",
+      "details": {
+        "Basic Attack": "Perform up to 4 consecutive attacks, dealing Aero DMG.",
+        "Heavy Attack": "Consume STA to attack the target, dealing Aero DMG. Press Normal Attack right after casting the skill to perform Basic Attack Stage 3 directly.",
+        "Heavy Attack - Razor Wind": "Hold Normal Attack after casting Basic Attack Stage 3, Dodge Counter, or Heavy Attack to cast Heavy Attack Razor Wind, dealing Aero DMG (consumes STA).",
+        "Mid-air Attack": "Consume STA to perform a Plunging Attack, dealing Aero DMG. Press Normal Attack shortly after landing to cast Basic Attack Stage 4. At max Windstrings, pressing Normal Attack shortly after landing casts Resonance Skill Unbound Flow.",
+        "Dodge Counter": "Press Normal Attack right after a successful Dodge to attack the target, dealing Aero DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Illusion Breaker",
+      "details": {
+        "Awakening Gale": "Jump into the air and slash the target, dealing Aero DMG.",
+        "Skyfall Severance": "While mid-air, press Resonance Skill to deal Aero DMG, removing all stacks of Spectro Frazzle, Havoc Bane, Fusion Burst, Glacio Chafe, and Electro Flare from the target and inflicting 1 stack of Aero Erosion for each stack removed."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Omega Storm",
+      "details": {
+        "Omega Storm": "Unleash the power of the Eye of Tempest, dealing Aero DMG and healing all nearby Resonators in the team. Can be cast in mid-air close to the ground."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Cycle of Wind",
+    "details": {
+      "Mid-air Attack - Cloudburst Dance": "Perform up to 2 consecutive attacks, dealing Aero DMG (considered Resonance Skill DMG) and healing all nearby Resonators. Can be cast by: (1) pressing Normal Attack right after Resonance Skill Awakening Gale, (2) pressing Normal Attack right after Intro Skill, or (3) pressing Normal Attack right after Heavy Attack Razor Wind. Hold Normal Attack during Cloudburst Dance to continue the mid-air attack.",
+      "Resonance Skill - Unbound Flow": "At max Windstrings, Awakening Gale becomes Unbound Flow: perform up to 2 consecutive attacks. Each attack consumes 60 Windstrings, dealing Aero DMG (considered Resonance Skill DMG). Switching to another Resonator after Stage 1 automatically triggers Stage 2.",
+      "Windstring": "Rover can hold up to 120 Windstrings. Each stage of Cloudburst Dance restores 25 Windstrings on hit. Casting Intro Skill restores 20 Windstrings. Hitting a target with Basic Attack Stage 3 or 4, or Dodge Counter, restores 10 Windstrings."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Sand in the Storm",
+    "description": "Casting Intro Skill Relentless Squall increases ATK by 20% for 10s."
+  },
+  "inherent_skill2": {
+    "name": "Boundless Winds",
+    "description": "Increase Healing from Resonance Liberation Omega Storm by 20%."
+  },
+  "intro_skill": {
+    "name": "Relentless Squall",
+    "description": "Deal Aero DMG."
+  },
+  "outro_skill": {
+    "name": "Storm's Echo",
+    "description": "Grant Aeolian Realm to all nearby Resonators in the team for 30s. Aeolian Realm: upon hitting a target, increase the maximum stack of Aero Erosion the target can receive by 3 for 10s (not stackable)."
+  },
+  "resonance_chain": {
+    "s1": "Casting Mid-air Attack Cloudburst Dance enhances Rover's resistance to interruption for 3s.",
+    "s2": "Casting Resonance Skill Unbound Flow continuously restores HP for the on-field Resonator by 20% of Rover's ATK every 3s for 30s. If their HP is lower than 35%, immediately restore 10% of lost HP (once every 10s; unaffected by Healing Bonus).",
+    "s3": "Aero DMG Bonus is increased by 15%.",
+    "s4": "Casting Mid-air Attack Cloudburst Dance increases Resonance Skill DMG Bonus by 15% for 5s.",
+    "s5": "Resonance Liberation Omega Storm DMG Multiplier increased by 20%.",
+    "s6": "Resonance Skill Unbound Flow DMG Multiplier increased by 30%."
+  }
+}

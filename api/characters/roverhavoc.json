@@ -8,9 +8,9 @@
   "echo_set": [1007],
   "description": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
   "stats": {
-    "HP": { "base": 912, "max": 11400 },
-    "ATK": { "base": 30, "max": 375 },
-    "DEF": { "base": 112, "max": 1369 },
+    "HP": { "base": 816, "max": 10825 },
+    "ATK": { "base": 33, "max": 413 },
+    "DEF": { "base": 103, "max": 1259 },
     "crit_rate": 0.05,
     "crit_dmg": 1.5,
     "energy": 125
