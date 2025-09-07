@@ -1,0 +1,79 @@
+{
+  "id": 20,
+  "rarity": 5,
+  "weapon_type": "rectifier",
+  "element": "Fusion",
+  "name": "Encore",
+  "description": "A girl accompanied by one black and one white Wooly. Encore, consultant from the Black Shores, dreams of creating happy stories with candies, fairy tales, and her imagination.",
+  "stats": {
+    "HP":  { "base": 841,  "max": 10513 },
+    "ATK": { "base": 34,   "max": 425   },
+    "DEF": { "base": 102,  "max": 1247  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Wooly Attack",
+      "details": {
+        "Basic Attack": "Perform up to 4 consecutive attacks, dealing Fusion DMG.",
+        "Basic Attack: Wooly Strike": "After the Basic Attack IV, press Basic Attack to attack the target, dealing Fusion DMG.",
+        "Heavy Attack": "Encore consumes Stamina to attack the target, dealing Fusion DMG.",
+        "Mid-air Attack": "Encore consumes Stamina to perform a Plunging Attack, dealing Fusion DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Flaming Woolies",
+      "details": {
+        "Flaming Woolies": "Summon Cloudy and Cosmos to attack the target with high-temperature rays, dealing Fusion DMG.",
+        "Energetic Welcome": "After casting Flaming Woolies, use Resonance Skill to launch Energetic Welcome to attack the target, dealing Fusion DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Cosmos Rave",
+      "details": {
+        "Overview": "As Encore loses control, Cosmos breaks free and wreaks havoc on its surroundings.",
+        "Basic Attack: Cosmos Frolicking": "During Cosmos Rampage, the Basic Attack is replaced with Cosmos: Frolicking, which performs up to 4 consecutive attacks, dealing Fusion DMG, considered as Basic Attack damage.",
+        "Cosmos: Heavy Attack": "During Cosmos Rampage, the Heavy Attack is replaced with Cosmos: Heavy Attack, consuming Stamina to attack the target, dealing Fusion DMG, considered as Heavy Attack damage.",
+        "Resonance Skill: Cosmos Rampage": "During Cosmos Rampage, Flaming Woolies is replaced with Cosmos: Rampage, attacking the target with uncontrollable flames, dealing Fusion DMG, considered as Resonance Skill damage.",
+        "Cosmos: Dodge Counter": "During Cosmos Rampage, use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG, considered as Basic Attack damage."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Black & White Woolies",
+    "details": {
+      "Resonance Liberation: Cloudy Frenzy": "When Encore's \"Dissonance\" is full, after casting a Heavy Attack, Encore will consume all \"Dissonance\" to enter the Dissonance state, reducing damage taken by 70%. Switching Characters does not interrupt \"Dissonance\". After the Dissonance state ends, Encore will cast Cloudy Frenzy, dealing Fusion DMG, considered as Resonance Liberation damage.",
+      "Resonance Liberation: Cosmos Rupture": "During Cosmos Rampage, when casting Heavy Attack, if \"Dissonance\" is full, Encore will consume all \"Dissonance\" to enter Cosmos' Dissonance state, reducing damage taken by 70%. Switching Characters does not interrupt \"Dissonance\". After Cosmos' Dissonance state ends, Encore will cast Cosmos Rupture, dealing Fusion DMG, considered as Resonance Liberation damage.",
+      "Dissonance": "Encore can hold up to 100 \"Dissonance\". When Normal Attack Wooly Attack hits the target, Encore restores \"Dissonance\". When Resonance Skill Flaming Woolies hits the target, Encore restores \"Dissonance\". When Resonance Skill Energetic Welcome hits the target, Encore restores \"Dissonance\". When Intro Skill Woolies Can Help hits the target, Encore restores \"Dissonance\". During the duration of Resonance Liberation Cosmos Rampage, hitting targets will restore \"Dissonance\" to Encore."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Angry Cosmos",
+    "description": "During the Resonance Liberation Cosmos Rave, when Encore's HP is above 70%, DMG dealt is increased by 10%."
+  },
+  "inherent_skill2": {
+    "name": "Woolies Cheer Dance",
+    "description": "When Resonance Skill Flaming Woolies or Resonance Skill Cosmos: Rave is cast, Encore's Fusion DMG Bonus is increased by 10% for 10s."
+  },
+  "intro_skill": {
+    "name": "Woolies Can Help!",
+    "description": "Encore pounces at the enemies with Cosmos, dealing Fusion DMG."
+  },
+  "outro_skill": {
+    "name": "Thermal Field",
+    "description": "Encore generates a Flame Zone centered around skill target, with a radius of 3m. Targets inside the Flame Zone are continuously burned, suffering Fusion DMG equal to 176.76% of Encore's ATK every 1.5s for 6s."
+  },
+  "resonance_chain": {
+    "s1": "When Basic Attack hits a target, Encore's Fusion DMG Bonus is increased by 3%, stacking up to 4 times for 6s.",
+    "s2": "Encore additionally restores 10 Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every 10s.",
+    "s3": "The DMG multiplier of Resonance Liberation Cloudy: Frenzy and Resonance Liberation Cosmos: Rupture is increased by 40%.",
+    "s4": "Resonance Liberation Cosmos: Rupture increases the Fusion DMG Bonus of all team members by 20% for 30s.",
+    "s5": "Resonance Skill DMG Bonus is increased by 35%.",
+    "s6": "During Resonance Liberation Cosmos: Rave, Encore gains 1 stack of \"Lost Lamb\" every time she deals damage, each stack increasing her ATK by 5% for 10s, stacking up to 6 times."
+  },
+  "echo_set": [1004],
+  "best_weapon": 501
+}

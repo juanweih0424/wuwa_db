@@ -1,0 +1,76 @@
+{
+  "id": 19,
+  "rarity": 5,
+  "weapon_type": "broadblade",
+  "element": "Electro",
+  "name": "Calcharo",
+  "description": "Leader of the \"Ghost Hounds,\" an international mercenary group. Ruthless, vengeful, unforgiving. His Forte allows him to summon a special Tacet Discord to assist his assault on the targets. A potential client must be mindful of the price to pay before making him an offer.",
+  "stats": {
+    "HP":  { "base": 840,  "max": 10500 },
+    "ATK": { "base": 35,   "max": 438   },
+    "DEF": { "base": 97,   "max": 1186  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Gnawing Fangs",
+      "details": {
+        "Basic Attack": "Perform up to 4 attacks, dealing Electro DMG.",
+        "Heavy Attack": "Consume Stamina to attack the target, dealing Electro DMG.",
+        "Mid-air Attack": "Consume Stamina to perform a Mid-Air Plunging Attack, dealing Electro DMG.",
+        "Dodge Counter": "Using Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Extermination Order",
+      "details": {
+        "Extermination Order": "Cast up to 3 attacks. Deal Electro DMG. If this Character is switched or Resonance Skill Extermination Order is not repeated in a while, it will be put on a Cooldown. Resonance Skill Extermination Order does not reset your Basic Attack stage."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Phantom Etching",
+      "details": {
+        "Overview": "Calcharo attacks the target, dealing Electro DMG and enters Deathblade Gear state. After Resonance Liberation Deathblade Gear state ends, Calcharo’s next Intro Skill is replaced with Intro Skill “Necessary Means”, which deals Electro DMG, considered as Intro Skill damage.",
+        "Deathblade Gear": "Basic Attack is replaced with Basic Attack Hounds Roar. Dodge Counter deals increased damage, considered as Resonance Liberation damage.",
+        "Hounds Roar": "Perform up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack Damage."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Hunting Mission",
+    "details": {
+      "Heavy Attack \"Mercy\"": "When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.",
+      "Cruelty": "Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".",
+      "Heavy Attack \"Death Messenger\"": "When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.",
+      "Killing Intent": "Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\"."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Bloodshed Awaken",
+    "description": "When casting Heavy Attack \"Mercy\", Calcharo's Resonance Liberation DMG Bonus is increased by 10% for 15s."
+  },
+  "inherent_skill2": {
+    "name": "Revenant Rush",
+    "description": "When Heavy Attack \"Death Messenger\" hits the target, the damage taken by Calcharo is reduced by 15% for 5s."
+  },
+  "intro_skill": {
+    "name": "Wanted Outlaw",
+    "description": "Attack the target, dealing Electro DMG."
+  },
+  "outro_skill": {
+    "name": "Shadowy Raid",
+    "description": "Calcharo summons Phantom to support the Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK."
+  },
+  "resonance_chain": {
+    "s1": "When Resonance Skill Extermination Order hits a target, it additionally recovers 10 Resonance Energy. This can be triggered once every 20 seconds.",
+    "s2": "After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill DMG Bonus is increased by 30% for 15s.",
+    "s3": "During the Resonance Liberation Deathblade Gear state, Calcharo's Electro DMG Bonus is increased by 25%.",
+    "s4": "After casting Outro Skill Shadowy Raid, Electro DMG Bonus of all team members is increased by 20% for 30s.",
+    "s5": "Intro Skill Wanted Criminal and Intro Skill \"Necessary Means\" deal 50% more damage.",
+    "s6": "When casting Resonance Liberation \"Death Messenger\", Calcharo will summon 2 Phantoms to perform Coordinated Attacks. Each Phantom deals Electro DMG equal to 100.00% of Calcharo's ATK, which is considered Resonance Liberation damage."
+  },
+  "echo_set": [1002],
+  "best_weapon": 100
+}
