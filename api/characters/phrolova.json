@@ -80,6 +80,6 @@
         "s5": "Upon entering Maestro, generate a field that Stagnates nearby targets for 4s. Leaving Maestro or switching Resonators removes the Stagnation early. Damage taken during Maestro is reduced by 30%.",
         "s6": "Increase the DMG Multiplier of Enhanced Attack – Hecate by 24%. During Movement of Fate and Finality and Murmurs in a Haunting Dream, command Hecate to cast 1 Apparition of Beyond – Hecate, dealing Havoc DMG (considered Echo Skill DMG) and granting 8 stacks of Aftersound on hit. If Phrolova is not the active Resonator during Maestro, targets take 40% more DMG from Hecate and Phrolova; if she is active, gain 60% Havoc DMG Bonus."
     },
-    "echo_set": [1014],
+    "echo_set": [1014, 1011],
     "best_weapon":506
 }
