@@ -80,7 +80,7 @@ function EchoDeatil(){
     return (
     <div className="echo-detail">
             <div className="echo-info" echo-class={echo.cost}>
-                <img classNmae="echo-icon" src={echoIcon}/>
+                <img className="echo-icon" src={echoIcon}/>
                 <div className="echo-info-sub-container">
                     <p className="echo-name1">{echo.name}</p>
                     <p className="echo-class">Class: {echo.class}</p>

@@ -134,7 +134,7 @@ function Weapons() {
                 </select>
 
             </div>
-                <main className="weapons">
+              
 
                 <section className="weapons-grid">
                 {loading ? null: visible.map((w) => (
@@ -148,7 +148,6 @@ function Weapons() {
                         />
                     ))}
             </section>
-            </main>
              </div>
         </>
   );

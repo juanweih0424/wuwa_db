@@ -13,6 +13,10 @@ import def from "../assets/images/stats/def.png";
 import energy from "../assets/images/stats/energy.png";
 import hp from "../assets/images/stats/hp.png";
 import sword from "../assets/images/stats/sword.png" 
+import rectifier from "../assets/images/stats/rectifier.png" 
+import broadblade from "../assets/images/stats/broadblade.png" 
+import pistol from "../assets/images/stats/pistol.png" 
+import gauntlet from "../assets/images/stats/gauntlet.png" 
 
 const API = "https://api.wuwa-db-api.com/v1/characters";
 const WEAPON_API = "https://api.wuwa-db-api.com/v1/weapons";
@@ -27,7 +31,11 @@ Math.round(base + (max - base) * ((lv - MIN_LV) / (MAX_LV - MIN_LV)));
 
 
 const weaponIcons = {
-  sword
+  sword,
+  rectifier,
+  gauntlet,
+  broadblade,
+  pistol
 };
 
 export function getWeaponIcon(type) {
@@ -46,6 +54,26 @@ function highlightDamageTypes(text) {
       /\b(Basic Attack|Resonance Skill|Resonance Liberation|Heavy Attack)\b/g,
       `<span class="keyword">$&</span>`
     );
+}
+
+function EchoSetCard({ set, pieceKey }) {
+  if (!set) return null;
+  const effect = set.effect?.[pieceKey];
+  return (
+    <div className="char-build-echoset">
+      <div className="echo-set-icon-title">
+        <img src={getEchoSetImageUrl(set.id)} className="echo-set-icon" />
+        <p>{set.name}</p>
+      </div>
+      {effect && (
+        <div className="echo-set-effect">
+          <p>
+            <strong>{pieceKey}:</strong> {effect}
+          </p>
+        </div>
+      )}
+    </div>
+  );
 }
 
 function CharacterDetail() {
@@ -131,6 +159,9 @@ function CharacterDetail() {
     const charEchoSetId = character.echo_set?.[0]
     const charEchoSet = echoSets.find((set) => set.id === charEchoSetId);
     const echoSetImg = charEchoSet ? getEchoSetImageUrl(charEchoSet.id) : null;
+    const echoIds = character.echo_set ?? [];
+    const primaryEchoSet   = echoSets.find((s) => s.id === echoIds[0]);
+    const secondaryEchoSet = echoSets.find((s) => s.id === echoIds[1]);
 
     const rows = [
         { key: "hp",     label: "HP",         value: fmtNum(scaled.HP),        icon: hp },
@@ -205,12 +236,55 @@ function CharacterDetail() {
                     ))}
                 </div>
                 </div>
+            
             </div>
+            <h1 className="char-skill-big-title">{character.name} Best Build</h1>
+            <div className="char-build">
+                    <img src={charIcon} className="char-build-icon"/>
+                    <div className="char-build-wrapper">
+                        <h1>Best Weapon</h1>
+                        {weaponCard && (
+                            <WeaponCard
+                                href={weaponCard.href}
+                                name={weaponCard.name}
+                                img={weaponCard.img}
+                                rarity={weaponCard.rarity}
+                                type={weaponCard.type}
+                                className="char-weapon-card"
+                            />
+                        )}
+                    </div>
+                        {echoIds.length === 1 && primaryEchoSet && (
+                        <div className="char-build-echoset">
+                            <div className="echo-set-icon-title">
+                                <img src={getEchoSetImageUrl(primaryEchoSet.id)} className="echo-set-icon" alt={primaryEchoSet.name} />
+                                <p>{primaryEchoSet.name}</p>
+                                </div>
+                                <div className="echo-set-effect">
+                                {["2pc", "3pc", "5pc"].map((setKey) =>
+                                    primaryEchoSet?.effect?.[setKey] && (
+                                    <p key={setKey}>
+                                        <strong>{setKey}:</strong> {primaryEchoSet.effect[setKey]}
+                                    </p>
+                                    )
+                                )}
+                            </div>
+                        </div>
+                        )}
+                        {echoIds.length === 2 && (
+                        <div className="char-build-echoset-mix">
+                            <EchoSetCard set={secondaryEchoSet} pieceKey="2pc" />
+                            <EchoSetCard set={primaryEchoSet} pieceKey="3pc" />
+                        </div>
+                        )}
+            </div>
+
             <h1 className="char-skill-big-title">{character.name} Skills</h1>
             <div className="char-skill">
                 <div className="char-skill-basic">
                     <div className="wrapper-title-name">
                         <h2 className="char-skill-title">Basic Attack</h2>
+                        
                         <h3 className="char-skill-name">{character.active_skills.basic_attack.name}</h3>
                     </div>
                     <ul className="char-skill-list">
@@ -334,42 +408,7 @@ function CharacterDetail() {
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s6) }}/>
                 </div>
             </div>
-            <h1 className="char-skill-big-title">{character.name} Best Build</h1>
-            <div className="char-build">
-                    <img src={charIcon} className="char-build-icon"/>
-                    <div className="char-build-wrapper">
-                        <h1>Best Weapon</h1>
-                        {weaponCard && (
-                            <WeaponCard
-                                href={weaponCard.href}
-                                name={weaponCard.name}
-                                img={weaponCard.img}
-                                rarity={weaponCard.rarity}
-                                type={weaponCard.type}
-                                className="char-weapon-card"
-                            />
-                        )}
-                    </div>
-                    {charEchoSet && (
-                    <div className="char-build-echoset">
-                        <div className="echo-set-icon-title">
-                            <img
-                            src={getEchoSetImageUrl(charEchoSet.id)}
-                            className="echo-set-icon"
-                            />
-                            <p>{charEchoSet.name}</p>
-                        </div>
-                        <div className="echo-set-effect">
-                            {charEchoSet.effect?.["2pc"] && (
-                            <p><strong>2pc:</strong> {charEchoSet.effect["2pc"]}</p>
-                            )}
-                            {charEchoSet.effect?.["5pc"] && (
-                            <p><strong>5pc:</strong> {charEchoSet.effect["5pc"]}</p>
-                            )}
-                        </div>
-                    </div>
-                    )}
-                </div>
+            
 
         </div>
     );

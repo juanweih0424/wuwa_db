@@ -101,7 +101,7 @@ function Echoes() {
       <h1 className="title">Wuthering Waves Echoes</h1>
       <div className="searchbar">
         <input type="search" 
-        placeholder="Enter an echo name" 
+        placeholder="Search echoes..." 
         className="echo-search"
         value={query}
         onChange={(e)=>setQuery(e.target.value)}/>

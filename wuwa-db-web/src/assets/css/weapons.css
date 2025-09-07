@@ -1,38 +1,35 @@
 .page-title {
-  text-align: center;
-  margin-top: 2rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .content {
-  --side-pad: 50px;
-  --gap: 18px;
-  --track-max: 1200px;
+    --side-pad: 50px;
+    --gap: 18px;
+    --track-max: 1200px;
 
-  max-width: calc(var(--track-max) + 2 * var(--side-pad));
-  margin-inline: auto;
-  padding-inline: var(--side-pad);
-  box-sizing: border-box;
+    max-width: 1300px;
+    margin-inline: auto;
+    box-sizing: border-box;
 }
 
 @media (max-width: 960px) { .content { --side-pad: 36px; } }
 @media (max-width: 720px) { .content { --side-pad: 20px; } }
 
 .weapons {
-  min-height: calc(100vh - 220px);
-  display: grid;
-  align-content: start;
+    min-height: calc(100vh - 220px);
+    display: grid;
+    align-content: start;
 }
 
 .filters {
   width: 100%;
-  max-width: var(--track-max);
+  max-width: 800px;
   margin-inline: auto;
-
   display: grid;
-  grid-template-columns: 1fr 160px 160px;
+  grid-template-columns: 1fr 120px 120px;
   gap: 12px;
   align-items: center;
-
   margin-top: 16px;
   margin-bottom: 8px;
   padding: 10px 12px;
@@ -40,10 +37,6 @@
   background: rgba(255,255,255,0.03);
   border: 1px solid #3c445d;
   box-shadow: 0 6px 16px rgba(0,0,0,.18);
-
-  position: static;
-  top: 12px;
-  z-index: 5;
 }
 
 .filters input[type="search"],
@@ -77,71 +70,29 @@
 }
 
 
-@media (max-width: 799.98px) {
-  .filters {
-    grid-template-columns: 1fr;
-    row-gap: 10px;
-  }
-  .filters .filter-search,
-  .filters .filter-rarity,
-  .filters .filter-type {
-    width: 100%;
-    min-width: 0;
-  }
+@media (max-width: 900px) {
+    .filters {
+      width: 50%;
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+    }
+    .filters .filter-search,
+    .filters .filter-rarity,
+    .filters .filter-type {
+      width: 100%;
+      min-width: 0;
+    }
 }
 
 .weapons-grid {
-  width: 100%;
-  max-width: var(--track-max);
-  margin-inline: auto;
-
-  display: grid;
-  gap: var(--gap);
-  padding-block: 20px;
-  box-sizing: border-box;
-
-  grid-template-columns: 1fr;
-  align-content: start;
+    display: grid;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 2rem 2rem 4rem;
+    grid-template-columns: repeat(auto-fill, 140px);
+    justify-content: center; 
 }
 
 
-@media (min-width: 640px) {
-  .weapons-grid { grid-template-columns: repeat(2, 1fr); }
-}
 
-@media (min-width: 960px) {
-  .weapons-grid { grid-template-columns: repeat(3, 1fr); }
-  .content { --track-max: 1000px; }
-}
 
-@media (min-width: 1200px) {
-  .weapons-grid { grid-template-columns: repeat(4, 1fr); }
-  .content { --track-max: 1200px; }
-}
-
-@media (min-width: 1450px) {
-  .weapons-grid { grid-template-columns: repeat(5, 1fr); }
-  .content { --track-max: 1450px; }
-}
-
-@media (min-width: 1600px) {
-  .content { --track-max: 1600px; }
-  .filters,
-  .weapons-grid {
-    width: var(--track-max);
-    max-width: none;
-  }
-}
-
-@media (min-width: 1750px) {
-  .content { --track-max: 1750px; }
-  .filters,
-  .weapons-grid {
-    width: var(--track-max);
-    max-width: none;
-  }
-}
-
-@media (max-width: 640px) {
-  .content { --side-pad: 12px; }
-}
