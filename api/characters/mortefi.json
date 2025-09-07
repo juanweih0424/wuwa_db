@@ -1,0 +1,74 @@
+{
+  "id": 32,
+  "name": "Mortefi",
+  "rarity": 4,
+  "element": "Fusion",
+  "weapon_type": "Pistol",
+  "best_weapon": 200,
+  "echo_set": [1001],
+  "description": "Mortefi, a skilled expert in Applied Tacetite Study and a member of the Academy’s Department of Safety, possesses the unique ability to transform his accumulated frustration into fiery flames. From a burning wrath that consumes all, the red dragon shall descend.",
+  "stats": {
+    "HP":   { "base": 802,  "max": 10025 },
+    "ATK":  { "base": 20,   "max": 250 },
+    "DEF":  { "base": 93,   "max": 1137 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Impromptu Show",
+      "details": {
+        "Basic Attack": "Use dual guns and fire up to 4 continuous attacks, dealing Fusion DMG.",
+        "Heavy Attack": "Enter aiming state for a more powerful shot. The aimed shot fired after charging deals Fusion DMG.",
+        "Mid-air Attack": "Consume Stamina to perform consecutive mid-air shots, dealing Fusion DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Passionate Variation",
+      "details": {
+        "Skill": "Launch high-speed flame lightning forward, dealing Fusion DMG."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Violent Finale",
+      "details": {
+        "Skill": "Deal Fusion DMG and apply Burning Rhapsody to all characters in the team.",
+        "Burning Rhapsody": "When the on-field character’s Basic Attack hits, Mortefi launches a Coordinated Attack, firing 1 Marcato. When Heavy Attack hits, fires 2 Marcato. Can launch one Coordinated Attack every 0.35s.",
+        "Marcato": "Deals Fusion DMG."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Fury Fugue",
+    "details": {
+      "Resonance Skill: Fury Fugue": "When Mortefi’s Annoyance reaches 100, his Resonance Skill is replaced with Fury Fugue. Casting consumes all Annoyance to unleash high-speed flame lightning, dealing Fusion DMG (considered Resonance Skill DMG).",
+      "Annoyance": "Can hold up to 100. Restored when Normal Attack Impromptu Show hits; restored when Intro Skill Dissonance hits; restored when Passionate Variation hits; within 5s after Passionate Variation, Basic Attack Impromptu that hits additionally restores Annoyance."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Harmonic Control",
+    "description": "After casting Resonance Skill Passionate Variation, the damage of Resonance Skill Draconic Hellfire is increased by 25% for 8s."
+  },
+  "inherent_skill2": {
+    "name": "Rhythmic Vibrato",
+    "description": "During Resonance Liberation Burning Rhapsody, each hit of Marcato increases the damage of the next Marcato by 1.5%, once every 0.35s, stacking up to 50 times. Resets when Burning Rhapsody ends."
+  },
+  "intro_skill": {
+    "name": "Dissonance",
+    "description": "Attack the target, dealing Fusion DMG."
+  },
+  "outro_skill": {
+    "name": "Rage Transposition",
+    "description": "The next character (or a nearby ally that activates an Outro Skill) gains 38% Heavy Attack DMG Deepen for 14s or until switched."
+  },
+  "resonance_chain": {
+    "s1": "During Burning Rhapsody, launches Coordinated Attacks when the on-field character uses Resonance Skills, firing 2 Marcato hits that deal Fusion Damage.",
+    "s2": "After using the Echo Skill, restores an additional 10 Resonance Energy (once every 20s).",
+    "s3": "During Burning Rhapsody, the Crit DMG of Resonance Liberation’s Marcato is increased by 30%.",
+    "s4": "Extends Burning Rhapsody’s duration by 7s.",
+    "s5": "When Passionate Variation or Fury Fugue hits a target, fires 4 Marcato hits that deal Fusion Damage; these hits deal 50% reduced DMG.",
+    "s6": "When Violent Finale is cast, increases ATK of all team members by 20% for 20s."
+  }
+}
