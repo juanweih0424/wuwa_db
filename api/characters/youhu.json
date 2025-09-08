@@ -1,0 +1,75 @@
+{
+  "id": 34,
+  "name": "Youhu",
+  "element": "Glacio",
+  "weapon_type": "gauntlet",
+  "rarity": 4,
+  "best_weapon": 400,
+  "echo_set": [1000],
+  "description": "A voluble and whimsical antique appraiser. Known for creating limericks on the spot, she presents her appraisals with flair and precision. She sets up a stall on the street, ensuring antiques find their way to those who truly cherish them.",
+  "stats": {
+    "HP":   { "base": 798,  "max": 9975 },
+    "ATK":  { "base": 21,   "max": 263  },
+    "DEF":  { "base": 86,   "max": 1051 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Frosty Punches",
+      "details": {
+        "Basic Attack": "Perform up to 4 consecutive attacks, dealing Glacio DMG.",
+        "Heavy Attack": "When Frost is full, hold Normal Attack to cast Frostfall. While in Fortune Rolling state, releasing Normal Attack casts Frostfall; otherwise performs Lucky Draw once.",
+        "Frost Gain": "Obtain Frost over time in Fortune Rolling or when Basic Attacks hit a target.",
+        "Heavy Attack: Frostfall": "Dash forward, dealing Glacio DMG and performing Lucky Draw once.",
+        "Mid-air Attack": "Perform a Plunging Attack at the cost of STA, dealing Glacio DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to thrust forward, dealing Glacio DMG and performing Lucky Draw once."
+      }
+    },
+    "resonance_skill": {
+      "name": "Scroll Divination",
+      "description": "Smash a scroll down at the enemy, dealing Glacio DMG, restoring HP for nearby party members, and performing Lucky Draw once.",
+      "details": {
+        "Lucky Draw": "Obtain a random Antique after Lucky Draw. With an Antique, the next Basic Attack activates the corresponding Antique Appraisal.",
+        "Antique Appraisal": "Triggers one of four appraisals:\n• Chime: Attack the enemy (Glacio DMG); effectively reduces Vibration Strength.\n• Ruyi: Batter the enemy (Glacio DMG) with a higher DMG Multiplier.\n• Ding: Ram into the enemy (Glacio DMG); effectively breaks stance.\n• Mask: Throw a mask forward (Glacio DMG); can pull in enemies along its path."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Fortune's Favor",
+      "description": "Hurl the scroll to cause a Glacio DMG blast. Four buttons appear on the blast; choose within the time limit to obtain the corresponding Antique; otherwise obtain one random Antique."
+    }
+  },
+  "forte_circuit": {
+    "name": "Poetic Essence",
+    "details": {
+      "Core": "At four Auspices, hold Normal Attack to release Poetic Essence, dealing Glacio DMG (considered Resonance Skill DMG) and restoring HP for all nearby party members. Youhu can hold up to four Auspices.",
+      "Auspice Combinations": "• Free Verse: Four different Auspices; additionally reduces hit enemies’ Vibration Strength.\n• Antithesis: One pair of Auspices; increases Poetic Essence DMG by 70%.\n• Double Pun: Two pairs; additionally restores HP for all nearby party members.\n• Triplet: Three identical Auspices; increases Poetic Essence DMG by 175%.\n• Perfect Rhyme: Four identical Auspices; simultaneously activates Free Verse, Double Pun, and Triplet.",
+      "How to Gain Auspices": "Gain Auspices via Antique Appraisal. Use Basic Attack while holding an Antique to receive the corresponding Auspice. Unlock Antiques by casting Scroll Divination (RS), Scroll of Wonders (Intro), Frostfall (Heavy), Fortune's Favor (RL), and Dodge Counter."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Treasured Piece",
+    "description": "Restore HP for all nearby party members based on 30% of the healing provided by Resonance Skill Scroll Divination when Resonance Skill Antique Appraisal is cast."
+  },
+  "inherent_skill2": {
+    "name": "Rare Find",
+    "description": "Gain 15% Glacio DMG Bonus for 14s upon casting Intro Skill Scroll of Wonders."
+  },
+  "intro_skill": {
+    "name": "Scroll of Wonders",
+    "description": "Toss out the scroll and perform Lucky Draw once."
+  },
+  "outro_skill": {
+    "name": "Timeless Classics",
+    "description": "The incoming Resonator has their Coordinated Attack DMG Amplified by 100% for 28s."
+  },
+  "resonance_chain": {
+    "s1": "10% chance to gain immunity to damage and interruption after casting Lucky Draw, lasting 5s or until switched out.",
+    "s2": "The DMG bonus of Antithesis, Triplet, and Perfect Rhyme on Poetic Essence is doubled.",
+    "s3": "ATK is increased by 20%.",
+    "s4": "Each time Scroll Divination is cast, there is a 20% chance it will not enter Cooldown.",
+    "s5": "After casting Scroll of Wonders, Crit. Rate is increased by 15% for 14s.",
+    "s6": "When casting Antique Appraisal, gain 1 stack of Sky Blue (up to 4) for 7s; each stack increases Youhu’s Crit. DMG by 15%."
+  }
+}
