@@ -1,0 +1,74 @@
+{
+  "id": 35,
+  "name": "Yuanwu",
+  "element": "Electro",
+  "weapon_type": "gauntlet",
+  "rarity": 4,
+  "best_weapon": 401,
+  "echo_set": [1000],
+  "description": "Yuanwu owns a boxing gym where he teaches Leihuangquan and health management. He is well-respected in the community for his cordial demeanor and pleasant temperament.",
+  "stats": {
+    "HP":   { "base": 682,  "max": 8525 },
+    "ATK":  { "base": 18,   "max": 225  },
+    "DEF":  { "base": 134,  "max": 1638 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Leihuangquan",
+      "details": {
+        "Basic Attack": "Perform up to 5 continuous attacks, dealing Electro DMG.",
+        "Heavy Attack": "Consume Stamina to attack the target, dealing Electro DMG.",
+        "Mid-air Attack": "Consume Stamina to launch a Plunging Attack, dealing Electro DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Leihuang Master",
+      "description": "Summon a Thunder Wedge that deals Electro DMG and creates a Thunder Field.",
+      "details": {
+        "Thunder Wedge": "Forms a Thunder Field centered on the wedge for 12s. Rumbling Spark (Forte) and Blazing Might (Liberation) immediately detonate the wedge, dealing Electro DMG (counted as Resonance Skill DMG).",
+        "Thunder Field": "While inside, on-field character triggers a Coordinated Attack from the Thunder Wedge when attacks hit, dealing Electro DMG. Can trigger once every 1.2s; effect lasts 1.5s."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Blazing Might",
+      "description": "Awaken thunder and grant all nearby characters the Lightning Infused status for 10s (greatly increased anti-interruption), then deliver a powerful blow that deals Electro DMG."
+    }
+  },
+  "forte_circuit": {
+    "name": "Unassuming Blade",
+    "details": {
+      "Rumbling Spark": "When Readiness is full, long-press Resonance Skill to consume all Readiness, cast Rumbling Spark (Electro DMG), and enter Lightning Infused.",
+      "Thunder Uprising": "With full Readiness, Resonance Skill Thunder Wedge will cast Thunder Uprising, dealing Electro DMG.",
+      "Lightning Infused": "Greatly increased anti-interruption. Basic Attacks hit a larger area and deplete Vibration Strength faster; Heavy Attacks and Dodge Counters attack faster and deplete Vibration Strength faster. Use Basic Attack within 3s after a Heavy Attack or successful Counter to cast Thunderweaver, dealing Electro DMG (treated as Basic Attack DMG).",
+      "Edge": "Max Readiness 100. While a Thunder Wedge is on the field, gain 6 Readiness per second even off-field. Each Coordinated Attack from the wedge grants 5 Readiness."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Thunderweaver",
+    "description": "Thunder Uprising DMG multiplier +40% and its Vibration Strength depletion is enhanced."
+  },
+  "inherent_skill2": {
+    "name": "Reserved Confidence",
+    "description": "Greatly expands the ranges of Thunder Field and Thunder Uprising. When exiting combat state with Readiness not full, automatically leaves 1 Thunder Wedge in place."
+  },
+  "intro_skill": {
+    "name": "Thunder Bombardment",
+    "description": "Attack the target, dealing Electro DMG."
+  },
+  "outro_skill": {
+    "name": "Lightning Manipulation",
+    "description": "Summon thunderbolts at the skill target, dealing significant Vibration Strength depletion to enemies hit."
+  },
+  "resonance_chain": {
+    "s1": "While in Lightning Infused, Basic Attack Speed +20% and Heavy Attack Speed +20%.",
+    "s2": "Intro Skill Thunder Bombardment additionally restores 15 Resonance Energy for Yuanwu.",
+    "s3": "When Thunder Wedge’s Coordinated Attack hits, its DMG is further increased by 20% of Yuanwu’s DEF.",
+    "s4": "Casting Blazing Might grants the on-field character a Shield equal to 200% of Yuanwu’s DEF for 10s.",
+    "s5": "While Thunder Wedge is on the field, Yuanwu’s Resonance Liberation DMG Bonus is increased by 50%.",
+    "s6": "All teammates within Thunder Wedge range gain +32% DEF for 3s."
+  }
+}

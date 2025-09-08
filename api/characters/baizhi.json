@@ -1,0 +1,70 @@
+{
+  "id": 37,
+  "name": "Baizhi",
+  "element": "Glacio",
+  "weapon_type": "rectifier",
+  "rarity": 4,
+  "best_weapon": 507,
+  "echo_set": [1000],
+  "description": "Baizhi is a researcher in Remnant Ecoacoustics. Baizhi's once unfulfilled wish has now manifested as her loyal companion. The Remnant Creature You'tan is her source of healing powers, and a lifelong research focus.",
+  "stats": {
+    "HP":   { "base": 1025, "max": 12813 },
+    "ATK":  { "base": 17,   "max": 213   },
+    "DEF":  { "base": 82,   "max": 1002  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 175
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Destined Promise",
+      "details": {
+        "Basic Attack": "Baizhi instructs You'tan to perform up to 4 consecutive attacks, dealing Glacio DMG.",
+        "Heavy Attack": "Continuously consumes Stamina to command You'tan to attack enemies, dealing Glacio DMG. During Heavy Attack, Baizhi can command You'tan to move.",
+        "Mid-air Attack": "Consumes Stamina and summons You’tan in mid-air to perform a Plunging Attack, dealing Glacio DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Emergency Plan",
+      "description": "Baizhi calls You'tan to attack the target, dealing Glacio DMG while restoring HP for the entire team."
+    },
+    "resonance_liberation": {
+      "name": "Momentary Union",
+      "description": "Summons You'tan to restore HP for the entire team, generating 4 stacks of Remnant Entities. Remnant Entities follow the active team members and automatically consume 1 stack every 2.5s, dealing Glacio DMG on hit while restoring HP to all nearby team members."
+    }
+  },
+  "forte_circuit": {
+    "name": "Cycle of Life",
+    "details": {
+      "You'tan": "A Remnant Creature that answers to Baizhi’s mind and desires while sharing all her attributes. You’tan returns to Baizhi when she dodges.",
+      "Concentration (healing)": "Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Emergency Plan to continuously restore HP to nearby characters. Each 1 \"Concentration\" consumed triggers a heal once every 2s.",
+      "Energy Refunds": "Consuming \"Concentration\" with Heavy Attack additionally restores Concerto Energy and Resonance Energy; consuming it with Emergency Plan additionally restores Concerto Energy.",
+      "Gain Concentration": "Baizhi can hold up to 4 \"Concentrations\" and gains 1 \"Concentration\" for every Basic Attack on hit."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Harmonic Range",
+    "description": "When Baizhi casts Emergency Plan, You'tan generates a field of Euphonia that lasts for 15s. Picking up Euphonia increases the ATK of the Resonator who picks it up by 15% for 20s."
+  },
+  "inherent_skill2": {
+    "name": "Stimulus Feedback",
+    "description": "For every Heavy Attack on hit, restores HP to the nearby team member with the least HP equal to 0.25% of Baizhi's Max HP."
+  },
+  "intro_skill": {
+    "name": "Overflowing Frost",
+    "description": "Calls You'tan to perform 1 plunging attack, dealing Glacio DMG while restoring HP to all nearby team members."
+  },
+  "outro_skill": {
+    "name": "Rejuvenating Flow",
+    "description": "Restores HP equal to 1.54% of Baizhi’s Max HP to the next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Recipients also gain 15% all-Type DMG Deepen for 6s."
+  },
+  "resonance_chain": {
+    "s1": "Emergency Plan additionally restores 2.5 Resonance Energy for every 1 \"Concentration\" consumed.",
+    "s2": "Emergency Plan increases Baizhi's Glacio DMG Bonus by 15% and her Healing by 15% if she has 4 \"Concentration\"; lasts 12s.",
+    "s3": "Overflowing Frost increases Baizhi's Max HP by 12% for 10s.",
+    "s4": "Upon casting Momentary Union, Remnant Entities gain: +2 additional activations, +20% healing multiplier, and deal extra Glacio DMG equal to 1.20% of Baizhi's Max HP.",
+    "s5": "If a team member is downed while Baizhi is alive, immediately revives them and restores HP to 100% of their Max HP. Can trigger once every 10 minutes.",
+    "s6": "When Euphonia is picked up, increases the Glacio DMG Bonus of all nearby characters by 12% for 20s."
+  }
+}

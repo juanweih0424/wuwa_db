@@ -1,0 +1,73 @@
+{
+  "id": 36,
+  "name": "Taoqi",
+  "element": "Havoc",
+  "weapon_type": "broadblade",
+  "rarity": 4,
+  "best_weapon": 100,
+  "echo_set": [1000],
+  "description": "Taoqi is the director of border defense at the Ministry of Development. Despite her seemingly laid-back demeanor, she is dependable and supportive—both a reliable colleague and a trustworthy friend.",
+  "stats": {
+    "HP": { "base": 716, "max": 8950 },
+    "ATK": { "base": 18, "max": 225 },
+    "DEF": { "base": 128, "max": 1564 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Concealed Edge",
+      "details": {
+        "Basic Attack": "Perform up to 4 continuous attacks, dealing Havoc DMG.",
+        "Heavy Attack": "Consume Stamina to enter Rocksteady Defense state.",
+        "Rocksteady Defense": "Damage taken is reduced by 35%. • If attacked during Rocksteady Defense, automatically casts Strategic Parry. • Strategic Parry is automatically cast after Rocksteady Defense lasts for 3s. • If attacked while casting the Resonance Skill Rocksteady Shield, Strategic Parry is automatically cast.",
+        "Strategic Parry": "Attack the target, dealing Havoc DMG.",
+        "Mid-air Attack": "Consume Stamina to perform a Mid-Air Plunging Attack, dealing Havoc DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Fortified Defense",
+      "description": "Deal Havoc DMG to surrounding targets, generating 3 Rocksteady Shield and restoring HP to Taoqi. If attacked while casting, Strategic Parry is automatically cast.",
+      "details": {
+        "Rocksteady Shield": "When the on-field character is attacked, 1 Rocksteady Shield is consumed to reduce the damage taken."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Unmovable",
+      "description": "Launch an attack based on Taoqi's DEF at the target, dealing Havoc DMG."
+    }
+  },
+  "forte_circuit": {
+    "name": "Power Shift",
+    "details": {
+      "Timed Counters": "When carrying \"Resolving Caliber\", use Basic Attack after Heavy Attack: Strategic Parry or Intro Skill: Defense Formation to cast Timed Counters (up to 3 consecutive attacks), dealing Havoc DMG (considered Basic Attack DMG). Timed Counters consume 1 Resolving Caliber on hit to grant a shield. After casting Intro Skill Defense Formation, Basic Attack can directly cast Timed Counters.",
+      "Resolving Caliber": "Taoqi can hold up to 3 stacks. Basic Attack IV consumes all Rocksteady Shields to obtain that many Resolving Caliber. While Rocksteady Shield exists, when the on-field character is attacked, 1 Rocksteady Shield is consumed and Resolving Caliber is recovered. After Rocksteady Shield ends, all remaining Rocksteady Shields are consumed to grant that many Resolving Caliber."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Steadfast Protection",
+    "description": "During the duration of Resonance Skill Rocksteady Shield, the character's DEF is increased by 15%."
+  },
+  "inherent_skill2": {
+    "name": "Unyielding",
+    "description": "After Heavy Attack: Strategic Parry is successfully triggered, 25 Stamina is recovered."
+  },
+  "intro_skill": {
+    "name": "Defense Formation",
+    "description": "Attack the target, dealing Havoc DMG."
+  },
+  "outro_skill": {
+    "name": "Iron Will",
+    "description": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Resonance Skill DMG Deepen for 14s or until the character is switched."
+  },
+  "resonance_chain": {
+    "s1": "Forte Circuit Power Shift's Shield is increased by 40%.",
+    "s2": "The Crit. Rate and Crit. DMG of Resonance Liberation Unmovable are increased by 20% and 20%, respectively.",
+    "s3": "The duration of Resonance Skill Rocksteady Shield is extended to 30s.",
+    "s4": "When Heavy Attack: Strategic Parry is successfully triggered, Taoqi restores 25% HP and increases DEF by 50% for 5s (once every 15s).",
+    "s5": "The DMG of Forte Circuit Power Shift is increased by 50%. When it hits a target, restore 20 Resonance Energy.",
+    "s6": "The DMG of Taoqi's Basic Attack and Heavy Attack is increased by 40% while the Shield granted by Resonance Skill Rocksteady Shield holds."
+  }
+}
