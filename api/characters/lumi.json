@@ -1,0 +1,82 @@
+{
+  "id": 33,
+  "name": "Lumi",
+  "element": "Electro",
+  "weapon_type": "broadblade",
+  "best_weapon": 101,
+  "echo_set": [1001],
+  "rarity": 4,
+  "description": "Navigator at Lollo Logistics and leader of a transport squad. Born in a mountain village in Yuezhou, Lumi's sincere and caring nature brings warmth to everyone around her.",
+  "stats": {
+    "HP":   { "base": 680,  "max": 8500 },
+    "ATK":  { "base": 27,   "max": 338 },
+    "DEF":  { "base": 72,   "max": 880 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Navigation Support",
+      "details": {
+        "Yellow Light: Basic Attack": "Summon Squeakie to shoot three shots in a row, dealing Electro DMG.",
+        "Yellow Light: Sprint": "Dodge to perform Sprint and enter Zoom Mode. Lumi cannot Dodge while Sprinting.",
+        "Yellow Light: Zoom": "Automatically shoots Glitters at a locked-on target, dealing Electro DMG (counts as Basic Attack DMG).",
+        "Yellow Light: Plunging Attack": "Consume STA to perform a Plunging Attack, dealing Electro DMG.",
+        "Red Light: Basic Attack": "Perform up to 3 consecutive attacks, dealing Electro DMG.",
+        "Red Light: Heavy Attack": "Consume STA to strike the ground with Squeakie, dealing Electro DMG (counts as Basic Attack DMG).",
+        "Red Light: Plunging Attack": "Consume STA to perform a Plunging Attack, dealing Electro DMG.",
+        "Red Light: Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Searchlight Service",
+      "details": {
+        "Pounce": "In Yellow Light Mode, consume STA to pounce on the target, then switch to Red Light Mode. When switched onto the field, Pounce costs no STA.",
+        "Rebound": "In Red Light Mode, consume STA to leap backward and attack, then switch to Yellow Light Mode.",
+        "Yellow Light Mode": "Performs ranged attacks.",
+        "Red Light Mode": "Performs melee attacks."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Squeakie Express",
+      "details": {
+        "Squeakie Express": "Throw the giant Squeakie at the target, dealing Electro DMG."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Signal Light",
+    "details": {
+      "Energized Pounce": "When Yellow Light Spark is full, Resonance Skill becomes Energized Pounce, dealing Electro DMG and entering Red Spotlight Mode (counts as Basic Attack DMG).",
+      "Energized Rebound": "When Red Light Spark is full, Resonance Skill becomes Energized Rebound, dealing Electro DMG and entering Yellow Spotlight Mode (counts as Basic Attack DMG).",
+      "Laser": "Casting Outro consumes all Sparks of the current mode. If consumed Sparks ≥ 25, fires a Laser that deals Electro DMG; +1 extra beam per 25 Sparks, up to 4 beams.",
+      "Yellow Light Spark": "Max 100. Gained when Glitter/Glare hits, when Energized Rebound hits, and upon casting Intro Skill Special Delivery.",
+      "Red Light Spark": "Max 100. Gained when Basic Attack (Navigation Support) hits the target in Red Light/Red Spotlight Modes."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Pathfinding",
+    "description": "Gain 10% Electro DMG Bonus while in Red Light Mode."
+  },
+  "inherent_skill2": {
+    "name": "Expediting",
+    "description": "Casting Energized Pounce or Energized Rebound increases ATK by 10% for 8s."
+  },
+  "intro_skill": {
+    "name": "Special Delivery",
+    "description": "Enter Yellow Light Mode and attack the target, dealing Electro DMG."
+  },
+  "outro_skill": {
+    "name": "Escorting",
+    "description": "Incoming Resonator’s Resonance Skill DMG is amplified by 38% for 10s or until switched out."
+  },
+  "resonance_chain": {
+    "s1": "After casting Energized Rebound, additionally recovers 60 STA within 3s.",
+    "s2": "Energized Pounce and Energized Rebound ignore 20% of the target's DEF.",
+    "s3": "Squeakie Express DMG is increased by 30%.",
+    "s4": "Gain 30% Basic Attack DMG Bonus.",
+    "s5": "When Spark is fully recovered, Laser DMG Multiplier is increased by 100%.",
+    "s6": "Casting Squeakie Express increases all team members’ ATK by 20% for 20s."
+  }
+}
