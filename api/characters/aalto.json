@@ -1,0 +1,73 @@
+{
+  "id": 38,
+  "name": "Aalto",
+  "element": "Aero",
+  "weapon_type": "pistol",
+  "rarity": 4,
+  "best_weapon": 300,
+  "echo_set": [1005],
+  "description": "Aalto is an enigmatic Information Broker, known for his elusive nature and welcoming smile. Underneath the facade, he is closely affiliated with the Black Shores. Rumor has it he'll provide any information at the right price.",
+  "stats": {
+    "HP":   { "base": 788, "max": 9850 },
+    "ATK":  { "base": 21,  "max": 263  },
+    "DEF":  { "base": 88,  "max": 1076 },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 150
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Half Truths",
+      "details": {
+        "Basic Attack": "Fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack IV spreads 'Mist' forward for 1.5s.",
+        "Heavy Attack": "Enter the aiming state for a more powerful shot. The aimed shot after charging deals Aero DMG.",
+        "Mid-air Attack": "Consume Stamina to perform consecutive shots at the target in mid-air, dealing Aero DMG.",
+        "Dodge Counter": "Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG."
+      }
+    },
+    "resonance_skill": {
+      "name": "Shift Trick",
+      "description": "Casts 'Mist' and summons a Mist Avatar to taunt surrounding targets; the avatar inherits a portion of Aalto's HP and generates Mist Bullets.",
+      "details": {
+        "Mist Avatar": "Casts 'Mist' and 1 Mist Avatar to taunt nearby targets; generates 6 Mist bullets around them.",
+        "Mist Missiles": "Mist Bullets deal Aero DMG and are considered Resonance Skill damage."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Flower in the Mist",
+      "description": "Generates a 'Gate of Quandary' in front of Aalto, dealing Aero DMG. When bullets pass through the gate, ATK is increased. The gate lasts for 10s."
+    }
+  },
+  "forte_circuit": {
+    "name": "Misty Cover",
+    "details": {
+      "Trigger": "When Aalto passes through 'Mist' or the 'Gate of Quandary', he enters the Mistcloak Dash state.",
+      "Mistcloak Dash": "Movement speed increased. During this period, Mist Drops are continuously consumed; for each 1 Mist Drop consumed, 1 Resonance Skill Mist Missile is generated.",
+      "Mist Drops": "Can hold up to 6. When Basic Attack or Mid-air Attack passes through 'Mist' and hits the target, 1 Mist Drop is recovered."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Perfect Performance",
+    "description": "Aalto's Heavy Attack will always critically hit, triggered once every 30s."
+  },
+  "inherent_skill2": {
+    "name": "Mid-game Break",
+    "description": "Continuously recovers Stamina while in the Mistcloak Dash state."
+  },
+  "intro_skill": {
+    "name": "Feint Shot",
+    "description": "Aalto suddenly appears and performs rapid continuous shooting, dealing Aero DMG."
+  },
+  "outro_skill": {
+    "name": "Dissolving Mist",
+    "description": "The next character (or a character on a nearby team that activates an Outro Skill) gains 23% Aero DMG Deepen for 14s or until the character is switched."
+  },
+  "resonance_chain": {
+    "s1": "Cooldown of Resonance Skill Shift Trick is reduced by 4s.",
+    "s2": "'Mist Avatar' inherits 100% more HP from Aalto. When Aalto attacks targets taunted by 'Mist Avatar(s)', his ATK is increased by 15%.",
+    "s3": "When Basic Attack or Mid-air Attack passes through the 'Gate of Quandary', 2 more bullets are generated, each dealing 50% of the triggering attack's DMG.",
+    "s4": "Resonance Skill Mist Bullets' DMG is increased by 30%; Aalto takes 30% less damage while in Mistcloak Dash.",
+    "s5": "While in Mistcloak Dash, Aalto's Aero DMG Bonus is increased by 25% for 6s.",
+    "s6": "Resonance Liberation Flower in the Mist additionally increases Crit Rate by 8%. When Aalto's Heavy Attack passes through the 'Gate of Quandary', its damage is additionally increased by 50%."
+  }
+}
