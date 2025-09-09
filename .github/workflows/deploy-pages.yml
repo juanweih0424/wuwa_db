@@ -29,6 +29,10 @@ jobs:
       - name: Install & Build (Vite in subfolder)
         working-directory: wuwa-db-web
         run: |
+          pwd
+          node -v
+          echo "--------- vite.config.js ------------"
+          cat vite.config.js
           npm ci
           npm run build
           # SPA fallback for React Router (optional if you use HashRouter)
