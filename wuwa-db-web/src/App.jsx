@@ -8,26 +8,27 @@ import Weapons from "./pages/Weapons.jsx"
 import WeaponDetail from "./pages/WeaponDetail.jsx";
 import EchoDetail from "./pages/EchoDetail.jsx";
 import CharacterDetail from "./pages/CharacterDetail.jsx";
+import React from "react";
 
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="home" element={<Navigate to="/" replace />} />
 
-function App(){
-    
-    return (
-        <Routes>
-            <Route element={<Layout/>}>
-                <Route index element={<Home />} />
-                <Route path="home" element={<Navigate to="/" replace />} />
-                <Route path="/characters" element={<Characters/>} />
-                <Route path="/characters/:name" element={<CharacterDetail/>}/>
-                <Route path="/echoes" element={<Echoes/>} />
-                <Route path="/echoes/:slug" element={<EchoDetail />} />
-                <Route path="/weapons" element={<Weapons/>} />
-                <Route path="/weapons/:slug" element={<WeaponDetail />} />
-                <Route path="*" element={<Notfound />} />
+        <Route path="characters" element={<Characters />} />
+        <Route path="characters/:name" element={<CharacterDetail />} />
 
-            </Route>
-        </Routes>
-    );
+        <Route path="echoes" element={<Echoes />} />
+        <Route path="echoes/:slug" element={<EchoDetail />} />
+
+        <Route path="weapons" element={<Weapons />} />
+        <Route path="weapons/:slug" element={<WeaponDetail />} />
+
+        <Route path="*" element={<Notfound />} />
+      </Route>
+    </Routes>
+  );
 }
-
 export default App;
