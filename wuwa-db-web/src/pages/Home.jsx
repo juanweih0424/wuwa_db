@@ -6,7 +6,7 @@ import changli from "../assets/images/stickers/changli_lecturing.png"
 import jinhsi from "../assets/images/stickers/jinhsi_writing.webp"
 import yangyang from "../assets/images/stickers/yangyang_staring.png"
 import "../assets/css/home.css"
-
+import { Link } from "react-router-dom"
 
 function Home(){
     
@@ -15,31 +15,31 @@ function Home(){
       <h1 className="title">Wuwa Database – Wuthering Waves Wiki & Database</h1>
       <p className="subtitle">This is an unofficial, fan-made compendium powered by customized API. Contains information on characters and their best builds, echos, materials, weapons, a tier list and API documentations</p>
       <section className="card_container">
-        <a href="/characters" className="link">
-          <img className="card_img" src={rover_thinking}/>
+        <Link to="/characters" className="link">
+          <img className="card_img" src={rover_thinking} alt="Characters" />
           <span>Characters</span>
-        </a>
-        <a href="/echoes" className="link">
+        </Link>
+        <Link to="/echoes" className="link">
           <img className="card_img" src={clangbang}/>
           <span>Echoes</span>
-        </a>
-          <a href="/weapons" className="link">
+        </Link>
+        <Link to="/weapons" className="link">
           <img className="card_img" src={weapon}/>
           <span>Weapons</span>
-        </a>
-          <a href="/builder" className="link">
+        </Link>
+        <Link to="/builder" className="link">
           <img className="card_img" src={changli}/>
           <span>Builder</span>
-        </a>
-          <a href="/materials" className="link">
+        </Link>
+        <Link to="/materials" className="link">
           <img className="card_img" src={coin}/>
           <span>Materials</span>
-        </a>
-          <a href="/tierlist" className="link">
+        </Link>
+        <Link to="/tierlist" className="link">
           <img className="card_img" src={yangyang}/>
           <span>Tier List</span>
-        </a>
-          <a href="https://api.wuwa-db-api.com/" target="_blank" className="link">
+        </Link>
+        <a href="https://api.wuwa-db-api.com/" target="_blank" className="link">
           <img className="card_img" src={jinhsi}/>
           <span>API Documentation</span>
         </a>
