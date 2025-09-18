@@ -11,41 +11,50 @@ import { Link } from "react-router-dom"
 function Home(){
     
     return (
-    <section className="homebody">
-      <h1 className="title">Wuwa Database – Wuthering Waves Wiki & Database</h1>
-      <p className="subtitle">This is an unofficial, fan-made compendium powered by customized API. Contains information on characters and their best builds, echos, materials, weapons, a tier list and API documentations</p>
-      <section className="card_container">
-        <Link to="/characters" className="link">
+    <div className="mt-[1rem] flex flex-col mx-4 justify-self-center md:max-w-lg md:mt-[3rem]
+    lg:max-w-xl
+    xl:max-w-4xl">
+      <h1 className="text-[color:var(--accent)] text-[length:18px] font-bold text-center
+      md:text-[length:24px] md:mb-4
+      lg:text-[length:32px]
+      xl:text-[length:36px]">Wuwa Database – Wuthering Waves Wiki & Database</h1>
+      <p className="text-center text-[length:16px]
+      md:text-[length:18px]
+      lg:text-[length:22px] lg:my-2
+      xl:text-[length:24px]">This is an unofficial, fan-made compendium powered by customized API. Contains information on characters and their best builds, echos, materials, weapons, a tier list and API documentations</p>
+      <div className="my-[1rem] mx-auto grid grid-cols-3 gap-x-2 gap-y-2
+      xl:grid-cols-4">
+        <Link to="/characters" className="home-links">
           <img className="card_img" src={rover_thinking} alt="Characters" />
-          <span>Characters</span>
+          <span className="card_description">Characters</span>
         </Link>
-        <Link to="/echoes" className="link">
+        <Link to="/echoes" className="home-links">
           <img className="card_img" src={clangbang}/>
-          <span>Echoes</span>
+          <span className="card_description">Echoes</span>
         </Link>
-        <Link to="/weapons" className="link">
+        <Link to="/weapons" className="home-links">
           <img className="card_img" src={weapon}/>
-          <span>Weapons</span>
+          <span className="card_description">Weapons</span>
         </Link>
-        <Link to="/builder" className="link">
+        <Link to="/builder" className="home-links">
           <img className="card_img" src={changli}/>
-          <span>Builder</span>
+          <span className="card_description">Builder</span>
         </Link>
-        <Link to="/materials" className="link">
+        <Link to="/materials" className="home-links">
           <img className="card_img" src={coin}/>
-          <span>Materials</span>
+          <span className="card_description">Materials</span>
         </Link>
-        <Link to="/tierlist" className="link">
+        <Link to="/tierlist" className="home-links">
           <img className="card_img" src={yangyang}/>
-          <span>Tier List</span>
+          <span className="card_description">Tier List</span>
         </Link>
-        <a href="https://api.wuwa-db-api.com/" target="_blank" className="link">
+        <a href="https://api.wuwa-db-api.com/" target="_blank" className="home-links">
           <img className="card_img" src={jinhsi}/>
-          <span>API Documentation</span>
+          <span className="card_description">API</span>
         </a>
-      </section>
-      <p className="note">Note: some features are still in development</p>
-    </section>
+      </div>
+      <p className="my-3 font-semibold text-lg text-center md:my-6 md:text-xl lg:text-2xl">Note: some features are still in development</p>
+    </div>
     );
 }
 

@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Notfound(){
     
     return (
-        <section className="main_body">
-            <img src={roverdrag} className="rover_drag"/>
-            <h1 className="error">oops ... 404 Not Found</h1>
-            <p className="errormsg">The page you are looking for does not exist or an error occurred</p>
+        <div className="flex flex-col !flex-none my-44 items-center gap-6 mx-4"> 
+            <img src={roverdrag} className="w-50 h-50"/>
+            <p className="font-bold text-3xl text-center">oops ... 404 Not Found</p>
+            <p className="font-base text-xl text-center">The page you are looking for does not exist or an error occurred</p>
             <p className="goback">
                 <Link to="/">Go Back to Home Page</Link>
             </p>
-        </section>
+        </div>
     );
 }
 

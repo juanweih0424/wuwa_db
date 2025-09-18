@@ -1,52 +1,55 @@
+/* src/assets/css/global.css */
+@import "tailwindcss";
+
 :root {
-    /* Fonts */
-    --font-sans: 'Roboto', system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Fonts */
+  --font-sans: 'Roboto', system-ui, -apple-system, "Segoe UI", sans-serif;
 
-    /* Colors */
-    --surface: #272b44;
-    --border: #23252b;
-    --text: #e9ecf1;
-    --text-muted: #b3bac7;
-    --accent: #ffb648;
+  /* Colors */
+  --surface: #272b44;
+  --border: #23252b;
+  --text: #e9ecf1;
+  --text-muted: #b3bac7;
+  --accent: #ffb648;
 
-    /* Shadows */
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.18);
-    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.22);
-    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.28);
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.18);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.22);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.28);
 
-    /* Z-index */
-    --z-nav: 1000;
+  /* Z-index */
+  --z-nav: 1000;
 
-        /* Motion durations */
-    --dur-1: 120ms;
-    --dur-2: 200ms;
-    --dur-3: 320ms;
+  /* Motion durations */
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --dur-3: 320ms;
 
-    /* Easing curves */
-    --ease-out: cubic-bezier(.16, 1, .3, 1); /* smooth exit */
-    --ease-in: cubic-bezier(.7, 0, .84, 0);  /* fast entry */
-    --ease-in-out: cubic-bezier(.4, 0, .2, 1); /* balanced */
+  /* Easing curves */
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-in: cubic-bezier(.7, 0, .84, 0);
+  --ease-in-out: cubic-bezier(.4, 0, .2, 1);
 }
-
 
 html, body, #root { height: 100%; }
 
 body {
   font-family: var(--font-sans);
   background-color: var(--surface);
-  margin:0;
+  color: var(--text);
+  margin: 0;
 }
 
-.app{
-  min-height: 100dvh;                 
+.app {
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 
 .main {
   background-color: var(--surface);
-  color: #fff;
+  color: var(--text);
   flex: 1;
   width: 100%;
-  display: block;   
+  display: block;
 }
