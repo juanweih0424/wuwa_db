@@ -11,9 +11,8 @@ import { Link } from "react-router-dom"
 function Home(){
     
     return (
-    <div className="mt-[1rem] flex flex-col mx-4 justify-self-center md:max-w-lg md:mt-[3rem]
-    lg:max-w-xl
-    xl:max-w-4xl">
+    <div className="px-4 pt-12 flex flex-col min-w-full min-h-full items-center
+    lg:pt-20">
       <h1 className="text-[color:var(--accent)] text-[length:18px] font-bold text-center
       md:text-[length:24px] md:mb-4
       lg:text-[length:32px]
@@ -21,7 +20,9 @@ function Home(){
       <p className="text-center text-[length:16px]
       md:text-[length:18px]
       lg:text-[length:22px] lg:my-2
-      xl:text-[length:24px]">This is an unofficial, fan-made compendium powered by customized API. Contains information on characters and their best builds, echos, materials, weapons, a tier list and API documentations</p>
+      xl:text-[length:24px] 
+      xl:mx-60
+      2xl:mx-100">This is an unofficial, fan-made compendium powered by customized API. Contains information on characters and their best builds, echos, materials, weapons, a tier list and API documentations</p>
       <div className="my-[1rem] mx-auto grid grid-cols-3 gap-x-2 gap-y-2
       xl:grid-cols-4">
         <Link to="/characters" className="home-links">
