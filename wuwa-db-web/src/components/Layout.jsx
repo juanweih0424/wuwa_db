@@ -5,12 +5,12 @@ import { Outlet } from "react-router-dom";
 
 export default function Layout() {
   return (
-    <div className="app">
+    <div className="min-h-svh flex flex-col">
       <Nav />
-      <main className="main" role="main">
+      <main className="flex flex-1" role="main">
         <Outlet />
       </main>
-      <Footer />
+      <Footer className="mt-auto" />
     </div>
   );
 }

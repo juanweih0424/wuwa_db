@@ -40,15 +40,9 @@ body {
   margin: 0;
 }
 
-.app {
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-}
-
 .main {
   background-color: var(--surface);
-  color: var(--text);
   width: 100%;
   display: block;
+  flex:1
 }
