@@ -97,16 +97,39 @@ function Echoes() {
   if (loading) return <div className="echo-sets">Loading…</div>;
   if (error)   return <div className="echo-sets">Failed to load.</div>;
   return (
-    <div className="main-body"> 
-      <h1 className="title">Wuthering Waves Echoes</h1>
-      <div className="searchbar">
+    <div className="flex flex-col w-full items-center"> 
+      <p className="text-[var(--accent)] mt-8 text-xl
+      md:text-2xl">Wuthering Waves Echoes</p>
+      <div className="flex w-xs md:w-md lg:w-xl xl:w-4xl
+        gap-3 
+        items-center 
+        my-4 
+        bg-[rgba(255,255,255,0.03)] 
+        border border-[#3c445d] 
+        shadow-[0_6px_16px_rgba(0,0,0,0.18)]">
         <input type="search" 
         placeholder="Search echoes..." 
-        className="echo-search"
+        className="h-[36px]
+        px-2
+        rounded-[10px]
+        border-2 border-[#48506a]
+        bg-[#2a2e40]
+        text-[#e9ecf1]
+        outline-none
+        w-full
+        transition-[border-color,box-shadow,background] duration-150 ease-in-out"
         value={query}
         onChange={(e)=>setQuery(e.target.value)}/>
 
-        <select className="cost-select"
+        <select className="h-[36px]
+        px-2
+        rounded-[10px]
+        border-2 border-[#48506a]
+        bg-[#2a2e40]
+        text-[#e9ecf1]
+        outline-none
+        w-30
+        transition-[border-color,box-shadow,background] duration-150 ease-in-out"
         value={cost}
         onChange={(e)=>setCost(e.target.value)}>
           <option value="all">All</option>
@@ -114,25 +137,32 @@ function Echoes() {
         </select>
       </div>
 
-      <div className="setsbar" role="toolbar">
+      <div className="flex gap-2.5 my-2 justify-center w-xs
+      md:w-md lg:w-xl xl:w-4xl" role="toolbar">
 
-        <div className="set-icons" role="listbox" aria-label="Sets">
+        <div className="flex flex-wrap gap-2 py-1 px-1.5 
+        rounded-[12px] border border-solid bg-[#FFFFFF08] border-[color:#3c445d]" role="listbox">
           {setList.map(s => (
             <button
               key={s.id}
               type="button"
-              className={`set-icon ${setFilter === s.id ? "is-active" : ""}`}
+              className={`w-9 h-9 p-0.5 border-2 border-solid rounded-full grid place-items-center cursor-pointer
+              bg-[#1c2130] transition-colors duration-150
+              ${setFilter === s.id ? "border-yellow-500" : "border-[#48506a]"}`}
               onClick={() => setSetFilter(prev => prev === s.id ? "all" : s.id)}
               title={s.name}
             >
-              <img src={s.icon}/>
+              <img src={s.icon} className="object-contain w-full h-full"/>
               <span className="visually-hidden">{s.name}</span>
             </button>
           ))}
         </div>
       </div>
     
-      <div className="echo-body">
+      <div className="grid grid-cols-2 mt-4 gap-x-4 gap-y-4 px-4
+      md:grid-cols-3
+      xl:grid-cols-5
+      2xl:grid-cols-6">
         {filtered.map(e => (
           <EchoCard key={e.id} echo={e} setsById={setsById} />
         ))}

@@ -26,7 +26,7 @@ export default function Nav() {
     [
       "block px-3 py-2 rounded-md text-sm font-medium transition",
       "hover:text-white/90 hover:bg-white/10",
-      "xl:text-xl",
+      "xl:text-base",
       "focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40",
       isActive ? "text-[color:var(--accent)]" : "text-white/80",
     ].join(" ");
@@ -59,7 +59,7 @@ export default function Nav() {
                 font-medium text-white/80 hover:text-white/90
                  hover:bg-white/10 focus:outline-none focus-visible:ring-2
                  focus-visible:ring-white/40
-                 xl:text-xl"
+                 xl:text-base"
               >
                 API
               </a>

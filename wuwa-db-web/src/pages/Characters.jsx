@@ -103,19 +103,27 @@ function Characters() {
     if (error)   return <p style={{ color: "red" }}>Error: {error}</p>;
 
     return (
-        <div className="main-character-page">
-        <h1>Wuthering Waves Characters</h1>
+        <div className="flex flex-col w-full px-4 justify-center items-center">
+        <p className="text-center pt-4 text-xl text-[color:var(--accent)]
+        md:text-2xl
+        lg:text-3xl" >Wuthering Waves Characters</p>
 
-            <div className="char-filter">
+            <div className="flex gap-x-1 my-4 justify-center">
                 <input
                 type="search"
                 placeholder="Search characters…"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                className="char-filter-search"
+                className="h-7.5 rounded-[10px] text-[color:#e9ecf1] 
+                bg-[#2a2e40] border border-solid border-[color:#48506a] pl-2
+                focus:outline-none focus-visible:outline-none
+                md:w-120
+                lg:w-120"
                 />
                 <label>
-                    <select className="char-filter-rarity" value={rarity} onChange={(e) => setRarity(e.target.value)}>
+                    <select className="h-7.5 w-20 rounded-[10px] text-[color:#e9ecf1] 
+                bg-[#2a2e40] border border-solid border-[color:#48506a] pl-2
+                focus:outline-none focus-visible:outline-none" value={rarity} onChange={(e) => setRarity(e.target.value)}>
                         {rarityOptions.map(r => (
                         <option key={r} value={r}>{r === ALL ? "All" : `${r}★`}</option>
                         ))}
@@ -123,8 +131,10 @@ function Characters() {
                 </label>
             </div>
 
-        <div className="char-option">
-            <div className="char-option-weapon">
+        <div className="flex flex-col gap-y-2 w-full items-center
+        md:flex-row md:justify-center md:gap-x-2">
+            <div className="flex border border-solid border-[color:#3c445d] 
+            rounded-[10px] bg-[#FFFFFF08] p-1.5 w-60 h-11 justify-between">
                 {weaponOptions.map(w => (
                 <button
                     key={w}
@@ -137,7 +147,8 @@ function Characters() {
                 </button>
                 ))}
             </div>
-            <div className="char-option-element">
+            <div className="flex border border-solid border-[color:#3c445d] 
+            rounded-[10px] bg-[#FFFFFF08] p-1.5 w-60 h-11 justify-between">
             {elementOptions
                 .filter(el => ELEMENT_ICON[el]) 
                 .map(el => {
@@ -159,13 +170,19 @@ function Characters() {
             <button
                 type="button"
                 onClick={resetAll}
-                className="reset-btn"
+                className="flex items-center justify-center py-2 px-3 h-8 border border-solid rounded-[10px]
+                 border-[color:#585757] text-[#e9ecf1] cursor-pointer bg-[#292e3f]
+                 duration-150 hover:bg-[#3b4152] md:h-11"
             >
                 Reset 
             </button>
         </div>
 
-        <div className="char-grid">
+        <div className="grid grid-cols-3 gap-y-2 my-8 px-1 justify-items-center gap-x-2
+        md:grid-cols-5 md:gap-y-4 md:max-w-xl
+        lg:max-w-2xl
+        xl:grid-cols-5 xl:max-w-3xl
+        2xl:grid-cols-6 2xl:max-w-4xl">
             {filtered.length ? (
             filtered.map(c => (
                 <CharacterCard
@@ -177,8 +194,8 @@ function Characters() {
                 />
             ))
             ) : (
-            <div className="empty-state">
-                <img src={yangyang} alt="" />
+            <div className="flex flex-col">
+                <img src={yangyang}/>
                 <p>No matches found. Try changing the filter.</p>
             </div>
             )}

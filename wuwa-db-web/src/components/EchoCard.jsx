@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import "../assets/css/echocard.css"
-
 
 function slugify(s) {
   return String(s)
@@ -33,19 +31,42 @@ function EchoCard({echo, setsById}){
 
 
     return (
-        <Link to={`/echoes/${slug}`} className="echo-card">
-            <div className="echo-media">
-            <img src={icon} />
+            <Link
+            to={`/echoes/${slug}`}
+            className="
+                w-44 h-44 p-2 bg-[#2f3548]
+                border border-solid rounded-[12px] border-[#ffffff19]
+                transition-transform duration-150 flex flex-col justify-center items-center hover:scale-[1.05] hover:bg-[#323845]
+            "
+            >
+            <div className="relative rounded-[12px] bg-[#222839] overflow-hidden w-32 h-32">
+                <img src={icon} className="w-full h-full object-contain" />
+
+                <div className="absolute top-1 left-1 flex gap-1">
+                {setIcons.map((src, i) => (
+                    <img
+                    key={`${setIds[i]}-${i}`}
+                    src={src}
+                    className="
+                        w-6 h-6 rounded-full
+                        ring-2 ring-[#222839]
+                        shadow-[0_2px_6px_rgba(0,0,0,0.35)]
+                    "/>
+                ))}
+                </div>
             </div>
 
-            <div className="echo-name">{echo.name}</div>
-
-            <div className="echo-sets">
-            {setIcons.map((src, i) => (
-                <img key={`${setIds[i]}-${i}`} src={src}/>
-            ))}
+            <div
+                className="
+                mt-2 text-sm font-semibold leading-[1.2] flex items-center justify-center
+                min-h-[2.4em] overflow-hidden
+                [-webkit-line-clamp:2] [-webkit-box-orient:vertical]
+                text-[#e9ecf1]
+                "
+            >
+                {echo.name}
             </div>
-        </Link>
+            </Link>
     );
 }
 
