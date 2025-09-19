@@ -159,7 +159,7 @@ function Echoes() {
         </div>
       </div>
     
-      <div className="grid grid-cols-2 mt-4 gap-x-4 gap-y-4 px-4
+      <div className="grid grid-cols-2 my-4 gap-x-4 gap-y-4 px-4
       md:grid-cols-3
       xl:grid-cols-5
       2xl:grid-cols-6">

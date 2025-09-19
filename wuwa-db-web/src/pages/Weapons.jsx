@@ -97,22 +97,26 @@ function Weapons() {
 
 
     return (
-        <>
-            <h1 className="page-title">Wuthering Waves Weapons</h1>
-            <div className="content"> 
-            <div className="filters">
+        <div className="flex flex-col items-center w-full mb-12">
+            <h1 className="mt-8 text-xl text-[color:var(--accent)] font-semibold">Wuthering Waves Weapons</h1>
+            <div className="flex flex-col w-full"> 
+              <div className="my-4
+              flex items-center justify-center
+              gap-1 px-20">
                 <input 
                     type="search"
-                    placeholder="Enter a weapon name"
+                    placeholder="Search weapons..."
                     value={query}
                     onChange={(e)=>setQuery(e.target.value)}
-                    className="filter-search"
+                    className="pl-1 border-2 border-solid border-[#3c445d]
+              bg-[#ffffff08] rounded-[12px] h-8"
                 />
 
                 <select
                 value={rarity}
                 onChange={(e)=>setRarity(e.target.value)}
-                className="filter-rarity"
+                className="pl-1 border-2 border-solid border-[#3c445d]
+              bg-[#ffffff08] rounded-[12px] cursor-pointer h-8 w-20"
                 >
                 <option value="all">All</option>
                 {rarityOptions.map((r) => (
@@ -123,7 +127,8 @@ function Weapons() {
                 <select
                     value={type}
                     onChange={(e) => setType(e.target.value)}
-                    className="filter-type"
+                    className="pl-1 border-2 border-solid border-[#3c445d]
+              bg-[#ffffff08] rounded-[12px]  cursor-pointer h-8 w-20"
                     >
                     <option value="all">All</option>
                         {typeOptions.map((t) => (
@@ -132,11 +137,13 @@ function Weapons() {
                         </option>
                     ))}
                 </select>
-
-            </div>
+              </div>
               
 
-                <section className="weapons-grid">
+            <div className="grid grid-cols-2 gap-y-4 justify-items-center px-12 place-self-center gap-x-2
+            md:grid-cols-4 md:w-2xl
+            lg:w-4xl
+            2xl:grid-cols-6 2xl:w-7xl">
                 {loading ? null: visible.map((w) => (
                         <WeaponCard
                         key={w.id}
@@ -147,9 +154,9 @@ function Weapons() {
                         img={w.img}
                         />
                     ))}
-            </section>
+            </div>
              </div>
-        </>
+        </div>
   );
 }
 

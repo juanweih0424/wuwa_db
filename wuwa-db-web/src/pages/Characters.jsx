@@ -103,12 +103,12 @@ function Characters() {
     if (error)   return <p style={{ color: "red" }}>Error: {error}</p>;
 
     return (
-        <div className="flex flex-col w-full px-4 justify-center items-center">
+        <div className="flex flex-col w-full px-4 items-center">
         <p className="text-center pt-4 text-xl text-[color:var(--accent)]
         md:text-2xl
         lg:text-3xl" >Wuthering Waves Characters</p>
 
-            <div className="flex gap-x-1 my-4 justify-center">
+            <div className="flex gap-x-1 my-4">
                 <input
                 type="search"
                 placeholder="Search characters…"
@@ -178,28 +178,36 @@ function Characters() {
             </button>
         </div>
 
-        <div className="grid grid-cols-3 gap-y-2 my-8 px-1 justify-items-center gap-x-2
-        md:grid-cols-5 md:gap-y-4 md:max-w-xl
-        lg:max-w-2xl
-        xl:grid-cols-5 xl:max-w-3xl
-        2xl:grid-cols-6 2xl:max-w-4xl">
+            <div
+            className="
+                grid grid-cols-3 gap-y-2 my-8 px-1 justify-items-center gap-x-2
+                md:grid-cols-5 md:gap-y-4 md:max-w-xl
+                lg:max-w-2xl
+                xl:grid-cols-5 xl:max-w-3xl
+                2xl:grid-cols-6 2xl:max-w-4xl
+            "
+            >
             {filtered.length ? (
-            filtered.map(c => (
+                filtered.map(c => (
                 <CharacterCard
-                key={c.id}
-                id={c.id}
-                name={c.name}
-                rarity={c.rarity}
-                element={c.element}
+                    key={c.id}
+                    id={c.id}
+                    name={c.name}
+                    rarity={c.rarity}
+                    element={c.element}
                 />
-            ))
+                ))
             ) : (
-            <div className="flex flex-col">
-                <img src={yangyang}/>
-                <p>No matches found. Try changing the filter.</p>
-            </div>
+                <div className="flex flex-col items-center justify-center col-span-full">
+                <img src={yangyang} alt="No results" className="w-24 h-24 mb-4 mt-8 
+                md:w-40 md:h-40
+                lg:w-50 lg:h-50" />
+                <p className="text-lg text-[#e9ecf1]
+                md:text-xl
+                lg:text-2xl">No matches found. Try changing the filter.</p>
+                </div>
             )}
-        </div>
+            </div>
         </div>
   );
 }
