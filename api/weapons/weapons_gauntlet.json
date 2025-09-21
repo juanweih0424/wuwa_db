@@ -87,5 +87,27 @@
             ]
         },
         "weapon_description": "It heralds justice, precise and inexorable as a clock's toll. All sins are cleansed in flame, dissipating like night beneath the dawn's gaze."
+    },
+    {
+        "id": 404,
+        "name": "Moongazer's Sigil",
+        "rarity": 5,
+        "type": "gauntlet",
+        "stats": {
+            "atk": { "base": 40, "max": 500, "max_level": 90, "growth": "linear" },
+            "substats": { "kind": "Crit. Rate", "base": 0.08, "max": 0.36, "max_level": 90, "interval": 5, "growth": "step" }
+        },
+        "skill": {
+            "name": "Plenilune Radiance",
+            "skill_description": "Increases ATK by {atk}%. Casting Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {res_lib}% for 15s. Obtaining Shield allows Resonance Liberation DMG to ignore {def_ignore}% of the target's DEF for 5s, stacking up to 0.5 times. This effect is triggered once every 0.5s",
+            "ranks": [
+            { "rank": 1, "atk": 0.12, "res_lib": 0.20, "def_ignore": 0.072 },
+            { "rank": 2, "atk": 0.15, "res_lib": 0.25, "def_ignore": 0.084 },
+            { "rank": 3, "atk": 0.18, "res_lib": 0.30, "def_ignore": 0.096 },
+            { "rank": 4, "atk": 0.21, "res_lib": 0.35, "def_ignore": 0.108 },
+            { "rank": 5, "atk": 0.24, "res_lib": 0.40, "def_ignore": 0.12 }
+            ]
+        },
+        "weapon_description": "By what means do all things endure? By light and heat, by matter and word, by the mechanics of converging chances, by the soft dissolution into silence, by a moment that mimics the eternal... All things rise and fall in endless rhythm, each bearing its meaning. As for hers, it lies here within her grasp."
     }
 ]

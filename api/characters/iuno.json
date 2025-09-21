@@ -1,0 +1,82 @@
+{
+  "id": 39,
+  "rarity": 5,
+  "weapon_type": "gauntlet",
+  "element": "Aero",
+  "name": "Iuno",
+  "description": "She is favored by fate under one name, and swept away by it in another. Yet never once has she been defeated, nor has she ever yielded. Now, witness the defiant Priestess. Witness what keeps her striding forward, never to look back. Witness how she walks the intricate web of destiny and becomes the only answer.",
+  "stats": {
+    "HP":  { "base": 842,  "max": 10525 },
+    "ATK": { "base": 36,   "max": 450   },
+    "DEF": { "base": 92,   "max": 1124  },
+    "crit_rate": 0.05,
+    "crit_dmg": 1.5,
+    "energy": 125
+  },
+  "active_skills": {
+    "basic_attack": {
+      "name": "Moon Steps",
+      "details": {
+        "Moonring - Basic Attack": "Perform up to 3 consecutive attacks with the Moonring, dealing Aero DMG.",
+        "Mid-air Attack": "Consume STA to perform a Plunging Attack, dealing Aero DMG.",
+        "Moonring - Dodge Counter": "Press Normal Attack shortly after a successful Dodge to attack with Moonring, dealing Aero DMG. Press Normal Attack again shortly after to cast Moonring - Basic Attack Stage 3.",
+        "Moonbow - Basic Attack": "Enter Lunar Cycle - New Moon by casting Heavy Attack - Flux: Moonring. When in this state, Iuno will attack with Moonbow. Perform up to 3 consecutive attacks with the Moonbow, dealing Aero DMG, considered as Resonance Liberation DMG. Can be cast in mid-air.",
+        "Moonbow - Dodge Counter": "When in Lunar Cycle - New Moon, press Normal Attack shortly after a successful Dodge to attack with the Moonbow, dealing Aero DMG, considered as Resonance Liberation DMG. When in Lunar Cycle - New Moon, press Normal Attack again shortly after performing this skill to cast Moonbow - Basic Attack Stage 3."
+      }
+    },
+    "resonance_skill": {
+      "name": "Foresight Fugue",
+      "details": {
+        "Pulse of Origins": "Dash forward, dealing Aero DMG.",
+        "Closing Refrain": "When not in Lunar Cycle, casting Moonring - Basic Attack Stage 3, Intro Skill, or Pulse of Origins replaces Iuno's Resonance Skill with Closing Refrain for 5s. Casting Closing Refrain unleashes a flurry of strikes, dealing Aero DMG, and activates Lunar Cycle.",
+        "Unfinished Refrain": "When in Lunar Cycle - Half Moon, Iuno's Resonance Skill is replaced with Unfinished Refrain. Casting Unfinished Refrain unleashes a flurry of strikes, dealing Aero DMG. Shares the same Cooldown as Closing Refrain.",
+        "Arc Beyond the Edge": "When Iuno is in Lunar Cycle - New Moon, her Resonance Skill is replaced with Arc Beyond the Edge, which has 2 initial charges. Casting Arc Beyond the Edge causes Iuno to shift position and deal Aero DMG, considered as Resonance Liberation DMG. Directional input can be used to extend the travel distance. If Iuno is hit or launched into mid-air, casting Arc Beyond the Edge immediately makes her recover from the attack. Can be cast in mid-air."
+      }
+    },
+    "resonance_liberation": {
+      "name": "Beneath Lunar Tides",
+      "details": {
+        "Beneath Lunar Tides": "Deal Aero DMG and activate the Lunar Cycle state. Can be cast in mid-air."
+      }
+    }
+  },
+  "forte_circuit": {
+    "name": "Ebb and Flow",
+    "details": {
+      "Lunar Cycle": "Iuno can activate Lunar Cycle by casting Resonance Skill - Closing Refrain or Resonance Liberation. Lunar Cycle has two states: Half Moon and New Moon. By default, Iuno enters the Half Moon state when activating Lunar Cycle and can switch between the two states by casting Heavy Attack - Flux.",
+      "Lunar Cycle Notes": "When in Lunar Cycle: Iuno's Jump is replaced with Heavy Attack - Flux. STA won't recover when Iuno is in mid-air. Iuno's movement becomes Meandering, which consumes STA continuously in mid-air to move in a unique manner. Performing environmental interactions, using Utilities, or holding Jump will end Lunar Cycle.",
+      "Lunar Cycle - Half Moon": "Iuno attacks using the Moonring, restoring Sentience on hit. She can use Heavy Attack - Flux: Moonbow to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - New Moon. Heavy Attack - Flux: Moonbow can be cast in mid-air.",
+      "Lunar Cycle - New Moon": "Iuno attacks using the Moonbow. While in this state, casting Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, or Moonbow - Dodge Counter consumes Sentience to increase the skill's DMG Multiplier, restore additional Concerto Energy, and heal nearby Resonators in the team. Iuno can use Heavy Attack - Flux: Moonring to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - Half Moon. Heavy Attack - Flux: Moonring can be cast in mid-air.",
+      "Heavy Attack - Absolute Fullness": "When Iuno's Concerto Energy is full, her Heavy Attack is replaced with Absolute Fullness. Casting Absolute Fullness ends Lunar Cycle, provides healing for nearby Resonators in the team, deals Aero DMG to nearby targets (considered as Resonance Liberation DMG), and conjures a Full Moon domain at her location. This effect can be triggered once every 25s. Can be cast in mid-air.",
+      "Full Moon Domain": "Resonators inside the domain periodically restore HP and STA. Gaining a Shield inside the domain grants 1 stack of Blessing of the Wan Light. This effect can be triggered once every 0.5s.",
+      "Blessing of the Wan Light": "The receiving Resonator gains 4% all DMG Amplification for 10s, stacking up to 10 times. Gaining new stacks resets the duration. This effect ends early if the receiving Resonator is switched off the field.",
+      "Sentience": "Iuno can hold up to 100 points of Sentience. Casting Intro Skill restores 40 points of Sentience. Casting Resonance Liberation restores 60 points of Sentience. Casting Closing Refrain or Unfinished Refrain restores 25 points of Sentience. When Iuno is in Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, and Mid-air Attack restore Sentience on hit."
+    }
+  },
+  "inherent_skill1": {
+    "name": "Waxing Ascent",
+    "description": "Every time Iuno casts Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, or Intro Skill, she gains 1 Shield equal to 32% of her ATK for 15s. This Shield will not be passed on to the incoming Resonator."
+  },
+  "inherent_skill2": {
+    "name": "Derivation",
+    "description": "When Iuno casts Intro Skill or Resonance Liberation, she immediately gains 5 stacks of Blessing of the Wan Light."
+  },
+  "intro_skill": {
+    "name": "Illuminated Manifestation",
+    "description": "Deal Aero DMG."
+  },
+  "outro_skill": {
+    "name": "From Gloom to Gleam",
+    "description": "Attack the target to deal 100% Aero DMG. The incoming Resonator gains 50% Heavy Attack DMG Amplification for 14s. This effect ends early if they are switched off the field. Casting Outro Skill won't interrupt Heavy Attack - Absolute Fullness, and the Outro Skill effect still applies."
+  },
+  "resonance_chain": {
+    "s1": "When Iuno is in Lunar Cycle, her ATK is increased by 40%. When Iuno is inside the Full Moon Domain, she additionally restores 1 point of Resonance Energy per second. Resonance Skill - Arc Beyond the Edge and Heavy Attack - Absolute Fullness become immune to interruption.",
+    "s2": "Resonators in the team with 10 stacks of Blessing of the Wan Light gain an additional 40% all DMG Amplification.",
+    "s3": "When Iuno is in Lunar Cycle, DMG dealt by Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, and Moonbow - Dodge Counter is Amplified by 65%. Within a certain period after performing Moonbow - Basic Attack or Moonbow - Dodge Counter, casting Resonance Skill - Arc Beyond the Edge does not reset the cycle of Moonbow - Basic Attack.",
+    "s4": "Casting Heavy Attack - Absolute Fullness grants a Shield equal to 160% of Iuno's ATK to all Resonators in the team for 30s, which cannot be passed on to the incoming Resonator.",
+    "s5": "Iuno gains 20% Resonance Liberation DMG Bonus.",
+    "s6": "The DMG Multiplier of Heavy Attack - Absolute Fullness is increased by 1600%. Upon casting this skill, Iuno re-enters Lunar Cycle - New Moon, gains 100 points of Sentience, and resets all the cooldown of Resonance Skill - Arc Beyond the Edge."
+  },
+  "echo_set": [1018, 1017],
+  "best_weapon": 404
+}
