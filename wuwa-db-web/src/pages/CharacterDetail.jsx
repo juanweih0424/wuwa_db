@@ -222,7 +222,7 @@ function CharacterDetail() {
                                     primaryEchoSet?.effect?.[setKey] && (
                                     <div key={setKey} className="flex flex-col items-center xl:items-start ">
                                     <p className="text-[var(--accent)] font-semibold">{setKey}</p>
-                                    <p className="text-center">{primaryEchoSet.effect[setKey]}</p>
+                                    <p>{primaryEchoSet.effect[setKey]}</p>
                                     </div>
                                     )
                                 )}
