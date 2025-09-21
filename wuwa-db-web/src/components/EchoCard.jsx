@@ -33,10 +33,10 @@ function EchoCard({echo, setsById}){
     return (
             <Link
             to={`/echoes/${slug}`}
-            className="
-                w-44 h-44 p-2 bg-[#2f3548]
+            className="w-34 h-34 p-2 bg-[#2f3548]
                 border border-solid rounded-[12px] border-[#ffffff19]
                 transition-transform duration-150 flex flex-col justify-center items-center hover:scale-[1.05] hover:bg-[#323845]
+                lg:w-44 lg:h-44
             "
             >
             <div className="relative rounded-[12px] bg-[#222839] overflow-hidden w-32 h-32">

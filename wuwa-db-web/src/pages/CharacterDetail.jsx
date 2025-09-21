@@ -60,15 +60,15 @@ function EchoSetCard({ set, pieceKey }) {
   if (!set) return null;
   const effect = set.effect?.[pieceKey];
   return (
-    <div className="char-build-echoset">
-      <div className="echo-set-icon-title">
-        <img src={getEchoSetImageUrl(set.id)} className="echo-set-icon" />
-        <p>{set.name}</p>
+    <div className="flex flex-col gap-y-2 items-center md:items-start">
+      <div className="flex justify-center items-center gap-x-2">
+        <img src={getEchoSetImageUrl(set.id)} className="w-6 h-6" />
+        <p className="text-[var(--accent)] font-semibold">{set.name}</p>
       </div>
       {effect && (
-        <div className="echo-set-effect">
+        <div className="flex justify-center">
           <p>
-            <strong>{pieceKey}:</strong> {effect}
+            <strong className="text-[var(--accent)] font-semibold">{pieceKey}:</strong> {effect}
           </p>
         </div>
       )}
@@ -183,66 +183,23 @@ function CharacterDetail() {
     
 
     return (
-        <div className="char-detail-main" char-rarity={character.rarity} data-element={character.element}>
-            <div className="char-detail-info">
-                <img className="char-detail-icon" src={portrait}/>
-                <div className="char-detail-info-stats">
-                <div className="char-detail-info-stats-header">
+        <div className="flex flex-col items-center gap-6 bg-[#FFFFFF08]
+        border border-solid border-[color:#FFFFFF1A] rounded-[16px] p-8
+        shadow-[0_8px_24px_rgba(0,0,0,0.3)] w-full" 
+        char-rarity={character.rarity} data-element={character.element}>
+            <div className="flex flex-col gap-y-4 xl:flex-row xl:w-full xl:gap-x-6 xl:justify-center">
+            <div className="flex flex-col gap-y-4 items-center xl:flex-col xl:gap-x-8">
 
-                    <h1 className="char-detail-name">
-                    {character.name} <span className="star">{character.rarity}★</span>
-                    </h1>
-                    <div className="icon-wrapper">
-                        <div className="weapon-icon-wrapper">
-                            <img src={weaponIcon} className="weapon-icon"/>
-                            <span>{character.weapon_type}</span>
-                        </div>
-                        <div className="element-icon-wrapper">
-                            <img className="element-icon" src={elementIcon} />
-                            <span>{character.element}</span>
-                        </div>
-                    </div>
-                </div>
-                <p className="char-about">
-                    {character.description}
-                </p>        
-                <div className="char-level">
-                    <div className="char-level-top">
-                        <div className="lv">
-                            <p>Lv</p> 
-                            <p>{level}</p>
-                        </div>
-                    </div>
-                    <input
-                    type="range"
-                    min={MIN_LV}
-                    max={MAX_LV}
-                    value={level}
-                    onChange={(e) => setLevel(Number(e.target.value))}
-                    style={{ '--p': `${pct}%` }}
-                    className="level-slider"
-                    />
-                </div>
-
-                <div className="char-stats">
-                    {rows.map((r) => (
-                    <div className="stat-row" key={r.key}>
-                        <div className="left">
-                        <img className="substats-icon" src={r.icon} />
-                        <span className="label">{r.label}</span>
-                        </div>
-                        <div className="right">{r.value}</div>
-                    </div>
-                    ))}
-                </div>
-                </div>
-            
-            </div>
-            <h1 className="char-skill-big-title">{character.name} Best Build</h1>
-            <div className="char-build">
-                    <img src={charIcon} className="char-build-icon"/>
-                    <div className="char-build-wrapper">
-                        <h1>Best Weapon</h1>
+            <img className="object-contain w-80 h-100 xl:w-140 xl:h-140" src={portrait}/>
+            <div className="hidden w-full items-center border border-solid border-[color:#FFFFFF1A] rounded-[16px] p-4
+            shadow-[0_8px_24px_rgba(0,0,0,0.3)] gap-y-4 xl:flex xl:flex-col xl:w-2xl
+            ">
+                <div className="flex gap-x-8 md:gap-x-2 md:min-w-70
+                lg:min-w-90 xl:min-w-90 xl:justify-evenly">
+                    <img src={charIcon} className="w-32 h-32 border-2 border-solid
+                    md:w-35 md:h-37
+                    lg:h-46 lg:w-46
+                     rounded-3xl border-[color:var(--accent)]"/>
                         {weaponCard && (
                             <WeaponCard
                                 href={weaponCard.href}
@@ -250,48 +207,177 @@ function CharacterDetail() {
                                 img={weaponCard.img}
                                 rarity={weaponCard.rarity}
                                 type={weaponCard.type}
-                                className="char-weapon-card"
                             />
                         )}
-                    </div>
+                </div>
                         {echoIds.length === 1 && primaryEchoSet && (
-                        <div className="char-build-echoset">
-                            <div className="echo-set-icon-title">
-                                <img src={getEchoSetImageUrl(primaryEchoSet.id)} className="echo-set-icon" alt={primaryEchoSet.name} />
-                                <p>{primaryEchoSet.name}</p>
+                        <div className="flex flex-col lg:w-full lg:h-full justify-center xl:items-start">
+                            <div className="flex gap-2 justify-center items-center mt-1 xl:items-start">
+                                <img src={getEchoSetImageUrl(primaryEchoSet.id)}
+                                 className="w-6 h-6" alt={primaryEchoSet.name} />
+                                <p className="text-[var(--accent)] text-lg">{primaryEchoSet.name}</p>
                                 </div>
-                                <div className="echo-set-effect">
+                                <div className="flex flex-col items-center gap-y-1 xl:items-start">
                                 {["2pc", "3pc", "5pc"].map((setKey) =>
                                     primaryEchoSet?.effect?.[setKey] && (
-                                    <p key={setKey}>
-                                        <strong>{setKey}:</strong> {primaryEchoSet.effect[setKey]}
-                                    </p>
+                                    <div key={setKey} className="flex flex-col items-center xl:items-start ">
+                                    <p className="text-[var(--accent)] font-semibold">{setKey}</p>
+                                    <p className="text-center">{primaryEchoSet.effect[setKey]}</p>
+                                    </div>
                                     )
                                 )}
                             </div>
                         </div>
                         )}
                         {echoIds.length === 2 && (
-                        <div className="char-build-echoset-mix">
+                        <div className="flex flex-col gap-y-4">
+                            <EchoSetCard set={secondaryEchoSet} pieceKey="2pc" />
+                            <EchoSetCard set={primaryEchoSet} pieceKey="3pc" />
+                        </div>
+                        )}
+            </div>
+                <div className="flex 
+                flex-col gap-y-4 xl:hidden">
+                    <div className="xl:flex-row xl:justify-between xl:items-center xl:px-2 flex flex-col gap-y-4">
+                    <p className="text-[var(--text)] text-center text-xl ">
+                        {character.name} {character.rarity}★
+                    </p>
+                    <div className="flex justify-center gap-x-4">
+                        <div className="weapon-icon-wrapper">
+                            <img src={weaponIcon} className="w-6 h-6"/>
+                            <p className="capitalize">{character.weapon_type}</p>
+                        </div>
+                        <div className="element-icon-wrapper">
+                            <img className="w-6 h-6" src={elementIcon} />
+                                <p>{character.element}</p>
+                        </div>
+                    </div>
+                    </div>
+                    <p className="border border-solid border-[color:#FFFFFF1A] 
+                    px-4 py-2 bg-[#FFFFFF08] rounded-t-[16px] rounded-b-[8px]
+                    shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
+                        {character.description}
+                    </p>
+                </div>
+            </div> 
+        <div className="w-full flex flex-col items-center gap-8 bg-[#FFFFFF08]
+        border border-solid border-[color:#FFFFFF1A] rounded-[16px] p-4
+        shadow-[0_8px_24px_rgba(0,0,0,0.3)] xl:w-4xl xl:gap-y-16">
+                <div className="hidden 
+                flex-col gap-y-4 xl:flex">
+                    <div className="xl:flex-row xl:justify-between xl:items-center xl:px-2 flex flex-col gap-y-4">
+                    <p className="text-[var(--text)] text-center text-xl ">
+                        {character.name} {character.rarity}★
+                    </p>
+                    <div className="flex justify-center gap-x-4">
+                        <div className="weapon-icon-wrapper">
+                            <img src={weaponIcon} className="w-6 h-6"/>
+                            <p className="capitalize">{character.weapon_type}</p>
+                        </div>
+                        <div className="element-icon-wrapper">
+                            <img className="w-6 h-6" src={elementIcon} />
+                                <p>{character.element}</p>
+                        </div>
+                    </div>
+                    </div>
+                    <p className="px-2 pt-2 xl:text-xl">
+                        {character.description}
+                    </p>
+                </div>
+                <div className="flex flex-col w-full">
+                    <div>
+                        <div className="char-level-top">
+                            <div className="flex justify-between">
+                                <p className="text-base">Lv</p> 
+                                <p className="text-base">{level}</p>
+                            </div>
+                        </div>
+                        <input
+                        type="range"
+                        min={MIN_LV}
+                        max={MAX_LV}
+                        value={level}
+                        onChange={(e) => setLevel(Number(e.target.value))}
+                        style={{ '--p': `${pct}%` }}
+                        className="level-slider"
+                        />
+                    </div>
+                    <div className="flex flex-col gap-18 mt-8">
+                        {rows.map((r) => (
+                        <div className="flex items-center justify-between" key={r.key}>
+                            <div className="flex gap-1">
+                                <img className="w-5 h-5 xl:w-8 xl:h-8" src={r.icon} />
+                                <p className="text-base xl:text-xl">{r.label}</p>
+                            </div>
+                            <p className="text-base xl:text-xl">{r.value}</p>
+                        </div>
+                        ))}
+                    </div>
+                </div>
+
+            
+                </div>
+
+            </div>
+            <p className="text-[var(--accent)] text-xl font-semibold xl:hidden">{character.name} Builds</p>
+            <div className="flex flex-col w-full items-center border border-solid border-[color:#FFFFFF1A] rounded-[16px] p-4
+        shadow-[0_8px_24px_rgba(0,0,0,0.3)] gap-y-4 md:flex-row md:gap-x-4 xl:hidden
+        ">
+                <div className="flex gap-x-8 md:gap-x-2 md:min-w-70
+                lg:min-w-90 xl:min-w-115 xl:justify-evenly">
+                    <img src={charIcon} className="w-32 h-32 border-2 border-solid
+                    md:w-35 md:h-37
+                    lg:h-46 lg:w-46
+                     rounded-3xl border-[color:var(--accent)]"/>
+                        {weaponCard && (
+                            <WeaponCard
+                                href={weaponCard.href}
+                                name={weaponCard.name}
+                                img={weaponCard.img}
+                                rarity={weaponCard.rarity}
+                                type={weaponCard.type}
+                            />
+                        )}
+                </div>
+                        {echoIds.length === 1 && primaryEchoSet && (
+                        <div className="flex flex-col lg:w-full lg:h-full justify-center xl:items-start">
+                            <div className="flex gap-2 justify-center items-center mt-1 xl:items-start">
+                                <img src={getEchoSetImageUrl(primaryEchoSet.id)}
+                                 className="w-6 h-6" alt={primaryEchoSet.name} />
+                                <p className="text-[var(--accent)] text-lg">{primaryEchoSet.name}</p>
+                                </div>
+                                <div className="flex flex-col items-center gap-y-1 xl:items-start">
+                                {["2pc", "3pc", "5pc"].map((setKey) =>
+                                    primaryEchoSet?.effect?.[setKey] && (
+                                    <div key={setKey} className="flex flex-col items-center xl:items-start ">
+                                    <p className="text-[var(--accent)] font-semibold">{setKey}</p>
+                                    <p className="text-center">{primaryEchoSet.effect[setKey]}</p>
+                                    </div>
+                                    )
+                                )}
+                            </div>
+                        </div>
+                        )}
+                        {echoIds.length === 2 && (
+                        <div className="flex flex-col gap-y-4">
                             <EchoSetCard set={secondaryEchoSet} pieceKey="2pc" />
                             <EchoSetCard set={primaryEchoSet} pieceKey="3pc" />
                         </div>
                         )}
             </div>
 
-            <h1 className="char-skill-big-title">{character.name} Skills</h1>
-            <div className="char-skill">
+            <p className="text-[var(--accent)] font-semibold text-xl">{character.name} Skills</p>
+            <div className="flex flex-col w-full gap-y-8">
                 <div className="char-skill-basic">
                     <div className="wrapper-title-name">
-                        <h2 className="char-skill-title">Basic Attack</h2>
-                        
-                        <h3 className="char-skill-name">{character.active_skills.basic_attack.name}</h3>
+                        <p className="char-skill-title">Basic Attack</p>
+                        <p className="char-skill-name">{character.active_skills.basic_attack.name}</p>
                     </div>
                     <ul className="char-skill-list">
                         {Object.entries(character.active_skills.basic_attack.details || {}).map(
                             ([label, text]) => (
                                 <li key={label} className="char-skill-row">
-                                <h3 className="char-skill-sub">{label}</h3>
+                                <p className="char-skill-sub">{label}</p>
                                 <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(text) }}/>
                                 </li>
                             )
@@ -300,14 +386,14 @@ function CharacterDetail() {
                 </div>
                 <div className="char-skill-skill">
                     <div className="wrapper-title-name">
-                        <h2 className="char-skill-title">Resonance Skill</h2>
-                        <h3 className="char-skill-name">{character.active_skills.resonance_skill.name}</h3>
+                        <p className="char-skill-title">Resonance Skill</p>
+                        <p className="char-skill-name">{character.active_skills.resonance_skill.name}</p>
                     </div>
                     <ul className="char-skill-list">
                         {Object.entries(character.active_skills.resonance_skill.details || {}).map(
                             ([label, text]) => (
                                 <li key={label} className="char-skill-row">
-                                <h3 className="char-skill-sub">{label}</h3>
+                                <p className="char-skill-sub">{label}</p>
                                 <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(text) }}/>
                                 </li>
                             )
@@ -316,14 +402,14 @@ function CharacterDetail() {
                 </div>
                 <div className="char-skill-liberation">
                     <div className="wrapper-title-name">
-                        <h2 className="char-skill-title">Resonance Liberation</h2>
-                        <h3 className="char-skill-name">{character.active_skills.resonance_liberation.name}</h3>
+                        <p className="char-skill-title">Resonance Liberation</p>
+                        <p className="char-skill-name">{character.active_skills.resonance_liberation.name}</p>
                     </div>
                     <ul className="char-skill-list">
                         {Object.entries(character.active_skills.resonance_liberation.details || {}).map(
                             ([label, text]) => (
                                 <li key={label} className="char-skill-row">
-                                <h3 className="char-skill-sub">{label}</h3>
+                                <p className="char-skill-sub">{label}</p>
                                 <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(text) }}/>
                                 </li>
                             )
@@ -332,14 +418,14 @@ function CharacterDetail() {
                 </div>
                 <div className="char-skill-forte">
                     <div className="wrapper-title-name">
-                        <h2 className="char-skill-title">Forte Circuit</h2>
-                        <h3 className="char-skill-name">{character.forte_circuit.name}</h3>
+                        <p className="char-skill-title">Forte Circuit</p>
+                        <p className="char-skill-name">{character.forte_circuit.name}</p>
                     </div>
                     <ul className="char-skill-list">
                         {Object.entries(character.forte_circuit.details || {}).map(
                             ([label, text]) => (
                                 <li key={label} className="char-skill-row">
-                                <h3 className="char-skill-sub">{label}</h3>
+                                <p className="char-skill-sub">{label}</p>
                                 <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(text) }}/>
                                 </li>
                             )
@@ -347,64 +433,69 @@ function CharacterDetail() {
                     </ul>
                 </div>
 
-                <div className="char-skill-inherent">
-                    <div className="inherent1">
+                    <div className="inherent">
                         <div className="wrapper-title-name">
-                            <h2 className="char-skill-title">Inherent Skill 1</h2>
-                            <h3 className="char-skill-name">{character.inherent_skill1.name}</h3>
+                            <p className="char-skill-title">Inherent Skill 1</p>
+                            <p className="char-skill-name">{character.inherent_skill1.name}</p>
                         </div>
-                        <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.inherent_skill1.description) }}/>
-                    
+                        <div className="px-2 pb-4">
+                            <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.inherent_skill1.description) }}/>
+                        </div>
                     </div>
-                    <div className="inherent2">
+                    <div className="inherent">
                         <div className="wrapper-title-name">
-                            <h2 className="char-skill-title">Inherent Skill 2</h2>
-                            <h3 className="char-skill-name">{character.inherent_skill2.name}</h3>
+                            <p className="char-skill-title">Inherent Skill 2</p>
+                            <p className="char-skill-name">{character.inherent_skill2.name}</p>
                         </div>
-                        <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.inherent_skill2.description) }}/>
+                        <div className="px-2 pb-4">
+                            <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.inherent_skill2.description) }}/>
+                        </div>
                     </div>
-                </div>
-                <div className="char-skill-inout">
                     <div className="intro">
                         <div className="wrapper-title-name">
-                            <h2 className="char-skill-title">Intro Skill</h2>
-                            <h3 className="char-skill-name">{character.intro_skill.name}</h3>
+                            <p className="char-skill-title">Intro Skill</p>
+                            <p className="char-skill-name">{character.intro_skill.name}</p>
                         </div>
-                        <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.intro_skill.description) }}/>
+                        <div className="px-2 pb-4">
+                            <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.intro_skill.description) }}/>
+                        </div>
                     </div>
                     <div className="outro">
                         <div className="wrapper-title-name">
-                            <h2 className="char-skill-title">Outro Skill</h2>
-                            <h3 className="char-skill-name">{character.outro_skill.name}</h3>
+                            <p className="char-skill-title">Outro Skill</p>
+                            <p className="char-skill-name">{character.outro_skill.name}</p>
                         </div>
-                        <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.outro_skill.description) }}/>
+                        <div className="px-2 pb-4">
+                            <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.outro_skill.description) }}/>
+                        </div>
                     </div>
-                </div>
             </div>
-            <div className="char-chain">
-                <h2 className="char-skill-title">Resonance Chain</h2>
+            <div className="flex flex-col rounded-[15px] px-5 py-3 bg-[rgba(255,255,255,0.02)] 
+            shadow-[0_8px_24px_rgba(0,0,0,0.3)] gap-y-4 w-full">
+                <p className="text-center text-[var(--accent)] 
+                mb-4 text-lg font-semibold">Resonance Chain</p>
                 <div className="char-chain-detail">
-                    <h3 className="char-skill-name">S1</h3>
+                    <p className="char-skill-name">S1</p>
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s1) }}/>
                 </div>
                 <div className="char-chain-detail">
-                    <h3 className="char-skill-name">S2</h3>
+                    <p className="char-skill-name">S2</p>
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s2) }}/>
                 </div>
                 <div className="char-chain-detail">
-                    <h3 className="char-skill-name">S3</h3>
+                    <p className="char-skill-name">S3</p>
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s3) }}/>
                 </div>
                 <div className="char-chain-detail">
-                    <h3 className="char-skill-name">S4</h3>
+                    <p className="char-skill-name">S4</p>
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s4) }}/>
                 </div>
                 <div className="char-chain-detail">
-                    <h3 className="char-skill-name">S5</h3>
+                    <p className="char-skill-name">S5</p>
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s5) }}/>
                 </div>
                 <div className="char-chain-detail">
-                    <h3 className="char-skill-name">S6</h3>
+                    <p className="char-skill-name">S6</p>
                     <p className="char-skill-text" dangerouslySetInnerHTML={{ __html: highlightDamageTypes(character.resonance_chain.s6) }}/>
                 </div>
             </div>

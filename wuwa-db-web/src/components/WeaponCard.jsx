@@ -13,7 +13,8 @@ function WeaponCard({ href, name, img, rarity, type }) {
     text-[#e9ecf1]
     shadow-[0_8px_24px_rgba(0,0,0,0.18)]
     transition-[transform,border-color,box-shadow] duration-150 ease-in-out hover:scale-[1.05] hover:bg-[#383c50]
-    w-35 h-35
+    w-30 h-33
+    md:w-34 md:h-37
     lg:w-47 lg:h-47
   ">
       <div className="flex justify-center p-3 overflow-hidden">
@@ -25,8 +26,8 @@ function WeaponCard({ href, name, img, rarity, type }) {
         />
       </div>
       <div className="rarity-bar" data-rarity={rarity} />
-      <h3 className="text-center font-semibold leading-[1.2] pl-2 py-4 text-xs
-      lg:text-base">{name}</h3>
+      <p className="text-center font-semibold leading-[0.7] pl-2 py-4 text-xs
+      lg:text-base">{name}</p>
     </Link>
   );
 }
