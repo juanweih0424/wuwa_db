@@ -260,7 +260,7 @@ function CharacterDetail() {
                     </p>
                 </div>
             </div> 
-        <div className="w-full flex flex-col items-center gap-8 bg-[#FFFFFF08]
+        <div className="w-full flex flex-col items-center gap-x-8 bg-[#FFFFFF08]
         border border-solid border-[color:#FFFFFF1A] rounded-[16px] p-4
         shadow-[0_8px_24px_rgba(0,0,0,0.3)] xl:w-4xl xl:gap-y-16">
                 <div className="hidden 
@@ -302,7 +302,7 @@ function CharacterDetail() {
                         className="level-slider"
                         />
                     </div>
-                    <div className="flex flex-col gap-18 mt-8">
+                    <div className="flex flex-col gap-4 mt-8 xl:gap-16">
                         {rows.map((r) => (
                         <div className="flex items-center justify-between" key={r.key}>
                             <div className="flex gap-1">

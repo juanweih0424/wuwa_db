@@ -8,6 +8,7 @@ import Weapons from "./pages/Weapons.jsx"
 import WeaponDetail from "./pages/WeaponDetail.jsx";
 import EchoDetail from "./pages/EchoDetail.jsx";
 import CharacterDetail from "./pages/CharacterDetail.jsx";
+import Tierlist from "./pages/Tierlist.jsx";
 import React from "react";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
 
         <Route path="weapons" element={<Weapons />} />
         <Route path="weapons/:slug" element={<WeaponDetail />} />
-
+        <Route path="tierlist" element={<Tierlist />} />
         <Route path="*" element={<Notfound />} />
       </Route>
     </Routes>

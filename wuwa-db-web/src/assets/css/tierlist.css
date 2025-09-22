@@ -1,0 +1,30 @@
+@reference "./global.css";
+
+
+
+@layer components {
+    .strong-word {
+        @apply font-semibold text-base tracking-tight
+    }
+
+    .list-style{
+        @apply !list-disc !list-inside !space-y-2
+    }
+
+    .sub-section{
+        @apply text-center text-sm xl:text-lg
+    }
+
+    .tier-content {
+        @apply grid grid-cols-3 gap-y-4 gap-x-2 !px-2 justify-items-center w-full
+        md:grid-cols-6 md:gap-x-6 md:!px-4
+        lg:gap-x-2 xl:grid-cols-4 2xl:gap-x-0 2xl:grid-cols-4
+    }
+
+    .section-1,
+    .section-2{
+        @apply flex !pb-4 flex-col xl:!mb-0 xl:!pb-4 xl:!pt-0
+    }
+
+    
+}

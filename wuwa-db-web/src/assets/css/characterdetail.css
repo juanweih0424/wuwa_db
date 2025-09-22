@@ -14,7 +14,7 @@
 @layer components {
     .weapon-icon-wrapper,
     .element-icon-wrapper { @apply
-        w-30 h-10
+        w-32 h-10
         flex !border-3 border-white rounded-[20px] justify-center
         bg-[rgba(255,255,255,0.06)] items-center gap-2 !px-2.5
     }
