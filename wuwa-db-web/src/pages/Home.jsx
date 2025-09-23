@@ -15,12 +15,10 @@ function Home(){
     lg:pt-20">
       <h1 className="text-[color:var(--accent)] text-[length:18px] font-bold text-center
       md:text-[length:24px] md:mb-4
-      lg:text-[length:32px]
-      xl:text-[length:36px]">Wuwa Database – Wuthering Waves Wiki & Database</h1>
+      lg:text-[length:32px]">Wuwa Database – Wuthering Waves Wiki & Database</h1>
       <p className="text-center text-[length:16px]
       md:text-[length:18px]
-      lg:text-[length:22px] lg:my-2
-      xl:text-[length:24px] 
+      lg:text-[length:22px] lg:my-2 
       xl:mx-60
       2xl:mx-100">This is an unofficial, fan-made compendium powered by customized API. Contains information on characters and their best builds, echos, materials, weapons, a tier list and API documentations</p>
       <div className="my-[1rem] mx-auto grid grid-cols-3 gap-x-2 gap-y-2

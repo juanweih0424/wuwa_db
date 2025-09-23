@@ -18,7 +18,7 @@
     .tier-content {
         @apply grid grid-cols-3 gap-y-4 gap-x-2 !px-2 justify-items-center w-full
         md:grid-cols-6 md:gap-x-6 md:!px-4
-        lg:gap-x-2 xl:grid-cols-4 2xl:gap-x-0 2xl:grid-cols-4
+        lg:gap-x-2 xl:grid-cols-3 2xl:grid-cols-4
     }
 
     .section-1,

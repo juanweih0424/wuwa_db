@@ -302,7 +302,7 @@ function CharacterDetail() {
                         className="level-slider"
                         />
                     </div>
-                    <div className="flex flex-col gap-4 mt-8 xl:gap-16">
+                    <div className="flex flex-col gap-4 mt-12 xl:gap-20">
                         {rows.map((r) => (
                         <div className="flex items-center justify-between" key={r.key}>
                             <div className="flex gap-1">
